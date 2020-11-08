@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"2f510510be",applicationID:"31925988"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244351903">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="/salespages/the-booty-builder/v1/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+<li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<main class="booty-builder-2018-05">
+<section class="banner">
+<div class="container">
+<div class="banner-wrapper">
+<h5><span class="red">Attention:</span> Women who are sick of Squatting themselves silly, yet still sporting a flat, fat, or non-existent booty...</h5>
+<h1>Introducing the Easy to Follow, <span class="pink"><u>Step-By-Step Program</u> Designed <u>Specifically</u> for Women Who Want to Build the Perfect Butt</span> While Finally Destroying Ugly, Stubborn Cellulite <u>Forever</u></h1>
+<h4 class="white no-upper"><span class="pink">Guess what?</span> It’s NOT just about Squats and Lunges…</h4>
+<div class="row">
+<div class="col-12 col-sm-8 col-md-8 col-lg-6 offset-sm-2 offset-md-2 offset-lg-3">
+<div class="banner-Video">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa78bbf26f6c">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-sales-video id="2DZ7E2c8" skeleton-selector="#jw-skeleton-5fa78bbf26f6c" :minutes="0" :seconds="30" dropdown-selector=".page-contents-lazy" :aspect-width="16" :aspect-height="9" :drop-immediate="false" :force-fullscreen="false" :controls="false"></jw-sales-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+<div class="mt-3"><b>Vince Sant -</b> Professional Fitness Model, Certified Personal Trainer, Best Selling Author and the Creator of V Shred</div>
+</div>
+
+</div>
+</div>
+<p>If you are fed up with your <u>lack of results</u>, despite following “butt building” workouts, you need to <u>watch the video above</u>. I’m about to reveal to you the fastest, easiest way to build <b>the firm, round, perfectly-shaped booty</b> you’ve always wanted.</p>
+</div>
+</div>
+</section>
+<section class="section-1">
+<div class="container">
+<h2 class="text-center"><u>Let Me Guess:</u> some trainer at the gym told you that all you have to do to build <u>the perfect butt</u> is a ton of Squats and Lunges.</h2>
+<div class="row">
+<div class="col-12 col-sm-10 col-md-10 col-lg-7">
+<div class="section-1-text">
+<p>Unfortunately, <span class="marker">this is how most women end up frustrated with their lack of results.</span> They Squat and Lunge till they’re ready to fall over, yet they still end up with <i>a flat, fat, droopy, or saddle-bagged butt.</i></p>
+<p>Sure, <b>Squats and Lunges are good movements.</b> But, they only work a <u>fraction</u> of the muscles you must target to finally have your dream booty.</p>
+<p>That’s why most “Butt Workouts” you see in women’s magazines, or in fitness books, fail miserably.<u> Frankly, they’re written by people who don’t understand anatomy and physiology.</u></p>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-2">
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-12">
+<h2 class="text-center pink">Want to know the <u>worst part</u>?</h2>
+<p><b>Weak glutes</b> <i>(the muscles that make up your butt)</i> slam the breaks on your leg, back, waist, and total body development.</p>
+<p>That’s right, if you continue to train your glutes <u>incorrectly</u>, your butt will literally hold you back from getting your dream body.</p>
+<p>If you’ve been burned by terrible “butt workouts” in the past, don’t worry. In this guide, you’re going to learn <span class="marker">how to work all three muscles in your glutes for maximum booty-building</span>.</p>
+<p>Plus, this method will <b>not only</b> build your butt, but will also give you a set of <u>traffic-stopping legs</u> & help you develop <u>killer curves.</u> </p>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/bg-5.jpeg" alt="" class="center-img">
+</div>
+<h4 class="red">But, that’s not all…</h4>
+<div class="boxed pink-box">
+<h4>In fact, <u>the follow-along workouts</u> (and priceless diet hacks) in the <span class="pink">Booty Builder Program</span> will also help you:</h4>
+<ul class="styled-list">
+<li>Build a strong, sexy, pain-free back</li>
+<li>Shape your thighs</li>
+<li>Give cellulite the boot for good</li>
+<li>Sculpt amazing calves</li>
+<li>Give you a fantastic hip-to-waist ratio (aka, jaw-dropping curves)</li>
+</ul>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-3">
+<div class="container">
+<h2 class="text-center pink">There is, however, one small catch…</h2>
+<div class="row">
+<div class="col-12 col-sm-12 col-md-12 col-lg-10">
+<p><b>You have to actually follow the program.</b></p>
+<p>That might seem obvious, but studies show that <span class="marker">78% of people who buy exercise and diet programs never actually do them.</span></p>
+<p>Think about it… I’m sure you know a ton of people who are <u>extremely</u> knowledgeable about diet, yet are <i>horribly out of shape.</i></p>
+<h4 class="red">Ya know why?</h4>
+<p>They’re part of that 78% who read the books but <u>never</u> apply the info. </p>
+<p>Don’t be part of that group anymore! <b>Even if you hate going to the gym, <u>this program will work for you.</u></b> </p>
+<h4 class="red">Why?</h4>
+<div class="boxed pink-box">
+<p>Because all you have to do is follow along with the Booty Builder workouts, apply the diet hacks, and in <u>a few short weeks</u>, you’ll finally have a butt you’ll be proud to show off.</p>
+<p>By the way, <i>if you hate going to the gym</i>, I have great news for you:</p>
+<p class="pink"><b>You can do many of the Booty Builder workouts at home</b></p>
+<p><b>Awesome right?</b> You can start sculpting your legs and butt right in the comfort of your own home <u>with minimal equipment.</u></p>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-4">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center pink">What About Your Cellulite?</h2>
+<p>I get a ton of emails from women every day seeking diet and training advice. Many of these women ask me <b>how to reshape, build, or shrink their booties while also reducing the size of their waist.</b></p>
+<p>However, <u>nearly 99% of the women who email me want to learn the “Secret” of how to get rid of cellulite.</u></p>
+<p>Crazy, right? <span class="marker">Almost every woman is fighting this problem.</span> </p>
+<p><i>Thin, thick, fat, athletic, and petite…</i> doesn’t matter what body type they have, cellulite affects all of them.</p>
+<p>Chances are, if you’re reading this, you’re also <u>cursed</u> with seemingly incurable cellulite.</p>
+<p>You’ve probably <b>tried</b> every diet, suffered through every fad workout, and blown a pile of cash on “secret” potions, pills, and creams. </p>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/bg-8.jpeg" alt="" class="center-img">
+</div>
+<h4 class="red">They all failed you, right?</h4>
+<div class="boxed pink-box">
+<h4 class="">Don’t worry, the <span class="pink">Booty Builder Program</span> was designed 100% for <u>women like you</u> who want to have it all:</h4>
+<ul class="styled-list">
+<li>A flat, tight belly</li>
+<li>Eye-popping curves</li>
+<li>Toned thighs</li>
+<li>A round, firm, perfect butt</li>
+<li>Cellulite-free legs you can proudly display at the beach, by the pool, and in the bedroom</li>
+</ul>
+</div>
+<p>If you’re ready to transform your entire body <u>while</u> rapidly reshaping and building your dream booty, the <b class="pink">Booty Builder Program</b> is <b>guaranteed</b> to give you rapid, head-turning results.</p>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-5">
+ <div class="container">
+<h2 class=" text-center">In the <u>Booty Builder Program</u>, You’ll Discover:</h2>
+<div class="single-item-wrapper">
+<div class="single-item">
+<h5 class="white">Why Squats and Lunges are <span class="pink">NOT enough to give you the perfect butt</span> <br><span class="light no-upper">(once you learn the fool-proof multi-plane approach, you’ll be shocked at your results)</span></h5>
+</div>
+<div class="single-item">
+<h5 class="white">The 3-Muscles <span class="pink">that make up your booty</span> <br><span class="light no-upper">(and why you MUST target all three if you want fast results)</span></h5>
+</div>
+<div class="single-item">
+<h5 class="white">5-Key Lifestyle Factors that are <span class="pink">guaranteed to help you build a perfectly-shaped rear</span> <br><span class="light no-upper">(plus, these factors will help beautify your entire body… especially your skin)</span></h5>
+</div>
+</div>
+</div>
+</section>
+<section class="section-6">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">Complete Cellulite Destruction <br><span class="light">(Quickly, Easily, and Naturally)</span></h2>
+<img src="/salespages/the-booty-builder/v1/img/bg-9.jpeg" alt="" class="right-img" align="right">
+<ul class="styled-list">
+<li>Why a whopping 90% of women suffer from cellulite (and why 99% of them will NEVER fix the problem)</li>
+<li>12 Foods you MUST eat to beat cellulite (don’t worry, they’re all natural, available in any supermarket, and are delicious)</li>
+<li>Why starvation diets make your cellulite worse (starving yourself actually FEEDS cellulite)</li>
+<li>How to rapidly rebuild all 5-layers of your skin (want to destroy cellulite forever? You MUST follow these steps for rebuilding all 5-layers)</li>
+<li>Why you must rebuild your collagen and elastin if you want to defeat cellulite (how you can easily rebuild these key skin cells naturally)</li>
+<li>4-Super skin saving hacks that iron out the wrinkles caused by cellulite (guess what, they have nothing to do with exotic, expensive creams, pills, or potions</li>
+<li>Why, and how, you must work out to get rid of cellulite (how opening your blood cells through exercises will feed your body the nutrients it needs to slash cellulite)</li>
+<li>How one nasty habit could be filling your legs with ugly, clumpy cellulite (learn how to kill this habit, banish cellulite, and make your skin radiant)</li>
+</ul>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-7">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center white">The <u>Three-Pronged</u> Attack to Having <span class="pink">Stunning Curves and a Perfectly Shaped Booty</span></h2>
+<ul class="styled-list">
+<li>The exact sets, reps, and exercises you must do to build all 3 muscles in your glutes (this is the fastest, easiest way to get gorgeous legs and a perfect butt)</li>
+<li>9-Little known, killer Hip exercises that develop stunning curves (these hip exercises sculpt your hamstrings, quads, hips, and glutes like no other yet 99% of training programs completely ignore them)</li>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/img-1.jpg" alt="" class="center-img">
+</div>
+<li>The 3-Essential training speeds (how varying your tempo rapidly develops the exact type of muscle you need to build the perfect bubble butt)</li>
+<li>How to target your fast-twitch muscle fibers (this type of muscle makes up ⅓ of your butt - if you neglect this, you’ll never have the perfect booty)</li>
+<li>The secret Glute-Activation Circuit that will shock your glutes into action (wanna build the classic “Brazilian” butt - sexy and round? This circuit will get you there, fast)</li>
+<li>Why you can’t spot reduce fat, but you CAN spot-build muscle (want to burn fat fast? Build muscle in the precise places your body needs it to blow-torch your lower body fat)</li>
+<li>Flat butt? (learn the exact methods you must use to finally have a round, firm, hard booty)</li>
+<li>7-Squat variations used by athletes to build powerful, sexy, svelte butts (build a gorgeous, athletic lower body with the little-known Squat variations you can do at home with zero equipment)</li>
+</ul>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/img-2.jpg" alt="" class="center-img">
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-8">
+<div class="container">
+<h2 class="white text-center">The <i><u>Anti-Cardio Solution</u></i>&nbsp; to <u>Dropping</u> a Vat of Molten Lava on Your Body Fat <span class="pink">While Sculpting Your Ideal Booty</span></h2>
+<div class="row">
+<div class="col-12 col-sm-12 col-md-12 col-lg-8 offset-sm-0 offset-md-0 offset-lg-4">
+<ul class="styled-list">
+<li>Sick of battling to fix your sagging, low-hanging butt? (this brief, intense cardio method was borrowed from elite athletes and it’s exactly what you need to lift, firm, and tighten your glutes)</li>
+<li>How to calculate your Ideal Heart Rate Zone to blow-torch body fat (if you want to reshape your butt, you have to shred lower body fat… this is where 80% of women fail when trying to build stunning legs and a perfect butt)</li>
+<li>How training on the beach can revolutionize your lower body (this simple trick acts like a butt-lift, without the painful, dangerous surgery)</li>
+<li>How to easily burn calories for up to 48-hours after every workout (keep your body in fat-melt mode around the clock)</li>
+<li>Why 15-minutes is all you need to shape, lift, and build your booty (think it takes long, boring cardio workouts to build the butt you’ve always wanted? Think again - this guide gives you 15-minute workouts that both burn fat and build lean, sexy muscle in your glutes)</li>
+</ul>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-9">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">How You Can Gain <span class="pink">Exclusive Access to the Program</span> <span class="red">Guaranteed</span> to Build Your Ideal Butt</h2>
+<p>Normally, to build your booty while finally ridding your legs and butt of ugly cellulite would <u>cost thousands.</u></p>
+<p>You’d have to hire an elite trainer to help you, <i>and that’s not cheap.</i> When I had the time and was still training women, <i>I charged $500 per hour.</i></p>
+<p>I’d hate for price to be a limiting factor for you to achieve your dreams, <b>so I condensed my expertise into the Booty Builder program.</b></p>
+<p><u>To make it affordable for all, I was advised to charge $97.</u> </p>
+<h3 class="light red">A great bargain for finally having a perfect butt, right?</h3>
+<p>However, I wanted to help as many women as possible, so I ignored my advisors and priced the <span class="pink"><b>Booty Builder program</b></span> at only <b>$47.</b></p>
+<p><i>Although that’s a great deal,</i> <u>I want to give you an ever better offer.</u> </p>
+<p><span class="marker">If you act right now</span>, you can claim your copy of the <span class="pink"><b>Booty Builder Program</b></span> for <span class="marker">only $34.95</span></p>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/bootyBuilder-13.png" alt="" class="product-img center-img">
+</div>
+<div class="boxed pink-box text-center">
+<h3 class="red">The catch?</h3>
+<p>You have to <span class="marker">act now</span>. <u>The price returns to normal in a few days</u>. Please, <i>don’t miss this opportunity</i> to build <b>smooth, shapely legs, stunning curves, and the round, firm butt</b> you’ve always dreamed of having:</p>
+<a href="/order-form/the-booty-builder/" class="site-btn product-add-to-cart" data-id="sku_AR6nPfH3gMHy9c" data-name="The Booty Builder" data-price="34.95" data-category="Programs" data-brand="V Shred">purchase the booty builder <span>normally $47.00, today only $34.95</span></a><br>
+<span>Secure Order From - 100% Protected &amp; safe</span><br>
+<img src="/salespages/the-booty-builder/v1/img/card.png" alt="" class="card">
+</div>
+<p>Look, you can continue to follow “free” butt building programs you find online, or in the pages of women’s magazines. However, let’s be honest… <u>you’ve tried that a million times, and it never works.</u> </p>
+<p>Sure, you get sore for a few days. You’re excited that you’re <u>finally</u> on the right path to building the butt and legs you’ve always dreamed of…</p>
+<p><i>Then, that free program fails you miserably. </i></p>
+<p>If you want, <b>fast, proven, guaranteed results,</b> please invest in yourself, your body, and your health today.</p>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="money-back">
+<div class="container">
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/back-2.png" alt="" class="push-btm">
+<h2 class="red">100% MONEY BACK GUARANTEE</h2>
+</div>
+<p>Your results are guaranteed or your money back! I personally guarantee the results of all my products and programs, and my custom services are no exception. If at the end of your custom diet plan you are not happy with your results we will refund you NO QUESTIONS ASKED. All you have to do is send us an email with your request.</p>
+</div>
+</section>
+<section class="section-10">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">Don’t you deserve to <u>finally</u> have the body, and butt, <span class="pink">you can be <u>proud to show off</u> at the beach or by the pool?</span></h2>
+<p>Wouldn’t it be great to get your ideal booty with <b>easy-to-follow workouts</b> that can be done <u>at home?</u></p>
+<p>How awesome will it be to be able to eat <b>delicious healthy food</b> that will team up with your butt builder workouts to send your cellulite packing <b>forever?</b></p>
+<p>Do yourself a huge favor and check out the <span class="pink"><b>Booty Builder Program</b></span> today - you’ll save a ton of money if you <u>act now</u>, and your <span class="marker">results are guaranteed.</span> </p>
+<div class="text-center">
+<img src="/salespages/the-booty-builder/v1/img/bootyBuilder-13.png" alt="" class="product-img center-img">
+</div>
+<div class="boxed pink-box text-center">
+<h3 class="red">It’s zero risk, and ALL gain for you:</h3>
+<a href="/order-form/the-booty-builder/" class="site-btn product-add-to-cart" data-id="sku_AR6nPfH3gMHy9c" data-name="The Booty Builder" data-price="34.95" data-category="Programs" data-brand="V Shred">purchase the booty builder <span>normally $47.00, today only $34.95</span></a><br>
+<span>Secure Order From - 100% Protected &amp; safe</span><br>
+<img src="/salespages/the-booty-builder/v1/img/card.png" alt="" class="card">
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+</main>
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2f510510be","applicationID":"31925988","transactionName":"M1VWMBNTWxIHURVcDQofdxESRloMSUERGhYMVRkGDl1BGEtQFFwOAFVGSxcDFRIHXgRGTxRRUwESHEYAClcSGBIFV1E=","queueTime":0,"applicationTime":130,"atts":"HxJVRltJSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

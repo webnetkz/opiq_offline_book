@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244351923">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/salespages/fat-loss-extreme-f/store/css/normalize.css">
+<link rel="stylesheet" href="/salespages/fat-loss-extreme-f/store/css/bootstrap.css">
+<link rel="stylesheet" href="/salespages/fat-loss-extreme-f/store/css/style.css">
+<link rel="stylesheet" href="/salespages/fat-loss-extreme-f/store/css/responsive.css">
+<script src="/salespages/fat-loss-extreme-f/store/js/vendor/modernizr-2.6.2.min.js"></script>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="women-who01-01">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+<li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<section class="banner">
+<div class="container">
+<div class="banner-content">
+<h4><span class="pink">Attention:</span> Women Who Need to Lose 20, 30, or 50+ Lbs of Body Fat, <br> and Are Sick Struggling to Lose Weight on Starvation Diets</h4>
+<h1 class="pink">Stop Starving Yourself, Start Shredding Fat Faster <br>Than You Ever Thought Possible </h1>
+<h4>This is the last fat loss program you’ll ever need… </h4>
+<div class="row">
+<div class="col-xs-12 col-sm-10 col-md-8 col-xs-offset-0 col-sm-offset-1 col-md-offset-2">
+<div class="banner-Video">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa78bc65a1c0">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-sales-video id="4XkoIUeB" skeleton-selector="#jw-skeleton-5fa78bc65a1c0" :minutes="0" :seconds="30" dropdown-selector=".page-contents-lazy" :aspect-width="16" :aspect-height="9" :drop-immediate="false" :force-fullscreen="false" :controls="false"></jw-sales-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+<div class="mt-3"><b>Vince Sant -</b> Professional Fitness Model, Certified Personal Trainer, Best Selling Author and the Creator of V Shred</div>
+</div>
+
+</div>
+</div>
+<h3>A complete <strong>step-by-step blueprint for melting away 20, 30, even 50+lbs of stubborn body fat</strong> while building a sexy toned stomach, arms, legs, and butt <u>without starving or without living in the gym!</u></h3>
+</div> 
+</div> 
+</section>
+
+<section class="section-1">
+<div class="area-title pink-title larg-title">
+<div class="container">
+<h2>You’ve Tried, You’ve Failed - It’s Not Your Fault! <br>Starvation Diets &amp; Cookie-Cutter Workouts Don’t Work </h2>
+<p>Here is your<strong> exact, easy to follow, step-by-step blueprint </strong>for how to lose fat and build your dream body even when nothing else has worked <i>(plus you’ll gain exclusive access to underground secrets that elite fitness models, figure athletes, and celebrities use to nuke fat fast)…</i></p>
+</div>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-1.png" alt="" class="push-top mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-2.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-3.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-2">
+<div class="area-title black-title">
+<div class="container">
+<h2 class="pink m-0">With Fat Loss Extreme, everything is completely taken care of for you. <strong>Simply follow the fun workouts from home or the gym and we’ll show you <u>how to eat the foods you love to strip fat fast</u> and look and feel amazing long term!</strong></h2>
+</div>
+</div>
+<div class="container small-padding">
+<p>Without long, boring cardio sessions, crazy calorie cutting, or starvation diets…</p>
+<p>Losing fat and transforming your body is not easy. Millions of women just like you try, and fail, over and over again, every single day. </p>
+<p>Why is losing weight so difficult? If you listen to the mainstream media, and the big-profit fitness industry, all you have to do is eat less calories than you need, right?</p>
+<p>But, we all know that’s a bunch of B.S.</p>
+<p>Still, you tried to follow those severe calorie-restriction diets and crazy workouts...</p>
+<p>You bought the diet books, you hired the trainer at your local gym, and you may have, in moments of desperation, even whipped out your credit card late at night to buy worthless supplements or crazy “miracle” fitness gadgets you saw on some cheesy infomercial…</p>
+<p>We’ve all fallen for it...</p>
+</div>
+</section>
+<section class="section-3">
+<div class="container">
+<h2 class="text-center pink">Does Any of This Sound Familiar to You?</h2>
+<ul class="round-list">
+<li>You wasted money on <i>“cleanses”</i> trying to <i>“rid your body of toxins”</i> and <i>“hidden, internal fat”</i>... yet all you got rid of was a bunch of your hard-earned money…</li>
+<li><strong>You tortured yourself at the table,</strong> choking down meal after meal of “healthy,” pre-packaged food from popular diet plans, <strong><i>yet you lost no weight</i></strong> and were constantly tired and bloated...</li>
+<li>You dragged yourself to the gym, tired and hungry, and worked <strong><u>hard…</u></strong> yet you got very little results,<i> were confused by the overwhelming amount of conflicting training info, and ended up quitting out of frustration…</i></li>
+<li>You spent a small fortune on the latest, “greatest” popular diet books, only to find yourself smack-dab in the middle of <i>yet another starvation diet.</i> <strong>You ate like a bird, went to bed so hungry that you could cry, but you lost almost no weight, were disgusted with the lack of results, gave up, then ended up gaining the weight back…</strong></li>
+<li>You all but <strong>chained yourself to the treadmill,</strong> walking and jogging for hours on end <i>(because that’s what all the generic, mainstream exercise books tell you to do!)</i>, yet you lost very little weight and ended up with sore knees and a bad back</li>
+</ul>
+<h4 class="text-center">And now you're still at square one. It’s frustrating. It’s depressing. It makes you want to just give up. I understand just how you feel.</h4>
+</div>
+</section>
+<section class="section-4">
+<div class="container">
+<h2 class="text-center pink">But You Don’t Have to Give Up on Getting Your Dream Body, Because I Have Great News for You:</h2>
+<p>Hey, I know you are frustrated. I know that the very thought of trying yet another diet and exercise plan might fill you with anxiety, because no one wants to keep failing, right?</p>
+<ul class="round-list">
+<li>But, you don’t have to fail ever again. </li>
+<li><strong>You don’t have to starve yourself.</strong> </li>
+<li>You don’t have to workout for hours every day. </li>
+<li><strong>You <i>never</i> have to slave away for hours-on-end on the treadmill again...</strong></li>
+</ul>
+<p>You can only run into so many walls before you get so frustrated that the only option left seems to be quitting.</p>
+<p>However, <strong>as soon as you discover the 3-Body Transformation Secrets</strong> I’m about to share with you, losing fat, toning up, and transforming your body will instantly become super fast, simple, and easy:</p>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-4.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-5.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-6.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-5">
+<div class="container">
+<h2 class="text-center">The Diet &amp; Exercise Book Industry Preys on <br>Hard-Working, Intelligent Women</h2>
+<div class="double-text double-text-left">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-7.png" alt="" align="right" class="hidden-xs">
+<p>How can I give women advice on toning up and slimming down, fast?</p>
+<p>My name is Vince Sant, <strong><u>ISSA certified personal trainer</u> , fitness model,</strong> and co-founder of one of the fastest growing online fitness brands in the world, ‘V Shred.’ </p>
+<p>V Shred is growing at an astronomical rate for one big reason: we specialize in is helping women <strong>torch fat and tone up without starving themselves, dragging themselves to the gym to struggle through workouts they hate,</strong> or hurting their knees, backs or hips pounding away on the boring, ineffective treadmill for endless hours…</p>
+<p>I’ve spent years mastering the ability to teach women how to use nutrition and simple exercises to quickly melt fat and develop <strong>lean, fit and sexy bodies.</strong></p>
+</div>
+<div class="double-text double-text-right">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-8.png" alt="" align="left" class="hidden-xs">
+<p>Several years ago, I began sharing the 3-secrets that I’ll reveal to you today, with my mom and sisters because I was sick to my stomach while watching them grow disappointed, frustrated, and depressed by their fluctuating weight… <u>struggling to lose the same 20lbs over and over again.</u></p>
+<p>They were starving themselves, and working out like mad, just to drop a few pounds. Then, when their bodies couldn’t take it anymore, they’d break down and go back to eating “normally”, and of course, they would gain that weight right back. </p>
+<p>I couldn’t stand it anymore, so I developed this <i>incredible 3-Step Protocol that 99% of the mainstream diet and exercise books willfully ignore,</i> and <strong>their minds were blown at how simple it was to follow and how effective it was.</strong> </p>
+<p>Word spread fast in our hometown. Within a few months there were dozens of women knocking down our door to get the secrets to being able to <i>(finally)</i> <strong>lose fat fast, and keep it off forever.</strong> I began sharing this simple 3-Step Protocol with those women, their friends, and then I took the plan online so that I could <i>help thousands of hard-working, intelligent women lose weight easily, quickly, and get long-lasting results...</i></p>
+</div>
+</div>
+</section>
+<section class="section-6">
+<div class="area-title pink-title normal-p">
+<div class="container">
+<h2 class="text-center">With this amount of success, I knew it wouldn’t be right to keep these 3-Secrets on lockdown</h2>
+<p>I know the insecurities women have when it comes to their bodies because every day I from <i>women frustrated and lost looking for help to lose</i> weight and tone their bodies.</p>
+<p>My passion is now sharing my knowledge and secrets to get women into the best shape of their lives.</p>
+<p><strong>And it seemed pretty unfair to keep it to myself... especially since it has been so important to the success of the people I love the most.</strong></p>
+<p>So I'd like to let you in on the "secret."</p>
+</div>
+</div>
+</section>
+<section class="section-7">
+<div class="container">
+<h2 class="text-center pink">I have developed something very powerful for shedding pounds and toning your body rapidly...</h2>
+<p>In fact, it’s so powerful <i>(and simple to follow)</i> that you can <strong>lose 20, 30, 40, or even 50+lbs of fat in just 90-days,</strong> and give your cellulite the boot, while toning up your sagging areas, working out <strong>just 30-minutes</strong> per day. </p>
+<ul class="round-list">
+<li><strong>Fast, Efficient, Easy-to-Follow Workouts</strong> - Your powerful, 30-minute workouts can be done in the gym, on the road while you travel, or <strong>even in the comfort of your own home</strong></li>
+<li><strong>Eat the Foods You Love AND Lose Fat?</strong> Your diet will be jam-packed with the foods you love to eat, yet you’ll experience rapid fat-loss.</li>
+</ul>
+<div class="text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-9.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-10.png" alt="" class="mobile-img">
+</div>
+<ul class="round-list">
+<li><strong>Rapid AND Long-Lasting Results -</strong> Here’s one of the coolest parts of this program: <strong>because you’ll be eating the foods you love, you’ll never feel like you’re “on a diet.”</strong> </li>
+</ul>
+<p>This is key because if you want long-lasting results, you need a diet plan that you can actually continue, easily, for as long as you need (<i>this is why 99% of diets fail miserably - they make you eat odd foods, in embarrassingly small amounts, and set you up to fail when you</i> “go back to normal eating” i.e. when you <i><u>stop starving yourself!</u></i>)</p>
+<p>And best of all, your diet and workout program, is not just another unhealthy fad.</p>
+</div>
+</section>
+<section class="section-8">
+<div class="area-title black-title">
+<div class="container">
+<h2 class="pink m-0">In fact, the 3-Secrets you’re about to learn are all based on rock-solid science which I’ll cover in a minute. </h2>
+</div>
+</div>
+<div class="container">
+<ul class="round-list">
+<li>NO starvation crash diets.</li>
+ <li><strong>NO confusing information overload, just simple-to-follow instructions to enable you to tone up fast.</strong></li>
+<li>NO giving up carbs.</li>
+<li><strong>NO long boring hour long cardio –</strong> just 15 minute HIIT cardio sessions, 3 times per week that <strong>burn calories for up to 48-hours after each session!</strong></li>
+<li><strong>NO confusing workouts.</strong> You’ll have <strong>How-To Videos</strong> of every single exercise, showing you exactly what to do, and how to do it so that you workouts safely, and get rapid results <i>(these videos are only available to V Shred clients - you can’t find them anywhere else)</i></li>
+<li><strong>Burn fat 24/7</strong> <i>(even when you sleep)</i> thanks to simple HIIT training sessions. </li>
+</ul>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred">YES! I Want the Complete Blueprint for <br>Easily Losing 20, 30, even 50+lbs of Fat in 90-Days</a>
+</p>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</div>
+<div class="img-with-bg">
+<div class="container">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-11.png" alt="" class="mobile-img">
+</div>
+</div>
+</section>
+<section class="section-9">
+<div class="container">
+<h2 class="text-center">If you failed to get a tight butt, lean legs and abs before despite dieting and exercise as hard as you could... <u>it’s not Your fault</u>...here’s why...</h2>
+<div class="double-text double-text-left">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-12.png" alt="" align="right" class="hidden-xs">
+<ul class="round-list">
+<li><strong>YOU</strong> tried dieting but failed because it is impossible to follow a starvation diet and live a normal life! You have work, family, and social responsibilities. Eating celery out of a tiny tupperware 6-times a day is not only impractical, it’s a recipe for disaster</li>
+<li><strong>YOU</strong> tried a brutal/impossible to stick to workout program. Listen, you work… You have a family, friends, and a life. You don’t have 3-hours a day to spend in some dank gym. With Fat Loss Extreme all you need is <strong>20 to 30 minutes of exercise,</strong> 4 times per week.</li>
+<li><strong>YOU</strong> more than likely tried a ‘cookie cutter’ program that said it was for women, but was actually designed for men! </li>
+</ul>
+</div>
+<h4 class="pink text-center">Sad Fact: 99.9% of the “Women’s” diet and exercise programs were actually written by, and designed for, men. Those programs are doomed to fail you. <strong>Women have a specific hormone profile that needs to be kept in mind when designing them a workout and nutrition strategy.</strong></h4>
+<div class="double-text double-text-right">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-13.png" alt="" align="left" class="hidden-xs">
+<ul class="round-list">
+<li><strong>YOU bought a 12-week miracle workout plan, and you had high hopes.</strong> But, when you cracked it open, all you found was a complicated program that read like a technical workbook rather than just giving you <strong>step-by-step instructions on how to lose fat and tone up quickly</strong></li>
+<li><strong>YOU</strong> tried to do it all by yourself and didn’t have the support of a team, a trainer or a community of people going through the same struggles with you. Multiple studies by leading psychologist show that <strong>you’ll get results 400% faster when you have a support team.</strong></li>
+</ul>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-14.png" alt="">
+</div>
+</div>
+</section>
+<section class="section-9-2">
+<div class="area-title pink-title">
+<div class="container">
+<h2 class="m-0">Why All Diets Have Failed You..The Starvation Response</h2>
+</div>
+</div>
+<div class="container">
+<div class="double-text double-text-left padding-t">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-15.png" alt="" align="right" class="hidden-xs">
+<p class="lg-p">80% of your success or failure with getting the body you want comes down to your diet STRATEGY. NOT YOUR DIET. Your STRATEGY. </p>
+<p>What do I mean by that? </p>
+<p>Most women are trying to lose weight and tone up the hard way.</p>
+<p>They stop eating the foods they love, start eating rabbit food, and literally starve themselves into losing a few pounds of water weight and muscle.</p>
+<p>Not only is this a terribly dangerous strategy… it is impossible to maintain long term, and it can do <strong>serious damage to your metabolism </strong>and ends up making you STORE FAT! </p>
+</div>
+<div class="double-text double-text-right">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-16.png" alt="" align="left" class="hidden-xs">
+<p class="lg-p">Why? Because your body will compensate for the radically different caloric intake and actually flip on what is called the <strong>“starvation response”.</strong> </p>
+<p>Because your body thinks you don’t have access to food, it slows down your metabolism to a crawl and will flip your body into fat storage mode to protect itself. </p>
+<p class="lg-p">This is why you lose a little weight fast on those crash diets, but hit a wall fast. Even though you continue to workout... even though you’re so tired that you could fall over, and even though you are so hungry it hurts, you stop losing fat. </p>
+<p>Even worse, when you finally give up that crash diet because you are so hungry and deprived of foods you love (and the nutrients your body needs) you’ll binge eat and pack on fat fast, and end up looking worse than when you started the crash diet!</p>
+</div>
+<h3 class="">When you diet like this, you are running a race you can’t win and you will be eternally frustrated and confused by your lack of results!</h3>
+</div>
+</section>
+<section class="section-10">
+<div class="area-title blue-title">
+<div class="container">
+<h2 class="m-0">The #1 Rapid Fat-Burning Secret</h2>
+</div>
+</div>
+<div class="section-10-content">
+<div class="container">
+<p>So if your current eating plan isn’t working, and doing a crash diet only works short term and then makes you look worse, <strong>what should you be doing to lose fat fast, and keep it off forever?</strong></p>
+<ul class="round-list">
+<li>With your Fat Loss Extreme Program you will receive very specific, powerful diet and exercise protocols that are <u>scientifically proven</u> to <strong>help you melt fat and build a sexy, lean feminine physique.</strong></li>
+</ul>
+<p>The most powerful diet tool I’m going to teach you in Fat Loss Extreme is called carb cycling and it’s been <u>scientifically proven to be one of the most powerful, yet healthiest ways to reduce body fat fast.</u> </p>
+<p>There are no “magic bullets” to completely transform your body, but <strong>carb cycling combined with this diet and training program is as close as it gets!</strong> </p>
+<p>This combo makes starvation diets and boring cardio extinct and gives you a step-by-step plan to lose fat so easily that you’re friends and family (and haters) will think you’re “on something” magical…</p>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-17.png" alt="">
+</div>
+</div>
+</section>
+<section class="section-11">
+<div class="container">
+<h2 class="text-center blue">How does carb cycling work?</h2>
+<ul class="round-list">
+<li>By tricking your body into mobilizing the fat from your most stubborn areas for energy, while also boosting your metabolism… a powerful one-two punch that burns fat and helps you build lean muscle</li>
+</ul>
+<p>How? </p>
+<p>I’m glad you asked.</p>
+<p>So your body has two main fuel sources.</p>
+<p> First are carbs. Second are fats. </p>
+<p>When your carbs are depleted, meaning there’s none left in your tank and you’ve used them all up, your body starts using up your fat for fuel. </p>
+<p>Now you might be thinking, “Great! I’m never eating carbs again!” </p>
+<p>If only it were that easy!</p>
+<p>The problem with no-and-low carb diets is that if you leave your carbs depleted for too long, you start producing less and less leptin and your metabolism slows down and you not only stop burning fat but you start storing more from whatever you eat.</p>
+<ul class="round-list">
+<li><strong>Leptin is your body’s Top Fat Burning Hormone.</strong> Starvation diets and long-term low-carb diets tell your brain to shut down leptin production. WHen this happens, not only does fat loss come to a screeching halt, but your body will actual start to GAIN fat rapidly</li>
+</ul>
+</div>
+</section>
+<section class="section-12">
+<div class="area-title pink-title">
+<div class="container">
+<h2 class="m-0">Supercharge Your Fat Loss by Boosting Your Leptin Levels Through Carb Cycling</h2>
+</div>
+</div>
+<div class="section-12-content">
+<div class="container">
+<p>Rather than suffering with a starvation or zero-carb diet, you’ll actually use carbs and calories to your advantage. You will cycle your carbs between low/no carb days, then moderate, and even high-carb days throughout the week - this keeps your body burning fat by telling your brain that <i>food is available, so keep that Leptin pumpin!</i></p>
+<ul class="arrow-list">
+<li>If that sounds complicated, don’t worry, every single day of your diet is laid out in a simple, easy-to-follow format that shows you exactly what to eat, how much to eat, and when to eat - and we purposely build in flexibility for those days when life gets in the way of your diet</li>
+<p>It works like this:</p>
+<li>On the low/no carb and moderate carb days, your body grabs from your fat stores for energy.</li>
+<li>Then on the high carb day, you eat more carbs than your body is used to. This tells your brain that food is plentiful, and starvation mode isn’t necessary. So, <strong>you produce an overload of leptin, skyrocketing your metabolism for a few days shredding fat</strong></li>
+<li>Then, you drop back to low carb and, in turn, start burning calories from fat faster.</li>
+</ul>
+<p>And like I said, don’t worry, this sounds way more difficult than it actually is. </p>
+<p>Our past clients have been blown away with how easy and enjoyable this method really is to implement into their busy schedules.</p>
+<h3 class="pink text-center">Enjoyable? On a diet? Vince, are you crazy?</h3>
+</div>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-18.png" alt="" class="mobile-img push-top">
+<p class="text-left">I get it, every single diet you’ve been on in the past was restrictive, forced you to buy exotic, expensive foods, and had you eating so little that your stomach rumbled all day and night. </p>
+<p class="text-left">But, the <strong>Fat Loss Extreme</strong> plan is <strong>designed to help you lose 21+lbs of fat, fast while following a super-simple eating plan that is so jam-packed with the foods that you love, that you’ll always feel full and satisfied</strong></p>
+<img src="/salespages/fat-loss-extreme-f/store/img/img-19.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-20.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-21.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-13">
+<div class="section-13-content">
+<div class="container">
+<h2 class="text-center">Feel Full, Eat Fabolous Food, Lose Fat Fast &amp; Keep It Off: Here is the Exact Formula for Success</h2>
+<p>With your Fat Loss Extreme plan, I’m going to give you the exact formulas you’ll need to calculate the perfect carb cycle… on that fits your schedule, your needs, and your body. </p>
+<p>This turns carb cycling into a virtual Nuclear Bomb for rapid fat loss...</p>
+<p>And, it takes less than 5-minutes to calculate your perfect diet plan</p>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred">YES! I Want the Complete Blueprint for Easily <br>Losing 21+lbs of Fat in 90-Days</a>
+</p>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</div>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-22.png" alt="" class="mobile-img push-top">
+
+</div>
+</section>
+<section class="section-14">
+<div class="area-title blue-title">
+<div class="container">
+<h2 class="m-0">Lose Fat Without Long, Boring Cardio Sessions?</h2>
+</div>
+</div>
+<div class="container">
+<div class="double-text double-text-left larg-padding">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-24.png" alt="" align="right" class="hidden-xs">
+<p><strong>Powerful Secret #2</strong> for having a beautiful, slim, stunning body is a special type of cardio most women have never heard of...</p>
+<p>It really is quite extraordinary</p>
+<p>I know you’re gonna like this one.. Everybody does… Because everybody hates doing cardio… it’s literally where the rediciolous expressions like “feel the burn,” and “no pain, no gain” come from!</p>
+<p>It’s not fun. It’s exhausting. It’s hard on your joints when you’re overweight. It’s overwhelming to even think about doing it every day.</p>
+<p>And, for all those long, boring hours what do you get? </p>
+<p><strong>Nothing.</strong> No real fat loss. In fact, <strong>cardio can actually help make you fat.</strong></p>
+</div>
+</div>
+</section>
+<section class="section-15">
+<div class="section-15-top">
+<div class="container">
+<h2 class="text-center">What If You Never Had to Do Daily, <br>Traditional (Boring) Cardio Ever Again?</h2>
+<ul class="round-list">
+<li>Does the thought of jogging for an hour (minimally) just to burn a few calories make you wanna head for the couch instead of the gym?</li>
+<li>Does the idea of starting and ending every single workout with mindless running on a treadmill make you want to quit workout out?</li>
+<li>Jogging, treadmills, stair masters, exercise bikes… the method doesn’t matter, doing long, steady cardio is 100% ineffective</li>
+</ul>
+</div>
+</div>
+<div class="container small-padding">
+<h2 class="pink text-center">Say goodbye to that nonsense for good.</h2>
+<p>How? </p>
+<p>Lemme ask you this... If there was a way you would only have to invest <strong>15-minutes, 3-times</strong> per week doing a new type of fat-torching anti-cardio... </p>
+<ul class="round-list">
+<li>But you would still <u>burn calories 24-hours a day, 7-days</u> a week from those 3-short sessions, resulting in more than <strong>200% more calories burned, </strong>would you be interested?</li>
+</ul>
+<p>If you start using this secret method, you WILL see changes on the scale and in the mirror literally <strong>this week.</strong> </p>
+<h4 class="pink">It’s that powerful.</h4>
+<p> It’s a type of cardio called HIIT. HIIT stands for High Intensity Interval Training. </p>
+<p>This is, I guess you could say, an industry "cheat code", that all the biggest names use to drop their body fat incredibly fast and keep it off year round..</p>
+</div>
+</section>
+<section class="section-16">
+<div class="area-title pink-title">
+<div class="container">
+<h2 class="m-0"><strong>HIIT Fact -</strong> You Can Burn Fat for Up to 48-hours After Just One, 15-Minute H.I.I.T Workout</h2>
+</div>
+</div>
+<div class="container small-padding">
+<div class="double-text double-text-left larg-padding">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-25.png" alt="" align="right" class="hidden-xs">
+<p>HIIT training is an anaerobic activity, meaning, it <strong>targets fat cells</strong> and shuttles them across the cell membrane to use them for energy. </p>
+<ul class="arrow-list">
+<li><strong>It literally pulls the fat off your body and forces it to be burned for energy</strong></li>
+<li>And in this metabolic process, so your body uses up your precious oxygen stores. </li>
+<li>Now, the cool thing about your body using these oxygen stores, is that it then has to replenish those oxygen stores, and your body burns calories the entire time it takes to do this, which, like I said, can take up <u>to 48 hours.</u> </li>
+<li>So, with a simple, short 15-minute HIIT session, you can burn fat calories for up to 2 whole days through a process called the <u>“afterburn effect”.</u> </li>
+<p>But, NOT all HIIT training is created equal. </p>
+</ul>
+</div>
+</div>
+</section>
+<section class="section-17">
+<div class="section-17-text">
+<div class="container">
+<h2 class="text-center">To get the benefits of the afterburn effect you need to do the exact, correct <u>HIIT workouts on the exact, correct days of your training.</u> </h2>
+<p>And if you don’t do the right HIIT workouts on the right days, you are pretty much wasting your time and won’t get the afterburn effect that burns fat literally 24/7.</p>
+<ul class="arrow-list">
+<li>Don’t worry, in Fat Loss Extreme we give you the exact HIIT workouts that you need to do, and tell you exactly which days to do them on!</li>
+<li>This process is so effective it can cause your body to go into a non-stop fat burning frenzy, while building your leanest, sexiest body ever.</li>
+</ul>
+<p>The HIIT training in the Fat Loss Extreme system tricks your body into relentlessly burning fat so you can:</p>
+<ul class="round-list">
+<li>Flatten your belly</li>
+<li>Firm-up your butt</li>
+<li>Sculpt your legs</li>
+<li>Tone your arms and back</li>
+<li>Lose fat in those tough, stubborn areas of your body that you thought were literally <i>“unshrinkable”</i></li>
+</ul>
+<div class="text-center">
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred">Yes! I want Fat Loss Extreme!</a>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</div>
+</div>
+<div class="img-with-bg">
+<div class="container">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-26.png" alt="" class="mobile-img">
+</div>
+</div>
+</section>
+<section class="section-18">
+<div class="area-title black-title">
+<div class="container">
+<h2 class="pink m-0">Secret #3: Do Exactly What the Diet Gurus Told You NOT to Do - EAT!</h2>
+</div>
+</div>
+<div class="container small-padding">
+<p>Starvation diets suck. They make you miserable. They make you tired. They’re dangerous and ineffective. </p>
+<p>Yet, damn-near every diet book on the market forces you to starve yourself for months just to lose a few lbs. </p>
+<p>You don’t have to suffer to look good anymore. When you combine carb cycling, the best toning and strengthening exercises, and the exact HIIT workouts your body needs, you’ll never have to starve yourself. </p>
+<p>In fact, the opposite is true: you’ll eat like a Queen, enjoying your favorite foods every day...</p>
+<ul class="arrow-list">
+<li>By using precise carb, fat, and calorie timing to trick your body into becoming a fat-furnace</li>
+<li><strong>You’ll also be given the secret cheat codes to timing your HIIT properly to send your leptin level soaring, and turning on the Afterburn Effect</strong></li>
+<li>Even if past diets have crushed your metabolism, Fat Loss Extreme will fix your body’s fat burning machinery, revving up your metabolism, helping you sculpt your body &amp; burn fat 24/7</li>
+</ul>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-27.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-19">
+<div class="area-title blue-title">
+<div class="container">
+<h2 class="m-0">How You’ll Benefit from Choosing Fat Loss Extreme</h2>
+</div>
+</div>
+<div class="container small-padding">
+<p>This program is designed for specifically for women who want to lose fat and get sexy toned butt, arms, legs, and stomach…</p>
+<h4>You’ll get:</h4>
+<ul class="round-list">
+<li><strong>Gym and at home workouts</strong> so you can work out anywhere to burn mega calories and build a lean, sexy body</li>
+<li><strong>A Web App to help you <u>burn fat fast</u></strong> that looks amazing on your phone or tablet and is easy to follow in the gym.</li>
+<li><strong>Simple How-To videos of every single exercise,</strong> showing you the exact form you need to get amazing results <i>(only available to V Shred clients)</i></li>
+<li><strong>Customized diets</strong> you can easily adjust to your body and your food preferences to get bikini ready, in record time.</li>
+<li><strong>An Easy to follow calendar</strong> showing you the workout you need to do for that day to get slimmer, fitter and sexier</li>
+<li><strong>Simple, Follow-Along ab workouts</strong> to strengthen and tone your stomach, fast</li>
+<li><strong>Fast, Easy 15-minute HIIT cardio</strong> workouts to burn fat fast without long boring sessions on the treadmill.</li>
+<li><strong>Access to a Private Facebook group <i>(run by one of our top trainers. Ask them anything 5 days a week!)</i></strong> for you and the other women who are following Fat Loss Extreme. They’re on the same journey as you, and you’ll all have one of our expert trainers in the group, answering your questions every day.</li>
+</ul>
+</div>
+<div class="container text-center">
+
+<img src="/salespages/fat-loss-extreme-f/store/img/img-29.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-20">
+<div class="container">
+<h2 class="text-center">You will also discover...</h2>
+<div class="double-text double-text-left">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-30.png" alt="" align="right" class="hidden-xs">
+<ul class="arrow-list">
+<li><strong><u>The # 1, HUGE mistake</u></strong> that 90% of women are making in the gym that prevents them from being lean, toned and sexy… and how to fix that mistake.</li>
+<li><strong>The secret exercise list that most fitness experts don’t want you to know about -</strong> these exercises are so safe, and so powerful, that they could put most trainers out of business, fast, if their clients discovered them</li>
+<li><strong>The exact exercises you need to sculpt lean, sexy legs</strong> and a high tight, tush-faster than you ever thought possible</li>
+<li><strong>The REAL truth behind whether men and women need to train differently.</strong> The answer will surprise you and will shrink your belly, butt, and thighs.</li>
+<li><strong>The super intense, little-known insider secret</strong> (that most exercise programs completely ignore) of how to use the correctly use free-weight resistance exercise to build lean sexy body while torching body fat</li>
+<li><strong>The EXACT way women need to train</strong> to burn more calories than you ever imagined possible. –and no –it’s not cardio.</li>
+<li><strong>6-amazing ways that training with weights</strong> can give you your dream body, fast… but these only work if you apply them the right way (most exercise programs will leave you tired, constantly-sore, and injured)</li>
+</ul>
+</div>
+<div class="double-text double-text-right">
+<div class="row">
+<div class="col-xs-12 col-sm-5">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-31.png" alt="" align="left" class="hidden-xs">
+</div>
+<div class="col-xs-12 col-sm-7">
+<ul class="arrow-list">
+<li><strong>The 5 Most Dangerous Myths </strong>about women using resistance training that totally prevents you from slimming down, toning up, and feeling completely confident in your body</li>
+<li><strong>An amazingly simple, <u>yet completely underused</u></strong> way to get the hot, toned body you’ve always wanted by systematically creating unstoppable motivation for yourself by asking these 2-Key Questions before your begin</li>
+<li><strong>A spiritual trick</strong> for finding your ‘why’ when training to tone every zone, so you can stay on track to achieve your weight loss goals.</li>
+<li><strong>5 MUST-FOLLOW Steps to Slaying your fitness goals.</strong></li>
+<li><strong>3 Sure-Fire Ways to stop procrastinating -</strong> these techniques guarantee you’ll never again have to worry about putting off the gym or slipping on your diet </li>
+<li><strong>The 4-Golden Rules</strong> to follow that will supercharge your body transformation</li>
+<li><strong>An Exclusive, VIPs-Only look</strong> into when and how often to eat to a have a firm butt and toned legs (no other program has this info)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="double-text double-text-left">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-32.png" alt="" align="right" class="hidden-xs">
+<ul class="arrow-list">
+<li><strong>The Fast, Fool-Proof Formulas</strong> for calculating the exact amount of calories you need every day to chisel lean, sexy legs, abs, back and butt.</li>
+<li><strong>The Elite, Exclusive, Peak-Performance Meal Plan</strong> that allows you to <u>customise your own</u> nutrition plan. This type of plan is usually only available to elite athletes, but with Fat Loss Extreme, you get full access</li>
+<li>The Simple, Easy-to-Follow <strong>10-point nutrition checklist</strong> that puts you on the fast track to flat abs and sculpted arms.</li>
+<li><strong>5 Insider-Only Carb cycling tricks</strong> to tone every inch of your body. These tricks have been used by Figure Athletes and Fitness Models for years to get into Photo-Shoot Ready shape, fast</li>
+<li><strong>The Truth About the 3-Ways</strong> supplements can propel you towards a lean sexy body. But, you must choose the right supplements or you’re just wasting your money. I’ll give you all the insider info on exactly what supplements can help you get your dream body</li>
+<li><strong>The Contrast Cardio Secret</strong> that will put your body into fat-melting mode all day long</li>
+<li><strong>The 7-Deadly Sins of resistance training and how to use free-weights</strong> to quickly create the <strong>slim, strong, sexy look that you’ve always wanted</strong></li>
+</ul>
+</div>
+</div>
+</section>
+<section class="section-21">
+<div class="area-title blue-title larg-title">
+<div class="container">
+<h2 class="m-0">Here are just a few of our thousands female clients who have had success with our V Shred Programs...</h2>
+</div>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-33.png" alt="" class="mobile-img push-top">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-34.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-35.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-36.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-37.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-38.png" alt="" class="mobile-img">
+</div>
+</section>
+<section class="section-22">
+<div class="area-title pink-title">
+<div class="container">
+<h2 class="m-0">For Fast Results Like These, You’d Think You Would Have to Spend a Fortune, Right?</h2>
+</div>
+</div>
+<div class="section-22-text">
+<div class="container">
+<p>When I had time, and used to coach women personally, I would charge $500+ per hour.</p>
+<ul class="arrow-list">
+<li>With Fat Loss Extreme, you are getting 10Xs the insider tips &amp; training I could ever give any one of my clients in one hour.</li>
+</ul>
+<p><strong>I’ve been advised to price Fat Loss Extreme at $197.</strong></p>
+<p>However, <i>I don’t want price to be an issue for you here.</i></p>
+<p>I’m on a mission to put an end to women being confused about workouts and nutrition and not getting the results...</p>
+<ul class="arrow-list">
+<li>So you don’t have to invest $197 today, or <strong>even half of that or half of that</strong> </li>
+<li>You can jump-start your body transformation journey, and start <strong>sculpting your new, sexy curves</strong> today for just <strong>$47.00.</strong></li>
+</ul>
+<p>Think about that… for less than the price of week’s worth of Starbucks’ lattes, you can have the exact, easy-to-follow, <strong>step-by-step blueprint to shred 20, 30, 40, or 50+lbs of fat, build lean, sexy muscle, and completely change your life</strong></p>
+<p>...by the way, that price is far too low and it will be <i>doubling in the next few days, so act now to lock in your program at half-price</i> </p>
+</div>
+</div>
+<div class="container larg-padding">
+<h2 class="pink text-center">Not only is Fat Loss Extreme Insanely Affordable … <br>I also <u>stake my reputation on it with a <br><strong>100% Money Back Guarantee.</strong></u></h2>
+<p>I’ve spent too many years building up my reputation as one of America’s top fitness trainers, helping women get the <strong>hot, toned bodies</strong> they are after, only to risk it all on a fat burning, body sculpting program that doesn’t deliver on<strong> every single promise</strong> I’ve made to you today</p>
+<p>No, absolutely not.</p>
+<p>And I want to prove its power and effectiveness to you right now. </p>
+</div>
+</section>
+<section class="section-23">
+<div class="container">
+<div class="text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/logo-1.png" alt="">
+</div>
+<h2 class="pink text-center">30 Day, Unconditional Money back Guarantee</h2>
+<p>I personally guarantee you will be absolutely <br>Thrilled with your investment in <strong><i>Fat Loss Extreme.</i></strong> <br>So I’m providing you with a <strong><i>ZERO Risk,</i></strong> <br><strong>Unconditional 30-Day Money Back Guarantee.</strong></p>
+<p>I invite YOU to test-drive <strong><i>the program</i></strong> for a FULL 30 DAYS.</p>
+<p>In the <u>unlikely event</u> that you are not absolutely thrilled with it, eager to keep it and can’t see the benefit from continuing to practice with it...</p>
+<p>Email me and get a FULL refund.</p>
+<p>No questions asked. <br>No Hassle. <br>No ‘fine Print’. </p>
+<p>Simple and straightforward; you are 100% delighted with what you get or I want you to ask for a full refund.</p>
+<p>How can I make such a strong, unconditional guarantee? </p>
+<p>Because I know the extreme value you’ll get when you get your Fat Loss Extreme program. And, in all the years we’ve been helping women with the Extreme Fat Loss Program, our clients have enjoyed a <strong>jaw-dropping 96% success rate</strong></p>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred">Yes, I’m Sick of Struggling and I Want Build My <br>Dream Body the Easy Way - Sign Me Up</a>
+</p>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="" class="m-0">
+</p>
+</div>
+</div>
+</section>
+<section class="section-25">
+<div class="area-title blue-title larg-title">
+<div class="container">
+<h2>More V Shred Clients…. </h2>
+</div>
+</div>
+<div class="container text-center">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-39.png" alt="" class="mobile-img push-top">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-40.png" alt="" class="mobile-img">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-41.png" alt="" class="mobile-img">
+<p class="text-left">To gain exclusive, instant access to the Fat Loss Extreme, just hit the button below right now and to get started on completely changing your body, and your life, immediately </p>
+<p class="text-left">And remember, this price will only last a few more days before it DOUBLES, so please act now so you can take advantage of this exclusive, life-changing deal:</p>
+<p><a href="/order-form/fat-loss-extreme-f/" class="site-btn small-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred"><span>Instant Access</span>Just $47.00</a></p>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</section>
+<section class="section-26">
+<div class="container">
+<h2 class="pink text-center">How Much Longer Do You Want to <br>Live in a Body That You Hate?</h2>
+<div class="double-text double-text-right">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-42.png" alt="" align="left" class="hidden-xs">
+<p>You’ve got a simple choice to make right now:</p>
+<p>You can continue to struggle, strain, and starve to shed pounds, only to gain it all back (plus more!) once you’ve had enough and return to normal eating...</p>
+<p>You can suffer through endless hours of boring cardio for dismal results...</p>
+<p>OR <br>You can <strong>change your body right now</strong> &amp; jumpstart your journey to a slim, strong, sexy new you.</p>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn small-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred"><span>Instant Access</span>Just $47.00</a>
+</p>
+<span class="m-kom">Secure Order Form - 100% Protected &amp; Safe</span>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</div>
+</div>
+</section>
+<section class="section-27 larg-padding">
+<div class="container">
+<h2 class="pink text-center">Your Dream Body is Just a Click Away, <br>But, You Must Take Action Now. . .</h2>
+<div class="double-text double-text-left">
+<img src="/salespages/fat-loss-extreme-f/store/img/img-43.png" alt="" align="right" class="hidden-xs">
+<p>I've done everything I can to prove how valuable <strong>Fat Loss Extreme</strong> is. You’ve read through page after page of benefits like losing 21+lbs of body fat, fast… and never having to suffer through jogging on treadmills ever again… and how instead of starving yourself, you can actually eat delicious foods that you love and still shred fat...</p>
+<p>The ball is now in your court now. . . it's up to you which way it bounces. If you don’t actually want to <strong>get toned, sexy legs, arms and butt</strong> . . . if you want to continue to suffer and struggle… if you want to have to keep buying bigger sizes every year… if you want to be like the rest of the herd who say they want to lose weight, but never do anything about it, then don't get <strong>Fat Loss Extreme.</strong></p>
+<p>On the other hand...</p>
+</div>
+</div>
+</section>
+<section class="section-28">
+<div class="area-title pink-title">
+<div class="container">
+<h2 class="m-0">If YOU Want To Get In On This RARE <br>Opportunity to get fit, lean and sexy, <br>YOU Need to Act Now!</h2>
+</div>
+</div>
+<div class="section-28-text">
+<div class="container">
+<p>You know how life is… you read a page like this and get all fired up. You’re ready and rearin to go… </p>
+<p>But, then you get busy doing something else. You tell yourself you’ll get the program later today. </p>
+<p>Then today turns into tomorrow which turns into next week… then next month… and before you know it, rather than being 30-days leaner, you’ve gained even more weight and you’re so discouraged that you don’t even feel like trying </p>
+<p>I urge you to act on this opportunity right here, right now, while it’s fresh in your mind.</p>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn small-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred"><span>Instant Access</span>Just $47.00</a>
+<p class="m-kom">
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+ </p>
+</p>
+<p><i>(this price won’t last long - it will double in the next few days)</i></p>
+</div>
+</div>
+</div>
+</section>
+<section class="section-29">
+<div class="container">
+<h2 class="text-center blue">The Moment You Changed <br>Your Life – Fat Loss Extreme &amp; YOU</h2>
+<p>No matter how stuck in a rut you feel, or how long you’ve been struggling, there’s hope. </p>
+<p>A few times in your life, an incredibly opportunity to change everything will present itself… all you have to do is recognize it and take fast action.</p>
+<p><strong>Fat Loss Extreme</strong> is one of those moments </p>
+<p>A month from now you’ll look back on this moment and know that it was the tipping point for you and your body. It was the moment you took that first small, yet monumental step toward completely transforming your body: flat abs, high-tight tush, firm arms, and a fresh infusion of self-confidence that you thought you’d never get back. </p>
+<p>When you join the V Shred family, and start to follow Fat Loss Extreme, you’ll have instant, exclusive access to everything you need to lose fat, slim your waist, shape your thighs, and sculpt your abs in record time. And, all that info will be in one place, easily accessible from your phone, laptop, pc, or tablet. </p>
+<p>There is NO REASON why you cannot have the same results as the women you’ve seen on this page today. They, plus thousands of others, gave their old bodies the boot and are now enjoying life in their dream bodies. They’re confident. They feel fantastic mentally and physically.</p>
+<h4>Fat Loss Extreme has the power to help YOU:</h4>
+<ul class="round-list">
+<li>Burn more fat</li>
+<li>Crush your fitness goals</li>
+<li>Reveal a lean sexy belly</li>
+<li>Melt fat and tone muscle</li>
+<li>Get a hot body fast</li>
+<li>Get lean legs</li>
+<li>Look amazing in 90- days.</li>
+<li>Feel great and have tons of energy.</li>
+<li>Gain extreme confidence in yourself in social and dating situations.</li>
+<li>Save yourself 10-years (or more!) of trial and error studying nutrition and training.</li>
+<li>Make your ex jealous, and your friends envious, while you easily and quickly develop a jaw-dropping body </li>
+</ul>
+<p> ...and all WITHOUT struggling, starving, or worrying if you’re on the right path to get the results you want.</p>
+<p>Remember when you order you have absolutely <strong><i>no-risk at all and are covered by my promise of a 100% Money-Back Refund Guarantee.</i></strong></p>
+</div>
+</section>
+<section class="section-30">
+<div class="container">
+<h2 class="pink text-center">I’m excited for you; and I bet you’re <br>pretty excited right now, too. </h2>
+<p>You’re ready. This is your time. This is your day. This is your first step toward building your dream body (the one they’ll all be secretly jealous of…)</p>
+<p>Click the <strong>instant access</strong> button and fill out the order form on the next page – I will do the rest.</p>
+<p>Here’s to your health and fitness.</p>
+<p><strong>PS</strong> - Studies show that every second you wait to take action on a goal - the odds become more and more stacked against you. It’s frustrating, and eventually you’ll end up doing nothing. We’ve made the path to your dream body simple, but chahing your body requires action. So, please, <strong><u>act now</u></strong> while you have the momentum to get started. All it takes is one click and you’ll be well on your way to the body you’ve always wanted</p>
+<p><strong>PPS-</strong> Remember- you have a full, 30-days to <strong><u>put Fat Loss Extreme to the test.</u></strong> I guarantee in 30-days, you’ll have a brand new physique because you’ll be following the exact same, simple system that thousands of other women just like you have used to get the body of their dreams. <strong>With the no questions asked money back guarantee-there is <u>no way</u> you can lose. </strong></p>
+<p>Of course, you could X-Out of this page and go back to your regular life, getting a little heavier each week, feeling a little more tired and out of shape every day… but you’re better than that!</p>
+<div class="text-center">
+<p>
+<a href="/order-form/fat-loss-extreme-f/" class="site-btn small-btn product-add-to-cart" data-id="sku_CKcwR4TEg54IeG" data-name="Fat Loss Extreme for Her" data-price="47" data-category="Programs" data-brand="V Shred"><span>Instant Access</span>Just $47.00</a>
+</p>
+<p class="m-kom">Secure Order Form - 100% Protected &amp; Safe</p>
+<img src="/salespages/fat-loss-extreme-f/store/img/card.png" alt="">
+</div>
+</div>
+</section>
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script src="/salespages/fat-loss-extreme-f/store/js/jquery-1.12.3.js"></script>
+<script>window.jQuery || document.write('<script src="/salespages/fat-loss-extreme-f/store/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/salespages/fat-loss-extreme-f/store/js/bootstrap.min.js"></script>
+<script src="/salespages/fat-loss-extreme-f/store/js/plugins.js"></script>
+<script src="/salespages/fat-loss-extreme-f/store/js/parallax.js"></script>
+<script src="/salespages/fat-loss-extreme-f/store/js/main.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+</body>
+</html>

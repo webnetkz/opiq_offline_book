@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+main.booty-builder-2018-05 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 22px ;
+    line-height: 1.4;
+    color: #222222;
+}
+
+
+
+
+
+
+.booty-builder-2018-05 h1, .booty-builder-2018-05 h2, .booty-builder-2018-05 h3, .booty-builder-2018-05 h4, .booty-builder-2018-05 h5 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.3;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*.booty-builder-2018-05 .other-font{
+    font-family: 'Roboto', sans-serif;
+}*/
+.booty-builder-2018-05 h1 {
+    font-size: 40px;
+}
+.booty-builder-2018-05 h2 {
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+/*.booty-builder-2018-05 h3 {
+    font-size: 40px;
+}*/
+.booty-builder-2018-05 h3 {
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+.booty-builder-2018-05 h4 {
+    font-size: 30px;
+}
+.booty-builder-2018-05 h5 {
+    font-size: 24px;
+}
+
+
+.booty-builder-2018-05 .common-header {
+    background: #002030;
+    padding: 50px 0 !important;
+    text-align: center;
+    color: #fff;
+}
+.booty-builder-2018-05 .common-header.pink-header {
+    background: #ff00f0;
+    color: #fff;
+}
+.booty-builder-2018-05 .common-header.pink-header h1{
+    color: #fff;
+}
+.booty-builder-2018-05 section {
+    padding: 60px 0 !important;
+}
+.booty-builder-2018-05 p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+.booty-builder-2018-05 img{
+    max-width: 100%;
+}
+.booty-builder-2018-05 .pink {
+    color: #ff00f0;
+}
+.booty-builder-2018-05 .white{
+    color:#fff;
+}
+.booty-builder-2018-05 .red{
+    color:#FF2207;
+}
+.booty-builder-2018-05 .marker{
+    background: yellow;
+    font-weight: 600;
+    color: #000;
+    padding: 0 5px;
+}
+.booty-builder-2018-05 .normal{
+    font-weight: 400;
+}
+.booty-builder-2018-05 .light{
+    font-weight: 300;
+}
+.booty-builder-2018-05 .styled-list {
+    list-style-type: none;
+    margin: 35px 0;
+    padding: 0;
+}
+.booty-builder-2018-05 .styled-list li {
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding-left: 45px;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+.booty-builder-2018-05 .styled-list li::after {
+    content: "";
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    background: #ff00f0;
+}
+
+.booty-builder-2018-05 .boxed {
+    padding: 50px;
+    border: 5px solid #fff;
+    margin:45px 0;
+    background: none;
+    width: 100%;
+}
+.booty-builder-2018-05 .red-box{
+    border: 5px dashed #FF2207;
+}
+.booty-builder-2018-05 .pink-box{
+    border: 5px dashed #ff00f0;
+}
+.booty-builder-2018-05 .bg-box {
+    background: rgba(0,0,0,.7);
+    border: none;
+    -webkit-box-shadow: 0 0 15px #FF00F0;
+            box-shadow: 0 0 15px #FF00F0;
+}
+
+
+.booty-builder-2018-05 .right-img{
+    width: 450px;
+    margin-left: 50px;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+            box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+}
+.booty-builder-2018-05 .center-img {
+    width: 60%;
+    margin: 20px 0 30px !important;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+            box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+}
+
+.booty-builder-2018-05 .site-btn {
+    background: #5BB85B;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw !important;
+    display: block;
+    padding: 10px 15px;
+    line-height: 1.3 !important;
+    margin: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+            box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.booty-builder-2018-05 .site-btn span {
+    display: block;
+    font-weight: 300;
+    font-size: .8em;
+}
+.booty-builder-2018-05 .site-btn:hover {
+    background: #5BB85B;
+    color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-decoration: none;
+    border-radius: 0;
+}
+.booty-builder-2018-05 .no-upper{
+    text-transform: unset !important;
+}
+
+
+
+
+
+
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .banner {
+    background: url(../img/Zumba.jpg) no-repeat right -300px center / auto 100%, #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0, .7)), to(rgba(0,0,0,.7))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat center center / cover;
+    background: -webkit-linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat center center / cover;
+    background: -o-linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat center center / cover;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+.booty-builder-2018-05 .banner-wrapper h5 {
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.booty-builder-2018-05 .banner h1 {
+    font-size: 40px;
+    margin: 35px 0;
+    text-shadow: 0 0 5px #333;
+    color: #fff;
+}
+.booty-builder-2018-05 .banner-wrapper h4 {
+    margin-bottom: 15px;
+}
+.booty-builder-2018-05 .banner-Video {
+    margin: 17px 0px 28px;
+}
+
+
+
+
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .section-1{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.7)), to(rgba(243,247,77,.5))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat center center / cover;
+    background: -webkit-linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat center center / cover;
+    background: -o-linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat center center / cover;
+    background: linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat center center / cover;
+    color:#fff;
+    padding: 80px 0 60px 0 !important;
+}
+.booty-builder-2018-05 .section-1 h2{
+    color: #fff;
+    text-shadow: 0 0 3px #333;
+}
+.booty-builder-2018-05 .section-1-text{
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    font-size: 20px;
+}
+.booty-builder-2018-05 .section-1 h5{
+    color: #fff;
+    text-shadow: 0 0 1px #333;
+}
+
+/* ########## section-3 STYLES ########## */
+.booty-builder-2018-05 .section-3{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.8)), to(rgba(0,0,0,.8))) repeat 0 0%, rgba(38, 42, 45, 1) url("img/bg-15.jpeg") no-repeat right bottom / auto 100%;
+    background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)) repeat 0 0%, rgba(38, 42, 45, 1) url("img/bg-15.jpeg") no-repeat right bottom / auto 100%;
+    background: -o-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)) repeat 0 0%, rgba(38, 42, 45, 1) url("img/bg-15.jpeg") no-repeat right bottom / auto 100%;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)) repeat 0 0%, rgba(38, 42, 45, 1) url("img/bg-15.jpeg") no-repeat right bottom / auto 100%;
+    color:#fff;
+    padding-top: 80px !important;
+}
+
+
+
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .section-5{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.8)), to(rgba(243,247,77,.8))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat center center / cover;
+    background: -webkit-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat center center / cover;
+    background: -o-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat center center / cover;
+    background: linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat center center / cover;
+    color:#fff;
+    padding: 80px 0 !important
+}
+.booty-builder-2018-05 .single-item-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 50px;
+}
+.booty-builder-2018-05 .single-item {
+    width: 30%;
+    background: rgba(0,0,0,.8);
+    padding: 25px;
+}
+.booty-builder-2018-05 .single-item h5{
+    margin-bottom: 0;
+}
+.booty-builder-2018-05 .single-item h5 > .no-upper {
+    text-transform: lowercase !important;
+    font-size: .9em;
+}
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .section-7{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.7)), to(rgba(0,0,0,.7))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-10.jpeg") no-repeat center center / cover;
+    background: -webkit-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-10.jpeg") no-repeat center center / cover;
+    background: -o-linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-10.jpeg") no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-10.jpeg") no-repeat center center / cover;
+    color:#fff;
+}
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .section-8{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.5)), to(rgba(243,247,77,.5))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: -webkit-linear-gradient(rgba(236,59,89,.5), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: -o-linear-gradient(rgba(236,59,89,.5), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: linear-gradient(rgba(236,59,89,.5), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    color:#000;
+}
+.booty-builder-2018-05 .section-8 .styled-list{
+    margin: 0;
+}
+.booty-builder-2018-05 .card {
+    height: 40px;
+    margin-top: 10px;
+    margin: 9px auto 0px;
+    border: none;
+}
+.booty-builder-2018-05 .section-8 h2{
+    background: rgba(0,0,0,.7);
+    padding:15px;
+}
+/* ########## BANNER STYLES ########## */
+
+/* ########## BANNER STYLES ########## */
+.booty-builder-2018-05 .money-back{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.85)), to(rgba(0,0,0,.85))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-3.jpeg") no-repeat center center / cover;
+    background: -webkit-linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-3.jpeg") no-repeat center center / cover;
+    background: -o-linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-3.jpeg") no-repeat center center / cover;
+    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-3.jpeg") no-repeat center center / cover;
+    color:#fff;
+}
+.booty-builder-2018-05 .product-img{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 50%;
+}
+
+
+
+
+
+/* ########## BANNER STYLES ########## */
+/* ########## BANNER STYLES ########## */
+/* ########## BANNER STYLES ########## */
+
+
+
+@media only screen and (max-width: 1199px) {
+.booty-builder-2018-05 h5 {
+    font-size: 22px;
+}
+.booty-builder-2018-05 h2 {
+    font-size: 40px;
+}
+}
+@media only screen and (max-width: 991px) {
+.booty-builder-2018-05 .banner-wrapper h5 {
+    width: 100%;
+}
+.booty-builder-2018-05 h5 {
+    font-size: 20px;
+}
+.booty-builder-2018-05 .banner h1 {
+    font-size: 34px;
+    margin: 25px 0;
+}
+.booty-builder-2018-05 h4 {
+    font-size: 24px;
+    margin-bottom: 0 !important;
+}
+.booty-builder-2018-05 h2 {
+    font-size: 34px;
+}
+main.booty-builder-2018-05 {
+    font-size: 20px;
+}
+.booty-builder-2018-05 .single-item {
+    width: 31%;
+}
+.booty-builder-2018-05 .right-img {
+    width: 330px;
+    margin-left: 25px;
+}
+.booty-builder-2018-05 .section-8 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.8)), to(rgba(243,247,77,.8))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: -webkit-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: -o-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    background: linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-12.jpeg") no-repeat left center / auto 100%;
+    color: #000;
+}
+.booty-builder-2018-05 h3 {
+    font-size: 28px;
+}
+}
+@media only screen and (max-width: 767px) {
+main.booty-builder-2018-05 {
+    font-size: 16px;
+    line-height: 1.4;
+}
+.booty-builder-2018-05 p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.booty-builder-2018-05 h5 {
+    font-size: 16px;
+}
+.booty-builder-2018-05 .banner h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.booty-builder-2018-05 h4 {
+    font-size: 18px;
+}
+.booty-builder-2018-05 .banner {
+    background: url(../img/Zumba.jpg) no-repeat right -300px center / auto 100%, #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0, .7)), to(rgba(0,0,0,.7))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat right center / cover;
+    background: -webkit-linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat right center / cover;
+    background: -o-linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat right center / cover;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0,.7)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-1.jpeg") no-repeat right center / cover;
+}
+.booty-builder-2018-05 section {
+    padding: 40px 0 !important;
+}
+.booty-builder-2018-05 h2 {
+    font-size: 22px;
+}
+.booty-builder-2018-05 .section-1 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.7)), to(rgba(243,247,77,.5))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat right -200px center / cover;
+    background: -webkit-linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat right -200px center / cover;
+    background: -o-linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat right -200px center / cover;
+    background: linear-gradient(rgba(236,59,89,.7), rgba(243,247,77,.5)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-2.jpeg") no-repeat right -200px center / cover;
+    color: #fff;
+    padding: 50px 0 50px 0 !important;
+}
+.booty-builder-2018-05 .section-1-text {
+    font-size: 16px;
+}
+.booty-builder-2018-05 .section-1-text {
+    padding: 15px;
+}
+.booty-builder-2018-05 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.booty-builder-2018-05 .center-img {
+    width: 100%;
+    margin: 10px 0 30px !important;
+}
+.booty-builder-2018-05 .boxed {
+    padding: 15px;
+    border: none;
+    margin: 20px 0;
+}
+.booty-builder-2018-05 .pink-box {
+    border: 3px dashed #ff00f0 !important;
+}
+.booty-builder-2018-05 .styled-list li {
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+.booty-builder-2018-05 .styled-list {
+    margin: 25px 0;
+}
+.booty-builder-2018-05 .styled-list li::after {
+    width: 20px;
+    height: 15px;
+}
+.booty-builder-2018-05 .section-3 {
+    padding-top: 45px !important;
+}
+.booty-builder-2018-05 .section-5 {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(236,59,89,.8)), to(rgba(243,247,77,.8))) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat right -200px center / cover;
+    background: -webkit-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat right -200px center / cover;
+    background: -o-linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat right -200px center / cover;
+    background: linear-gradient(rgba(236,59,89,.8), rgba(243,247,77,.8)) repeat 0 0%, rgba(0, 0, 0, 0) url("img/bg-4.jpeg") no-repeat right -200px center / cover;
+    color: #fff;
+    padding: 45px 0 !important;
+}
+.booty-builder-2018-05 .single-item {
+    width: 100%;
+    margin: 10px 0;
+}
+.booty-builder-2018-05 .single-item-wrapper {
+    margin-top: 0;
+}
+.booty-builder-2018-05 .single-item h5 > .no-upper {
+    font-size: 1em;
+}
+.booty-builder-2018-05 .right-img {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    margin-bottom: 10px;
+}
+.booty-builder-2018-05 .site-btn {
+    font-size: 5.6vw !important;
+}
+.booty-builder-2018-05 .money-back .push-btm {
+    width: 180px;
+}
+.booty-builder-2018-05 .banner-Video {
+    margin: 15px 0;
+}
+.booty-builder-2018-05 h3 {
+    margin-bottom: 25px;
+}
+}

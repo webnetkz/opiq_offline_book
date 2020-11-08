@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244353085">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="/salespages/big-arms-program/v1/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+<li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<main class="big-arms-2018-06">
+<section class="banner">
+<div class="container">
+<div class="banner-wrapper">
+<h5><span class="red text-center">Attention Guys <u>Continually</u> Failing to Build Big Arms:</span> Sick of Having Pipe Cleaners Dangling From Your Sleeves?</h5>
+<h1 class="text-center">Skinny Arms No More - <u>Revolutionary Program</u> Guaranteed to <span class="blue">Add INCHES &amp; Transform Your Pea Shooters Into Bazookas</span></h1>
+<div class="row">
+<div class="col-12 col-sm-8 col-md-8 col-lg-6 offset-sm-2 offset-md-2 offset-lg-3">
+<div class="banner-Video">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa78cdeec08e">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-sales-video id="I80F0PPA" skeleton-selector="#jw-skeleton-5fa78cdeec08e" :minutes="0" :seconds="30" dropdown-selector=".page-contents-lazy" :aspect-width="16" :aspect-height="9" :drop-immediate="false" :force-fullscreen="false" :controls="false"></jw-sales-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+<div class="mt-3"><b>Vince Sant -</b> Professional Fitness Model, Certified Personal Trainer, Best Selling Author and the Creator of V Shred</div>
+</div>
+
+</div>
+</div>
+
+<div class="banner-left-text text-left boxed bg-box">
+<h4 class="blue text-center">Big, bulging, powerful arms…</h4>
+<p>There’s nothing quite like a thick set of guns that lets the world know that you are <b>strong, athletic, and powerful.</b></p>
+<p>While you may need to go shirtless to show off abs, or throw on short-shorts to put your quads on display, <u>big arms are visible no matter what you’re wearing.</u> </p>
+<p><b>This means that the size of your arms is essential to letting the world know that you’re putting in serious time in the gym.</b></p>
+</div>
+
+</div>
+</div>
+</section>
+<section class="white-area">
+<div class="container">
+<img src="/salespages/big-arms-program/v1/img/bg-9.jpeg" alt="" class="right-img hide-mobial" align='right'>
+<h4>Let me guess… you’re training your arms hard and often, <span class="blue">yet <u>still</u> failing to add any mass.</span> </h4>
+<p>You’re curling like mad, hitting your biceps every other workout, you’re taking <b>supplements</b> that promised to bulk up your bi’s...</p>
+<p>Yet you can’t manage to budge the tape measure even <u>a fraction of an inch.</u></p>
+<img src="/salespages/big-arms-program/v1/img/bg-9.jpeg" alt="" class="right-img hide-desktop" align='right'>
+<h3 class="">It’s <span class="red">frustrating</span> and feels unfixable, right?</h3>
+<p><b>Don’t worry, you’re not alone.</b> </p>
+<p>In fact, I was in the exact same position you are - <u>my bi’s and tri’s wouldn’t grow no matter how I trained. </u></p>
+<p>After failing for years to pack on muscle, I stumbled upon the secrets to forcing rapid and explosive growth in my upper arms. </p>
+</div>
+</section>
+<section class="section-1">
+<div class="container">
+<h2 class="text-center">Why Most Arm Training Programs <span class="red"><u>Fail</u> You Miserably</span></h2>
+<div class="row">
+<div class="col-12 col-sm-12 col-md-9">
+<div class="section-1-text">
+<p><b>One quick <u>Google search</u> will put about a million “arm training” workouts on display. </b></p>
+<p>Unfortunately, <span class="marker">99% of them will give you ZERO results.</span> </p>
+<h4 class="red why-title">Why?</h4>
+<h4 class="white">First, the <u>majority</u> of those programs were either written by</h4>
+<ul class="styled-list">
+<li>Guys with naturally big guns</li>
+<li>Guys who gain muscle easily</li>
+<li>Some magazine writer who’s never seen the inside of the gym</li>
+</ul>
+<p>Either way, you lose.</p>
+<p>Listen, <u>if adding mass to your arms was easy</u>, every guy would walk around with their sleeves straining to contain their guns. </p>
+<p><i>But, you know that’s not reality. </i></p>
+<p>You also know that <u>you’re not</u> one of those lucky dudes who can <u>easily</u> increase the thickness and strength of your arms.</p>
+<p>Guess what? <b>The biceps, triceps, and forearms are some of the hardest muscles to develop.</b></p>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-2">
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-12">
+<div class="single-box box-1">
+<h2 class="text-center blue">It Gets Worse</h2>
+<p>Back to the “arm workouts” that leave you with a set of pipe cleaners in your sleeves.</p>
+<p><b>The second major problem?</b></p>
+<p>At least <i>90% of these “programs”</i> completely <b class="marker">ignore a full two-thirds of the muscle fibers</b> in your arms. </p>
+<h4 class="red">Crazy right?</h4>
+<p>Imagine trying to build your shoulders but only working your rear delts! The other <b>two muscles</b> in your shoulders would remain <u>weak, small, and flat.</u></p>
+<p>Unfortunately, <b>this is <u>exactly</u> what happens with the vast majority of arm building programs.</b> </p>
+</div>
+</div>
+</div> 
+</div> 
+</section>
+<section class="common-header blue-header">
+<div class="container">
+<h2 class="text-center">There is a MUCH Better Way</h2>
+</div>
+</section>
+<section class="trainer-area">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-8">
+<div class="trainer-text-area hide-mobial">
+<p>It was <b>my own personal frustrations</b> with arm training that sent me off on a mad tear to find the arm building secrets that would <u>finally give me the guns I always dreamed of.</u> </p>
+<p>When I started out, I was <b>so skinny</b> that I had to quit the football team!</p>
+<p>I was determined to build myself up, but I quickly grew frustrated with my <u>lack of results.</u> <i>All I wanted was ripped abs and huge arms.</i> </p>
+<div class="boxed bg-box">
+<p>After failing tons of times on the programs we were just talking about, I stumbled upon several secrets that literally <u>shocked</u> my body into growth. </p>
+<p>Within 6-weeks, <span class="marker">my arms had grown more than they had in the previous 3+ YEARS of training.</span> </p>
+<p>Now, before I let you in on the <u>secrets</u>, and give you the exact follow-along formula for packing slabs of muscle onto your arms…</p>
+</div>
+</div>
+<div class="trainer-text-area hide-desktop">
+<div class="boxed bg-box">
+<p>It was <b>my own personal frustrations</b> with arm training that sent me off on a mad tear to find the arm building secrets that would <u>finally give me the guns I always dreamed of.</u> </p>
+<p>When I started out, I was <b>so skinny</b> that I had to quit the football team!</p>
+<p>I was determined to build myself up, but I quickly grew frustrated with my <u>lack of results.</u> <i>All I wanted was ripped abs and huge arms.</i> </p>
+<p>After failing tons of times on the programs we were just talking about, I stumbled upon several secrets that literally <u>shocked</u> my body into growth. </p>
+<p>Within 6-weeks, <span class="marker">my arms had grown more than they had in the previous 3+ YEARS of training.</span> </p>
+<p>Now, before I let you in on the <u>secrets</u>, and give you the exact follow-along formula for packing slabs of muscle onto your arms…</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<section class="common-header red-header">
+<div class="container">
+<h2 class="text-center">There’s a Catch:</h2>
+</div>
+</section>
+<section class="section-3">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-12 offset-md-0 col-lg-9  offset-lg-3">
+
+<div class="section-3-content">
+<p>You have to actually follow the program. </p>
+<p>Obvious right?</p>
+<p>Sadly, studies show that <u>78% of people who buy diet and training programs never actually do them.</u> </p>
+<p>I’m sure you know a dozen guys who know everything about training, yet sport the body of a coat rack.</p>
+<p>Yeah… they’re part of that 78%. </p>
+<p>If you’ve done this in the past, don’t worry. The <b class="blue">VShred Arm Builder Program</b> is not just about a bunch of scientific theory.</p>
+<p>Instead, the program is based in science <b>but</b> also gives you <b class="marker">the complete, follow-along, step-by-step blueprint</b> to take action and get your guns exploding with new muscle growth, fast.</p>
+<h4 class="blue">The VShred Arm Builder Program Will Help You:</h4>
+<ul class="styled-list">
+<li><b>Add inches to your upper arms</b> <i>(no matter how many times you’ve failed, this program is guaranteed to work for you)</i></li>
+<li><b>Force rapid growth in your stubborn forearm muscles</b> <i>(your forearms are always on display, plus, stronger forearms = bigger lifts)</i></li>
+<li><b>Build powerful biceps and triceps</b> <i>(stronger arms mean more pull ups, a bigger bench, and a rugged, powerful upper body)</i></li>
+<li><b>Develop a pair of sleeve-busting guns</b> <i>(even if you’re a hardgainer, this program will generate rapid muscle growth for you)</i></li>
+</ul>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-4">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center blue">Here’s the Best Part</h2>
+<p>Not only will the <b>VShred Arm Builder Program</b> force your guns to grow, but these techniques will <u>actually</u> increase your total body mass. </p>
+<h4 class="blue">How?</h4>
+
+<div class="boxed blue-box">
+<p>First, once you learn <b>the secrets</b> of training your arms for rapid growth, you can <u>apply</u> some of these principles to training the rest of your body.</p>
+<p><i>In fact, some of these secrets will help you dramatically increase chest and shoulder mass.</i></p>
+<p>Second, <b>the strength and size of your arms</b> has a direct link to your overall muscle mass and power. </p>
+<p>Picture some of the biggest, strongest dudes in the world: Powerlifters, Football Players, Bodybuilders, Strongman Competitors.</p>
+<p>Even though they train in completely different ways, they all have one thing in <u>common</u>: huge, powerful arms. </p>
+<p>If you want a HUGE Bench, <b>you need to make your triceps ultra powerful.</b></p>
+</div>
+
+<h4 class="red">Why?</h4>
+<p>It’s actually your Tris, <u>not your Pecs</u>, that drive a heavy Bench. Having strong <b>triceps</b> is <u>essential</u> to <i>increasing your Bench &amp; every other pressing exercise</i></p>
+<p>Just worried about size? Guess what… most elite Powerlifting gyms obsess over <u>increasing</u> the size of their triceps. <b>More muscle fibers = more potential for strength.</b> </p>
+<div class="single-box box-2">
+<h3 class="blue">Your Forearms and Biceps are the key to:</h3>
+<ul class="styled-list">
+<li>Baning out effortless Pull Ups</li>
+<li>Rowing beastly weight</li>
+<li>Safely Deadlifting big weights</li>
+<li>A Bar-bending Bench (your bi’s &amp; forearms act as stabilizers)</li>
+</ul>
+</div>
+<p>What do you notice in that list?</p>
+<p>Those are the <b>best exercises you can do to pack on muscle in your upper body, especially your back.</b></p>
+<p>If you want to build an impressive, powerful upper body, <u>you must strengthen and grow your arms!</u></p>
+<h5><span class="red">Remember:</span> if your arms stay weak and small, so will the rest of your body.</h5>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-5">
+<div class="container">
+<h2 class=" text-center white">With Your <u>VShred Big Arms Program</u>, You’ll Finally Unlock Your Guns’ True Growth Potential <br><small class="marker"><b>Plus, You’ll Discover:</b></small></h2>
+<div class="single-item-wrapper">
+<div class="single-item">
+<h5 class="white">The EXACT Formula <span class="blue">you must apply to your arm training</span> <br><span class="light no-upper">(follow it or suffer with skinny arms forever)</span></h5>
+</div>
+<div class="single-item">
+<h5 class="white">The “Special Sequence” that flips the internal switch <span class="blue">to send your muscle fibers into growth-mode </span> <br><span class="light no-upper">(99% of arm-building workouts completely ignore this key sequence)</span></h5>
+</div>
+<div class="single-item">
+<h5 class="white">Why HOW you perform <span class="blue">every rep is essential </span> <br><span class="light no-upper">(once you master this, the muscle-growth floodgates open)</span></h5>
+</div>
+</div>
+</div>
+</section>
+<section class="section-6">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">How to Unleash Your Body’s 3-Mandatory <br><span class="light">Muscle Growth Mechanisms</span></h2>
+<img src="/salespages/big-arms-program/v1/img/bg-17.jpeg" alt="" class="right-img" align="right">
+<ul class="styled-list">
+<li><b>How to train your bi’s and tri’s specifically for hypertrophy</b> <i>(little-known old-school bodybuilding techniques that prime your muscles for explosive growth)</i></li>
+<li><b>Why a whopping 90% of guys can’t pack on size in their arms</b> <i>(hint: they completely ignore almost 75% of their muscle fibers)</i></li>
+<li><b>6-Simple ways to beat the dreaded Adaptation Response</b> <i>(if you fail to overcome adaptation, you’ll fail to grow your guns)</i></li>
+<li><b>The BEST way to turn your body’s “Damage &amp;p Repair Cycle” to your advantage</b> <i>(once you learn this, not only will your arms grow, but you’ll pack on total-body muscle)</i></li>
+<li><b>Shortcuts for sending your body into Metabolic Stress</b> <i>(advanced recuperation techniques + metabolic stress = sleeve-splitting guns)</i></li>
+</ul>
+</div> 
+<div class="col-xs-12 col-sm-12">
+<div class="single-box box-3">
+<h2 class="text-center red">7-Advanced <u>Techniques</u> to Kickstart Your Gun Growth</h2>
+<ul class="styled-list">
+<li><b>All about the negatives</b> <i>(how to disrupt adaptation and give your muscle cells only one choice: grow or die)</i></li>
+<li><b>How to literally twist extra inches out of your bis</b> <i>(it’s so simple, yet 99% of small-armed guys never do this)</i></li>
+<li><b>Stop missing 50% (or more) of your muscle fibers</b> <i>(work more muscle, from more angles, and finally have complete arm development)</i></li>
+<li><b>How to target ALL muscle fiber types</b> <i>(neglecting any type of fiber is a recipe for puny arms)</i></li>
+<li><b>Advanced techniques stolen from athletes that force hypertrophy in your fast twitch muscle fibers</b> <i>(want your arms to big thick and powerful? Give your fast twitch fibers the shock treatment they crave)</i></li>
+</ul>
+</div>
+
+</div>
+</div> 
+</div> 
+</section>
+<section class="section-8">
+<div class="container">
+<h2 class="white text-center">How to <u>Master</u> Rest Periods, Density, Time Under Tension, and Perfect Form for <span class="red">Guaranteed</span> Arm Growth</h2>
+<div class="row">
+<div class="col-12 col-lg-8 offset-lg-4">
+<ul class="styled-list">
+<li><b>Learn the <u>exact number of sets and reps</u> that you must do</b> <i>(if you’re following the wrong set &amp; rep scheme, you’re wasting your time)</i></li>
+<li><b>The BEST exercises to use</b> <i>(these exercises cause hypertrophy in ALL muscle fiber types)</i></li>
+<li><b>Why <u>perfect form</u> causes muscle growth</b> <i>(form is so important that this program includes tons of explainer videos to show you precisely how to perform every exercise, every rep)</i></li>
+<li><b>Advanced recovery methods for packing on mass, fast</b> <i>(training is only half the equation - the ability to push your body into the perfect stress-recovery cycle is key for building big arms and a powerful, muscular body)</i></li>
+<li><b class="marker">Supplement secrets to increase upper arm girth</b> <i>(most supplements suck, but there are a key few that absolutely help your body generate new muscle mass)</i></li>
+<li><b>How your diet puts your body on <u>the fast track</u> to building big guns</b> <i>(the right diet makes a night-and-day difference. Follow the wrong diet for your body, and you’ll never have the huge guns you’ve always wanted)</i></li>
+</ul>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="section-9">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">How You Can Gain <u>Exclusive Access</u> to the Program <span class="red"><u>Guaranteed</u> to Turn Your Pea Shooters Into Bazookas</span></h2>
+<p>To achieve the kind of explosive muscle growth that the <b class="blue">VShred Arm Builder Program</b> will give you, you’d have to hire an elite personal trainer. </p>
+<p>No, not the guys at your local gym who stand around counting reps and <u>chasing newbies</u> around trying <i>to sell training packages.</i> </p>
+<p>We’re talking the cream of the crop. And, guess what? <b>Those trainers aren’t cheap.</b> </p>
+<p>In fact, when I had the time to train clients one-on-one, <u>I charged $500 per hour…</u> and that’s a bargain. </p>
+<div class="text-center">
+<img src="/salespages/big-arms-program/v1/img/bigArms-12.png" alt="" class="product-img center-img">
+</div>
+<p><i>Knowing that most people can’t fork over thousand upon thousands of dollars to pump up their arms,</i> <b>I decided to pour my expertise into this program.</b></p>
+<p>Because I don’t want <u>price</u> to be the factor that holds you back from <b>finally</b> sporting a pair of head-turning guns, I decided to make the <b class="blue">Arm Builder Program</b> <b><i>super-affordable</i></b>. </p>
+<div class="single-box box-4">
+<h3 class="text-center white">Since the <span class="blue">Arm Builder Program</span> Includes:</h3>
+<ul class="styled-list">
+<li>A full 6-week Upper-Arm Mass Building Protocol </li>
+<li>6-weeks of <u>follow-along</u> workouts</li>
+<li>The <u>exact</u> sets, reps, and rest periods you must do for rapid growth</li>
+<li>Explainer (How-To) videos you can bring with you to the gym, so it’ll be like having me next to you every step of the way</li>
+<li><b>Instructional Videos</b> - classroom style videos teaching you the how/what/why of finally adding inches to your gun</li>
+<li>Week by week breakdowns of all your workouts</li>
+<li>The complete master-file of hacks, secrets, and the <u>must-follow sequence</u> guaranteed to force your body to generate new, powerful, thick muscle on your upper arms</li>
+</ul>
+</div>
+<p>Because the program is so jam-packed, <u>my advisors suggested we price it at <b>$47</b>.</u> </p>
+<h5>Great deal, right?</h5>
+<p><i>But, I want to give you an ever better offer.</i> </p>
+<p><b><u>If you act right now</u></b>, you can claim your copy of the <b class="blue">Arm Builder Program</b> for <span class="marker">only $19.99</span></p>
+<h4>And that’s not all…</h4>
+</div> 
+</div> 
+</div> 
+</section>
+<section class="common-header red-header">
+<div class="container">
+<h2 class="">Take action <u>now</u> and you can also claim a <u>HUGE bonus:</u></h2>
+</div>
+</section>
+<section>
+<div class="container">
+<img src="/salespages/big-arms-program/v1/img/HIM-2.png" alt="" class="right-img product-supplyment suppliment-only extra-margin" align="right">
+<h4 class="">The Vinsanity Shred Supplement Guide</h4>
+<p>Need to know <u>exactly</u> which <b>supplements</b> will help you pack on mass to your arms (and your entire body) <i>while staying lean and strong?</i></p>
+<p><b>This supplement guide will be your bible</b> for <u>avoiding</u> the worthless supplements and zeroing in on the select supplements that are <b>guaranteed</b> to help you get ripped, fast. </p>
+<div class="single-box single-box box-5 text-center">
+<h3 class="white">Now, you can claim both your <b class="red">Free Supplement Guide Bonus</b> and your <b class="blue">Big Arms Program</b> for <u>only 19.99</u></h3>
+<h5 class="white">But, there’s a catch: <span class="marker">you must act now.</span></h5>
+<p>Once you leave <b><i>this page</i></b>, the price returns to normal and the <b>Supplement Guide Bonus</b> disappears. </p>
+<p>Don’t wait - <u>click the button below</u> to finally get the big, powerful arms you’ve always dreamed of for <i>less than the cost of one lunch at a chain restaurant:</i></p>
+<a href="/order-form/big-arms-program/" class="site-btn product-add-to-cart" data-id="sku_AR6nxdIxgmi1aE" data-name="Big Arms Program" data-price="19.99" data-category="Programs" data-brand="V Shred">click here to purchase <span>normally $47.00, today only $19.99</span></a><br>
+<span>Secure Order From - 100% Protected &amp; safe</span><br>
+<img src="/salespages/big-arms-program/v1/img/card.png" alt="" class="card">
+</div>
+</div>
+</section>
+<section class="money-back">
+<div class="container">
+<div class="text-center">
+<img src="/salespages/big-arms-program/v1/img/back-2.png" alt="" class="push-btm">
+<h2 class="red">100% MONEY BACK GUARANTEE</h2>
+</div>
+<p>Your results are guaranteed or your money back! I personally guarantee the results of all my products and programs, and my custom services are no exception. If at the end of your custom diet plan you are not happy with your results we will refund you NO QUESTIONS ASKED. All you have to do is send us an email with your request.</p>
+</div>
+</section>
+<section class="section-10">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center">Aren’t you <u>ready</u> to have <span class="blue">a set of sleeve-busting guns?</span></h2>
+<p>Don’t you deserve to finally break through and <b>build arms you’ll be proud to show off at the beach, by the pool, and on the street?</b></p>
+<p>Forget blindly <b>following</b> random workouts you found in <u>some bodybuilding magazine.</u></p>
+<p><i>Forget being frustrated with your lack of results.</i></p>
+<p>It’s time for you to build the thick, powerful <b>bi’s, tri’s, and forearms</b> <i>you’ve always dreamed of.</i> </p>
+<p><b><i>Take action</i></b>, follow the <b class="blue">Arm Builder Program</b> that’s Guaranteed to help you pack on inches of lean, strong muscle onto your arms - <u>even if you’ve failed in the past.</u></p>
+
+<div class="boxed red-box text-center">
+<h4 class="">Between <b class="red">the Supplement Guide Bonus</b>, and <b class="blue">the Arm Builder Program</b>, you’re about to completely transform your body - and shock your friends and haters - in just <u>6-weeks for less than twenty-bucks</u></h4>
+<h3 class="red">Guaranteed:</h3>
+<a href="/order-form/big-arms-program/" class="site-btn product-add-to-cart" data-id="sku_AR6nxdIxgmi1aE" data-name="Big Arms Program" data-price="19.99" data-category="Programs" data-brand="V Shred">click here to purchase <span>normally $47.00, today only $19.99</span></a><br>
+<span>Secure Order From - 100% Protected &amp; safe</span><br>
+<img src="/salespages/big-arms-program/v1/img/card.png" alt="" class="card">
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+</main>
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+</body>
+</html>

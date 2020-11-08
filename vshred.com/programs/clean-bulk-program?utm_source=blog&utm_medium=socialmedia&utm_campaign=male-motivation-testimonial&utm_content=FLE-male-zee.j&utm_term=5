@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<title>Clean Bulk Program</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244351972">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link href="/stack/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/side-menu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/mobile-menus.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap4PaddingMargins.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-TxKWSXbsweFt0o2WqfkfJRRNVaPdzXJ/YLqgStggBVRREXkwU7OKz+xXtqOU4u8+" crossorigin="anonymous">
+<link href="//cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<link href="/salespages/store/clean-bulk-program/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=cff57bf8-e223-4b8c-8e19-033b7acff7f8"> </script>
+
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<a id="start"></a>
+<script src="/js/side-menu.js"></script>
+<nav class="fixed-nav hidden-sm hidden-md hidden-lg">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 text-center">
+<a onclick="openNav()" href="javascript:void(0)">
+<i class="material-icons">menu</i>
+</a>
+</div>
+<div class="col-xs-6 text-center">
+<img alt="V Shred" src="/img/logo.svg" height="26" style="margin-bottom: 5px">
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/login"><i class="material-icons">home</i></a>
+</div>
+</div>
+</div>
+</nav>
+<div id="mySidenav" class="sidenav">
+<div class="p-4">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<center><img alt="V Shred" src="/img/logo-vs-white.svg" style="width: 30px; margin-bottom: 3em;"></center>
+<a href="https://vshred.com/login">Login</a>
+<a href="https://vshred.com">Home</a>
+<a href="https://vshred.com/programs">Store</a>
+<a href="https://vshred.com/supplements-female">Female Supplement Guide</a>
+<a href="https://vshred.com/supplements-male">Male Supplement Guide</a>
+<a href="https://vshred.com/about">About</a>
+<a href="https://vshred.com/blog">Blog</a>
+<a href="https://vshred.com/jobs">Jobs</a>
+<hr class="dashed">
+<a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank"><i class="fa fa-question-circle" aria-hidden="true"></i> Support Center</a>
+</div>
+</div>
+<div class="nav-container hidden-xs">
+<div class="bar bar--sm visible-xs">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 col-sm-2">
+<a href="/">
+<img class="logo logo-dark" alt="logo" src="/img/logo.svg">
+<img class="logo logo-light" alt="logo" src="/img/logo-light.svg">
+</a>
+</div>
+<div class="col-xs-9 col-sm-10 text-right">
+<a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+<i class="icon icon--sm stack-interface stack-menu"></i>
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<nav id="menu1" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='100vh:pos-fixed'>
+<div class="container">
+<div class="row">
+<div class="col-md-1 col-sm-2 hidden-xs">
+<div class="bar__module">
+<a href="/">
+<img class="logo logo-dark" alt="logo" src="/img/logo.svg">
+<img class="logo logo-light" alt="logo" src="/img/logo-light.svg">
+</a>
+</div>
+
+</div>
+<div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+<div class="bar__module">
+<ul class="menu-horizontal text-left">
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="https://vshred.com/programs">Store</a>
+</li>
+<li class="dropdown">
+<span class="dropdown__trigger">Supplements</span>
+<div class="dropdown__container">
+<div class="container">
+<div class="row">
+<div class="dropdown__content col-md-2 col-sm-4">
+<ul class="menu-vertical">
+<li class="">
+<a href="https://vshred.com/supplements-female">
+Female Guide
+</a>
+</li>
+<li class="">
+<a href="https://vshred.com/supplements-male">
+Male Guide
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="https://vshred.com/about">About</a>
+</li>
+<li>
+<a href="https://vshred.com/blog">Blog</a>
+</li>
+<li>
+<a href="https://vshred.com/jobs">Jobs</a>
+</li>
+</ul>
+</div>
+
+<div class="bar__module">
+<a class="btn btn--sm type--uppercase" href="https://vshred.com/login">
+<span class="btn__text">
+Login
+</span>
+</a>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</nav>
+
+</div>
+<div class="main-container">
+<a id="start"></a>
+<main class="clean-bulk-male-2018-05">
+<section class="banner">
+<div class="container">
+<h4 class="text-center site-t-tle-h2 light"><span class="red"><b>Attention:</b></span> Guys who need to get jacked without gaining fat but are…</h4>
+<h1 class="text-center">Trapped in Hard-Gainer Hell</h1>
+<div class="banner-texts">
+<h4>Introducing the <span class="blue"><u>90-Day Program</u></span> <span class="red">GUARANTEED</span> to Help You Easily Pack on <u>17+Lbs of Lean Muscle without Gaining Fat</u></h4>
+<p>You’ve been slaving away in the gym. </p>
+<p>You Deadlift till your shins run crimson…</p>
+<p>You broke your back Squatting with Bands &amp; Chains because you saw some huge dude doin it…</p>
+<p>You blew-out your shoulder wide-grip Benching to the Neck because you read that’s how they do it at this Underground Hardcore Gym in Russia…</p>
+<p>You choked down buckets of Greek yogurt mixed with Hydrolyzed Whey Protein and Liquid Ketones <i>(tasted like urine-infused gasoline, but hey, that’s what FLEX Mag said is the ONLY way to get big, fast)</i></p>
+<p>You jog on your off days to keep the fat gain down while bulking, <u>but you end up burning your miniscule gains…</u></p>
+<p>You eat like a madman, inhaling McDonalds and candy to beef-up your weekly calories on Saturdays because a trainer at the gym told you that your cheat day is when you can really pack on some serious extra mass…</p>
+</div>
+</div>
+</section>
+<section class="section section-1">
+<div class="container">
+<img src="/salespages/store/clean-bulk-program/img/image-2.jpeg" alt="" align="right" class="right-side-image">
+<p><b>You’re Trapped in Hard-Gainer Hell -</b> You Can’t Gain (or Keep) an Ounce of Muscle If Your Life Depended on It.</p>
+<p>Yeah, there was that one time you managed to gain 22lbs. </p>
+<p>Only problem - you spent $300 on new pants (3 sizes bigger) because 19 of those 22-lbs went <b>straight to your gut. </b></p>
+<p>Then you did what all hard-gainers do - you panicked, dieted off the fat-gain, lost the miniscule gains you made, and ended up back at square one:</p>
+<ul class="styled-list">
+<li>Weak</li>
+<li>Skinny</li>
+<li>Depressed and unable to out-deadlift the Captain of the High School Girls Soccer Team</li>
+</ul>
+</div>
+</section>
+<section class="section section-title section-title-2">
+<h2>Is Gaining Muscle Without Getting Fat <span class="red">Impossible?</span></h2>
+</section>
+<section class="section section-2">
+<div class="container">
+<img src="/salespages/store/clean-bulk-program/img/img-1.jpg" alt="" align="left" class="left-side-image">
+<p>If you’ve been lifting your ass off and eating like a beast for a while, and are still struggling to gain any muscle, it will be hard to believe that <b>it’s actually possible for a guy like you to pack on lean mass without getting a huge gut &amp; a matching set of love handles.</b> </p>
+<p>You’ve probably witnessed the dudes who’d had enough of being a hard-gainer and went the “Powerlifter” route.</p>
+<p>They kept lifting but their diet went from hardcore natural bodybuilder to cake-guzzling, pizza-devouring, buffet-destroying (quasi) Powerlifter. </p>
+<p>After a few months of that madness, they’re stronger <i>(though a real Powerlifter would laugh them off the platform)</i> and they’re bigger <i>(but they look like they’re starring in the Michelin Man movie)</i>.</p>
+</div>
+</section>
+<section class="section section-title">
+<h2>No Matter How Much Food I Eat, <span class="red">I Can’t Gain Weight</span></h2>
+</section>
+<section class="section section-3">
+<div class="container">
+<p>You’re dying to add slaps of muscle and finally turn heads when you step foot on the beach, but the idea of turning into a bloated, obese, wanna-be strongman turns your stomach. </p>
+<p><b class="blue">Good News:</b> you don’t have to gain fat to pack on muscle. </p>
+<p><b class="blue">More Good News:</b> You don’t have to guzzle down McDonalds just to gain a pound.</p>
+<p><u>And, you don’t have to spend 2-hours a day in the gym. </u></p>
+<p>In fact, there is a little-known fool-proof method to rapidly get bigger, stronger, and stack slabs of lean muscle-mass (naturally) without getting fat or destroying your health.</p>
+<p><b class="blue">The Best News:</b> You can gain lean, vascular muscle, and keep it on for good if you follow these <span class="marker">Three Simple Hardgainer Hacks</span> I’m about to lay out for you… Finally, getting jacked is <b>much easier</b> than you think. </p>
+<p>Fellow hard-gainer, I’m Vince Sant, Certified Trainer, Internationally Renowned Fitness Model, and author of 6 of the best selling training programs on the internet, and I’ve been where you are right now. </p>
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-xs-offset-0 col-sm-offset-2 text-center">
+<img src="/salespages/store/clean-bulk-program/img/img-2.jpg" alt="" class="shadow m-30">
+</div>
+</div>
+<p>Staring in the mirror after a tough workout, wondering why the hell I’m not gaining muscle…</p>
+<p>Staggering out of the gym on yet another heavy Squat day, dejected and confused, angry that my legs hadn’t grown a fraction of an inch despite TONS of leg work and big eating. </p>
+<p>Hell, I was <u>so skinny</u> <i>(and hopelessly devoid of any HOPE of gaining even an ounce of muscle)</i> that I had to quit the football team because my coaches actually feared for my safety. </p>
+<p>After having zero success with sports as a kid, I fell in love with football. But, after only a month on the team, the coaches told me I had to get off the field until I put some size one… or I’d “Seriously get killed out there.”</p>
+<p>Quitting football about killed me. </p>
+<p>It was one of the toughest decisions of my life, and knowing that getting back on the team was just a few lbs of muscle away was maddening. </p>
+<h4 class="red">Why?</h4>
+<p>No matter how much I lifted, no matter how big I ate, I couldn’t gain size. Any the scaled inched up, so did my waist line. </p>
+</div>
+</section>
+
+<section class="section section-4">
+<div class="container">
+<h3 class="text-center">Depression Fueled an Anger Which Led Me to Discover <u>the Secrets of Packing on Lean Muscle Mass Quickly</u>,<span class="red"> Without Gaining Fat</span></h3>
+<ul class="styled-list">
+<li>Stop struggling to gain even a fraction of an inch on your arms </li>
+<li>Can’t take another friend asking <i>“if you workout all the time, how come you’re not gettin any bigger?”</i></li>
+<li>Sick to your stomach at the thought of spending another summer with your shirt on, hiding your bony chest, shoulders, and arms</li>
+ <li>Want desperately to finally pack-on lean muscle, but are scared to death of watching your waistline explode every time you bulk?</li>
+</ul>
+<div class="boxed">
+<p>I’m here to tell you, there IS hope. </p>
+<p>In fact, i’ve personally witnessed this program, and these <span class="marker">three simple fixes,</span> help skinny guys <span class="marker">pack on 5X’s more muscle</span> than ever before</p>
+<p><u>First, forget all of your past failures.</u> </p>
+<p>Most bulking programs you see in bodybuilding magazines, or on some random website, are laughably bad. They load the workouts with crazy exercises and outrageous sets and reps, then force feed you low-quality, high-calorie foods. </p>
+<p>Then, they tell you you need to choke down ultra high calorie “Weight Gainers” until your bloated, gassy, and the very thought of eating makes you wanna puke. </p>
+<p><b><i>Guess where that combo leads you? </i></b></p>
+<p>Yup, right to the land of the Skinny-Fat </p>
+</div>
+</div>
+</section>
+<section class="section section-5">
+<div class="container">
+<h2 class="text-center">Gaining Muscle <span class="blue">without Getting Fat</span> is NOT a Hopeless, Distant Dream… </h2>
+<p class="text-center">If you follow these <u>Three Hardgainer Hacks</u>, and implement them in the revolutionary <b>90-Day CLEAN BULK</b> Program, you’re Guaranteed to gain weight. </p>
+<p class="text-center">Simple Hardgainer Hacks for Rapid Lean Muscle Gain:</p>
+<div class="gain-items gain-item-1">
+<h3 class="gain-title"><span>01</span>Stop Stuffing Yourself</h3>
+<p>I know, every bulking program tells you to “eat HUGE to get huge.” So, you load up your plate at every meal, stuffing in max calories a few times a day. </p>
+<p>However, the truth is you’re constantly bloated and end up not eating enough! That’s right, <span class="marker">enormous meals don’t pack muscle on skinny dudes - those big meals actually make you fat and force your body to LOSE muscle.</span> </p>
+<h4 class="white text-center">Crazy right?</h4>
+<p>Your body needs protein around the clock to grow. This is why meal timing and macronutrient density is key to providing your skinny body with the anabolic environment it needs to grow muscle. </p>
+<p>Stuffing yourself leads you to eat less overall, plus concentrates all of your calories and protein into a few feedings. This leaves your body devoid of muscle-building protein. </p>
+<p>Since you’re working out hard, your body will search for that protein to repair the damage from your training. </p>
+<h4 class="text-center light blue">Since there no protein in your system, it will turn to the only source available - <b>your own muscle tissue.</b> </h4>
+<p>That’s right, sounds like a horror movie, but it’s science: your body will eat it’s own muscle tissue. This is called catabolism, and you need to avoid this at all costs.</p>
+<p>Feeding your body well-timed, precisely calculated meals throws the switch, turning your body from catabolic to anabolic.</p>
+<h4 class="text-center blue">Just this hack alone will pack muscle onto your frame, Guaranteed.</h4>
+<p>The trick is knowing when, what, and how much to eat for maximum muscle and strength gains...</p>
+</div>
+<div class="gain-items gain-item-2">
+<h3 class="blue gain-title"><span>02</span>Fast and Ferocious</h3>
+<p>get in and out of the gym in less than an hour for maximum muscle growth. Yes, most bulking programs have about 50-exercises and a thousand reps per workout. This is exactly why they fail.</p>
+<h4 class="text-center blue">Your body’s testosterone and Growth Hormone Levels peak between 45 and 60-minutes into your workout. </h4>
+<p>After this, you’ve passed the point of diminishing returns, and any exercise will actually hurt your gains.</p>
+<p>Skinny dudes need to maximize testosterone and growth hormone production - these two hormones are KEY to gaining muscle. </p>
+<p>When you train fast &amp; ferocious, you enter Beast Mode while your GH and TEST are peaking and get out before they plummet: <i>more muscle, less fat, rapid recover, faster muscular-weight gain.</i></p>
+</div>
+<div class="gain-items gain-item-3">
+<h3 class="blue gain-title"><span>03</span>Avoid Worthless Supplements</h3>
+<p>Most supplements suck for building mass</p>
+<p>The vast majority of “Weight Gainers” are nothing more than overpriced sugar with bottom-of-the-barrel protein mixed in.</p>
+<p>Most of the other supplements targeted at hardgainers aren’t much better.</p>
+<p><b>Rather than blow money on worthless supplements, I’m going to let you in on the secret guide that professional bodybuilders use to find the few supplements that actually work.</b></p>
+<p><u>Normally this guide goes for $149.00, but I’ll send it to you Absolutely Free.</u></p>
+</div>
+</div>
+</section>
+
+<section class="section section-6">
+<div class="container">
+<h2 class="text-center"><span class="blue">Bonus Hack:</span> Slow Down to Speed Up Muscle Growth </h2>
+<p>Here’s a quick bonus hack for you, because I’m betting that most of the bulking programs you’ve seen want you to constantly max out with heavy weight for low reps.</p>
+<p>This hasn’t worked for you.</p>
+<h3 class="red"><u>Why?</u></h3>
+<p>Big power athletes like Powerlifters, Strongman Competitors, Football Players, can gain muscle and power with this method because they’re typically LOADED with fast-twitch muscle fibers. The low rep, heavy weight is perfect for their bodies. </p>
+<p>Unfortunately, you and I, the perpetual hard-gainer-skinny-dude, are not blessed with this abundance of fast twitch fibers. </p>
+<p>For us to pack on mass, we have to rob a trick that top bodybuilders have been using for decades: <b>Time Under Tension</b> (TUT)</p>
+<p><u>TUT is key to muscle growth for skinny guys. Simply, you lift and lower your weights at a specific tempo to stimulate the maximum number of muscle fibers with every rep. </u></p>
+<p>You literally slow done your lift to speed up muscle growth. </p>
+<p>When you learn and apply the intricate secrets of TUT, you’re bodyweight and muscle mass will undergo explosive growth. </p>
+</div>
+</section>
+
+<section class="section section-7">
+<div class="container">
+<h3 class="text-center">Guess What Happens When You Apply These Hardgainer Hacks to a Proven Diet and Training Program Designed <span class="blue">SPECIFICALLY for Skinny Guys Like You</span> <br><span class="light">(guaranteed lean muscle gain in just 90-days)</span></h3>
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<img src="/salespages/store/clean-bulk-program/img/img-3.jpg" alt="" class="shadow m-30">
+</div>
+<div class="col-xs-12 col-sm-6">
+<img src="/salespages/store/clean-bulk-program/img/img-5.jpg" alt="" class="shadow m-30">
+</div>
+</div>
+<h4 class="red text-center">You’re About to Gain Exclusive Access to the Secrets That Lead to 37% MORE Muscle Growth for 6-hours Post Training, PLUS Gain 51% More Muscle for 24-Hours After Every. Single. Workout.</h4>
+<div class="boxed">
+<h4 class="light blue">Introducing the 90-Day CLEAN BULK Program, 100% Designed for Guys Who Want to Quickly</h4>
+<ul class="styled-list">
+<li>Build sleeve-busting guns</li>
+<li>Pack on powerful, lean, vascular muscle mass in the chest, arms, thighs, calves, and back</li>
+<li>Posses bone-crushing strength</li>
+<li>Finally gain quality, functional, muscular body weight (and keep it on for good)</li>
+<li>Boost muscular bodyweight by 17, 19, even 21+lbs while getting shredded</li>
+</ul>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<img src="/salespages/store/clean-bulk-program/img/img-4.jpg" alt="" class="shadow m-30">
+</div>
+<div class="col-xs-12 col-sm-6">
+<img src="/salespages/store/clean-bulk-program/img/img-6.jpg" alt="" class="shadow m-30">
+</div>
+</div>
+<p>The guys in those pictures were once just like you. They were fed up with being skinny and decided to do something about it.</p>
+<p><u>90-short days later they’re bigger, stronger, and straight-up ripped. </u></p>
+<h3 class="red">What changed?</h3>
+<p>They <b>stopped guessing</b> what to do. They stopped blindly following diets and workouts the found for Free online or tor out of the latest issue of Muscle &amp; Fiction</p>
+</div>
+</section>
+<section class="section section-title">
+<div class="container">
+<h2>How YOU Will Go from Hard-Gainer (or Skinny-Fat) to Sporting Mounds of Muscle <span class="blue">in 90-Days</span> </h2>
+</div>
+</section>
+<section class="section section-8">
+<div class="container">
+<p>You CAN achieve amazing results by doing what thousands of other formerly-skinny men did:</p>
+<p>Follow the step-by-step, Revolutionary 90-Day CLEAN BULK Diet and Training System to <span class="marker">rapidly gain 11, 15, 17, even 21+lbs of lean mass, guaranteed.</span> </p>
+<p><b>90-Day CLEAN BULK</b> makes it possible for even the hardest of hard gainers to pack on lean mass while torching fat, giving you the ripped, lean, powerful look you’ve always wanted.</p>
+<p><u>I developed this system because I literally had no choice. I needed to gain muscle. There was zero room for failure.</u></p>
+<p>After being misled by the bodybuilding mags, and blowing money on worthless supplements, getting fat on Kitchen-Sink bulking diets, and killing myself in the gym with impossible-to-follow workouts that were written for guys who gained muscle naturally (and easily), I’d had enough.</p>
+<p>I decided to cut through the B.S., and asked some older guys who’d escaped Hard-Gainer Hell. They set me on the right path, then over the next decade I refined this system, going from “too skinny” to play football to Internationally renowned fitness Model. </p>
+<p>Along the way, the 90-Day CLEAN BULK system helped thousands of other painfully skinny guys pack on lean muscle, fast. </p>
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-xs-offset-0 col-sm-offset-2 text-center">
+<img src="/salespages/store/clean-bulk-program/img/img-7.jpg" alt="" class="shadow m-30">
+</div>
+</div>
+<h3 class="text-center light">Are You Ready to Finally Cut Through the B.S., and Gain Exclusive Access to the Complete Muscle Building Solution to Giving You a Body That Matches the Top Fitness Models in the World?</h3>
+<p>If so, this program is about to become your new muscle-building bible. You’ll discover the elite-level diet and training methods used by the pros, and ONLY found in the <b>90-Day CLEAN BULK</b> system:</p>
+<ul class="styled-list number">
+<li><span>01</span><b>The Monster Mass Magic Mix -</b> How to masterfully manipulate heavy, medium, and high-rep days mixed with TUT and Ideal Frequency to finally bust down your genetic barriers</li>
+<li><span>02</span><b>Rapid Muscle Gain Macronutrient-Matrix -</b> The EXACT blend of carbs, protein, fats, and calories you must consume to quickly gain lean muscle mass (and keep it on forever). If your macronutrient ratios are off, gaining muscular weight will be impossible</li>
+<li><span>03</span><b>Cultivating the “Muscle-Mind” -</b> 3-simple Mindset Changes that burst open the muscle-building floodgates… <u>this step is an absolute must.</u> In fact, it’s so important that we devoted an entire book to helping you unlock the mental barriers keeping you from having the body of your dreams.</li>
+</ul>
+</div>
+</section>
+<section class="section section-title">
+<div class="container">
+<h2>Don’t You Deserve to Be Proud of <span class="red">How You Look in the Mirror?</span></h2>
+</div>
+</section>
+<section class="section section-9">
+<div class="container">
+<img src="/salespages/store/clean-bulk-program/img/img-9.jpg" alt="" align="right" class="right-side-image">
+<p>Don’t let all your hard work go to waste - CLEAN BULK Program, and you’ll finally pack on lean, powerful muscle in just <span class="marker">90-Days - GUARANTEED</span></p>
+<p>This is not some random, internet, fly-by-night program. This system took thousands of hours to perfect. This is the exact step-by-step approach that transformed me, and tons of guys just like you from thin, skinny-fat, or hardgainer to Beasts. </p>
+<h3 class="bonus-main-title">You’re going to get:</h3>
+<div class="bonuses">
+<div class="bonus-item bonus-item-left">
+<div class="text">
+<h3><b class="blue">The Insider’s Supplement Guide</b> <br><span class="light">($149.00 Value)</span></h3>
+<p>ditch the marketing hype and lean the truth about which (few) supplements actually help you build lean, powerful muscle</p>
+</div>
+<img src="/salespages/store/clean-bulk-program/img/bu-1.png" alt="">
+</div> 
+<div class="bonus-item bonus-item-right">
+<img src="/salespages/store/clean-bulk-program/img/bu-2.png" alt="">
+<div class="text">
+<h3><span class="blue">6-Pack Ab Workout Plan</span><br><span class="light">($49.99 Value)</span></h3>
+<p>don’t just add mass, get shredded, too! This guide is perfect for etching a cut, blocky, 6-pack</p>
+</div>
+</div>
+<div class="bonus-item bonus-item-left">
+<div class="text">
+<h3><b class="blue">Diet Guide, Part 1</b> <br><span class="light">($49.99 Value)</span></h3>
+<p>the precise formula for hardgainers like you to rapidly gain lean, muscular weight.</p>
+</div>
+<img src="/salespages/store/clean-bulk-program/img/bu-3.png" alt="">
+</div> 
+<div class="bonus-item bonus-item-right">
+<img src="/salespages/store/clean-bulk-program/img/bu-4.png" alt="">
+<div class="text">
+<h3><span class="blue">Diet Guide, Part 2</span><br><span class="light">($99.00 Value)</span></h3>
+<p>how to customize your diet formula to perfectly fit your body, your goals, and your lifestyle to produce lightning-like results</p>
+</div>
+</div>
+<div class="bonus-item bonus-item-left">
+<div class="text">
+<h3><b class="blue">Training Your Mind</b> <br><span class="light">($49.99 Value)</span></h3>
+<p>the proven secrets to developing the must-have “Muscle Mind,” and unleashing your body’s full potential. Without the right mindset, getting your dream body will be impossible.</p>
+</div>
+<img src="/salespages/store/clean-bulk-program/img/bu-5.png" alt="">
+</div> 
+<div class="bonus-item bonus-item-right">
+<img src="/salespages/store/clean-bulk-program/img/bu-6.png" alt="">
+<div class="text">
+<h3><span class="blue">The Clean Bulk Program</span><br><span class="light">($99.00 Value)</span></h3>
+<p>putting together your complete, step-by-step guide to packing 21+lbs of lean, vascular, powerful muscle in just 90-days</p>
+</div>
+</div>
+</div>
+<p>Now, for this complete system, for the 6+ volumes of hardgainer hacks, for the ability to finally add weight to your skinny frame (and keep it on for good), you might expect to pay the normal price of $500.00</p>
+<p><u>Don’t worry, you’re not going to pay $500, or even $250.</u></p>
+<h3 class="red">Why?</h3>
+<p>Because I wish someone had done all this for me back when I was painfully skinny and desperately needed to gain mass (plus, back then I was a broke high school kid, so I know how tight money can be sometimes)</p>
+<p>That’s why we’re offering the <b>90-Day CLEAN BULK</b> System for <u>only $87</u></p>
+<p>However… because you’re here today looking for help… and I know if you’ve read this far that you’re 100% serious about finally gaining enough lean muscle mass to start busting through your shirts like the Hulk, I’m going to give you <u>a one-time-only offer:</u></p>
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-xs-offset-0 col-sm-offset-2 text-center">
+<img src="/salespages/store/clean-bulk-program/img/img-8.jpg" alt="" class="shadow m-30">
+</div>
+</div>
+<h3 class="text-center line-height">If you act right now, <span class="marker">you can get the entire system for only $87</span></h3>
+<p>But, you gotta take action right now. <b>Once you leave this page, the price returns to normal</b> (and it will increase soon, because we can’t afford to damn-near give this proven training system away for much longer)</p>
+<p><u>Oh, and remember that you WILL gain 15, 17, even 21+lbs in only 90-days, Guaranteed.</u></p>
+<p>That’s right, the 90-Day Clean BULK System comes with a <b>100% Money-Back Guarantee for a full 30-days.</b> If you’re not blown away by how much weight you pack on, simply email us and we’ll refund your purchase in full. </p>
+<p>I’ve been where you are now. I know the pain of hiding under bulky hoodies, layering y shirts, and avoiding the beach. Please, don’t miss out on this amazing opportunity to have the body you’ve always dreamed of:</p>
+</div>
+<section class="back">
+<div class="container">
+<div class="back-wrap">
+<img src="/salespages/store/clean-bulk-program/img/back-logo.png" alt="">
+<div class="back-text">
+<h3>My 30-Day</h3>
+<h2 class="red">MONEY BACK GUARANTEE</h2>
+<p>I personally guarantee the results from all of my fitness programs. If you try this program for 30 days and you are not happy with the results, we will refund you. All you have to do is send us an email with your request.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="reserve">
+<div class="container">
+<div class="container wow fadeIn">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="text-center"><span class="">exclusive members only</span> <br><span class="light">portal with all of this included</span></h2>
+<img src="/salespages/store/clean-bulk-program/img/ft-l.jpg" alt="" class="hidden-xs">
+<p class="text-center visible-xs">
+<img src="/salespages/store/clean-bulk-program/img/ft-l-2.jpg" alt="">
+</p>
+<p class="img-separator">*all products are digital and will be available immediately upon purchase</p>
+<div class="row">
+<div class="col-xs-6 col-sm-3">
+<img src="/salespages/store/clean-bulk-program/img/ft-1.png" alt="" class="ft-smll">
+</div>
+<div class="col-xs-6 col-sm-3">
+<img src="/salespages/store/clean-bulk-program/img/bu-1.png" alt="" class="ft-smll">
+</div>
+<div class="col-xs-6 col-sm-3">
+<img src="/salespages/store/clean-bulk-program/img/clean-bulkkk.jpg" alt="" class="ft-smll">
+</div>
+<div class="col-xs-6 col-sm-3">
+<img src="/salespages/store/clean-bulk-program/img/bu-6.png" alt="" class="ft-smll">
+</div>
+</div>
+<p class="delete red"><del>Normally $230.00</del></p>
+<a href="/order-form/clean-bulk-program-bundle-cdp-bump" class="site-btn product-add-to-cart" data-id="clean-bulk-program" data-name="Clean Bulk Program" data-price="87" data-category="Programs" data-brand="V Shred"><svg class="svg-inline--fa fa-shopping-cart fa-w-18" aria-hidden="true" data-prefix="fa" data-icon="shopping-cart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg> &nbsp; Everything for just $87.00</a>
+<span class="card-btm">Secure Order Form - 100% Protected &amp; Safe</span>
+<img src="/salespages/store/clean-bulk-program/img/card.png" alt="" class="v-card">
+<img src="/salespages/store/clean-bulk-program/img/prv.png" alt="" class="prv">
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</main>
+<footer class="bottom-nav hidden">
+<div class="container" style="padding-top: 4px;">
+<div class="row">
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com" class="nav--button">
+<i class="fa fa-home" aria-hidden="true"></i>
+<div>Home</div>
+</a>
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/programs" class="nav--button">
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+<div>Store</div>
+</a>
+</div>
+<div class="col-xs-3 text-center">
+<div class="modal-instance">
+<a class="modal-trigger nav--button" href="#">
+<img src="/img/protein-bottle.svg" height="24" class="m-0 p-0">
+<div>Supplements</div>
+</a>
+<div class="modal-container">
+<div class="modal-content">
+<div class="row">
+<div class="col-xs-12 text-center">
+<h2 class="pt-5" style="color: #fff">Who is looking for supplements?</h2>
+</div>
+<div class="col-xs-6">
+<a href="https://vshred.com/supplements-female"><img src="/img/WOMAN.png"></a>
+</div>
+<div class="col-xs-6">
+<a href="https://vshred.com/supplements-male"><img src="/img/MAN.png"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/member" class="nav--button">
+<i class="fa fa-user-circle" aria-hidden="true"></i>
+<div class="nav--small">My Stuff</div>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<footer class="text-center-xs space--xs ">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-right text-center-xs">
+<ul class="social-list list-inline list--hover">
+<li>
+<a href="https://www.youtube.com/vshred" target="_blank">
+<i class="socicon socicon-youtube icon icon--xs"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/thevinsanityshred/" target="_blank">
+<i class="socicon socicon-facebook icon icon--xs"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/vshred/" target="_blank">
+<i class="socicon socicon-instagram icon icon--xs"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-8">
+<span class="type--fine-print">&copy; <span class="update-year"></span> V Shred LLC</span>
+<a class="type--fine-print" href="https://vshred.com/privacy-policy">Privacy Policy</a>
+<a class="type--fine-print" href="https://vshred.com/terms-and-conditions">Terms and Conditions</a>
+<a class="type--fine-print" href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Contact Us</a>
+</div>
+</div>
+
+</div>
+
+</footer>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script>window.toastr || document.write('<script src="/js/toastr-2.1.3.min.js">\x3C/script>')</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+<script src="/stack/js/flickity.min.js"></script>
+<script src="/stack/js/parallax.js"></script>
+<script src="/stack/js/typed.min.js"></script>
+<script src="/stack/js/datepicker.js"></script>
+<script src="/stack/js/isotope.min.js"></script>
+<script src="/stack/js/ytplayer.min.js"></script>
+<script src="/stack/js/jquery.steps.min.js"></script>
+<script src="/stack/js/smooth-scroll.min.js"></script>
+<script src="/stack/js/scripts.js"></script>
+<script type="application/javascript">
+    toastr.options = {
+        closeButton: true,
+        debug: false,
+        newestOnTop: true,
+        progressBar: true,
+        positionClass: 'toast-top-center',
+        preventDuplicates: true,
+        tapToDismiss: false,
+        onclick: null,
+        showDuration: 300,
+        hideDuration: 1000,
+        timeOut: 5000,
+        extendedTimeOut: 5000,
+        showEasing: 'swing',
+        hideEasing: 'linear',
+        showMethod: 'slideDown',
+        hideMethod: 'fadeOut'
+    };
+</script>
+
+<script type="text/javascript">
+    var _dcq = _dcq || [];
+    var _dcs = _dcs || {};
+    _dcs.account = '2545448';
+    
+    (function () {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript';
+        dc.async = true;
+        dc.src = '//tag.getdrip.com/2545448.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+    })();
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+<script src="/salespages/store/clean-bulk-program/script.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['ProfitWellObject'] = r;
+        i[r] = i[r] || function () {
+
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+
+    })(window, document, 'script', 'https://dna8twue3dlxq.cloudfront.net/js/profitwell.js', 'profitwell');
+
+    profitwell('auth_token', '93139d469ef29410859da67b1b1d448a');
+
+    </script>
+
+</body>
+</html>

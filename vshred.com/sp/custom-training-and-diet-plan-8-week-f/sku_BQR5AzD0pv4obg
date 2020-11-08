@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"2f510510be",applicationID:"31925988"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244348809">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/salespages/custom-training-and-diet-plan-8-week-f/css/normalize.css">
+<link rel="stylesheet" href="/salespages/custom-training-and-diet-plan-8-week-f/css/bootstrap.css">
+<link rel="stylesheet" href="/salespages/custom-training-and-diet-plan-8-week-f/css/style.css">
+<link rel="stylesheet" href="/salespages/custom-training-and-diet-plan-8-week-f/css/responsive.css">
+<script src="/salespages/custom-training-and-diet-plan-8-week-f/js/modernizr-2.6.2.min.js"></script>
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="faster-3x">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+ <li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<section class="banner">
+<div class="container">
+<div class="banner-content sm-pt">
+
+<div class="banner-left">
+<p>This is how you get the body you’ve <br>always</p>
+<h1>wanted <span class="red">3x</span> faster!?</h1>
+</div>
+
+
+<div class="banner-left">
+<p class="p-2"><span class="red">Why not let us do everything for you?</span> <br>We’ll build your diet and workout specific to YOU…. as well as coach and support you all the way to your goal!!!</p>
+</div>
+
+</div> 
+</div> 
+</section>
+
+
+<section class="banner-btm">
+<div class="container">
+<div class="banner-btm-content">
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/img-1.png" alt="">
+<div class="banner-btm-text">
+<h5>Let’s hit the <span class="red">FAST FORWARD</span> button on your results...</h5>
+<p>Nothing gets faster results than a plan customized for YOU…. and a coach to support you along the way!</p>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="congrats">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h2 class="red text-center">The 2 Degree Rule…</h2>
+<p>I’ve discovered that most ladies just need a little guidance to get them moving in the right direction…</p>
+<p>Most women are doing A LOT of things right…</p>
+<p>They’re SO CLOSE to the body they’ve been working for…</p>
+<p>Yet they miss the mark because they’re fractionally off course…</p>
+<p>And that’s the difference between fast results and frustrating results…</p>
+<p>Let me give you an example…</p>
+<p>Imagine you’re on a cruise from New York City to Spain…</p>
+<p>What would happen if your course was just 2 degrees off to the north? It doesn’t sound like much…</p>
+<p>Yet you would completely miss your target…</p>
+<p>Instead of Spain, you’d probably end up in England…</p>
+<p>Instead of the beautiful beaches and warm sunshine of Spain, you’d end up in cold, rainy England…</p>
+<p>You’d have missed your mark and been frustrated with the results… </p>
+<p>All because your course was just fractionally off. <br>
+What really sucks is that I see this with my coaching clients all the time. </p>
+<p>Either their diet or the training program is just 2 degrees off…</p>
+<p>And it makes all the difference in the world.</p>
+<p>That’s where a coach comes in…</p>
+<p>It often only takes a tiny tweak to get you back on track to impressive gains – something only an expert coach would recognize. </p>
+<p>Coaches also help you break through plateaus so you don’t waste weeks, months, or years frustrated by your lack of progress.</p>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="find-it">
+<div class="container">
+<h2 class="red text-center">Are you ready for results like this?</h2>
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/collage-1.jpg" alt="" class="larg-img">
+</div> 
+</section>
+
+
+<section class="but">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-8">
+<p class="p-big">“If you think you need some extra help or you just want to achieve the body you want FAST, keep reading...I won’t disappoint you.</p>
+<p></p>
+<p>Do you need rapid fat loss and sexy muscle tone but find the whole process overwhelming to do on your own?</p>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="proven">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-6">
+<p>The Proven Shortcut To Success...</p>
+<h2 class="red">Customized 8 Week Diet and Training Plan </h2>
+<p>With Your Very Own <br>Dedicated Online Coach</p>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="find-it">
+<div class="container">
+<h2 class="red text-center">Find it IMPOSSIBLE to stick to a diet long term?</h2>
+<p>Get a professional to customize the perfect diet based on foods YOU love! No more feeling starved and driven by cravings. </p>
+<p>If your diet is too restrictive, full of foods you hate, or you feel hungry and weak all the time, or the meals are complex to prepare…. you won’t stick to it. </p>
+<p>Also, your macros (how much fat, carbs, and proteins you need) are different for each person's body and goals. But they need to be exact or you won’t see results. BUT...if your macros are dead on...you will see insanely fast results! Fat melts off fast and your muscles look sexy and tone. </p>
+<p>When you let us customize it for you we take all the guesswork out and a professional uses precise formulas to construct the perfect diet plan for you. </p>
+<ul class="list-1 list-2">
+<li>We do it based on the foods you tell us you like, we give you a shopping list, and even provide simple to follow recipes! </li>
+<li>We tell you exactly what to eat, how much to eat, and when to eat it!</li>
+<li>You’ll never have to guess or be confused again. Just follow the plan we build for you. So simple!</li>
+</ul>
+</div> 
+</section>
+
+
+<section class="need-coach">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-7">
+<h2 class="red">You NEED a Coach To Support Along The Way. (Being A Lone Ranger. You Need Support!)</h2>
+<p>Most girls quit because they get discouraged and don’t have anyone there for support and guidance. When you get a custom plan, not only does your coach build you the perfect plan, they are also there to be super supportive and keep you motivated! They will also answer any question and tweak your plan if you hit a plateau so you get maximum results fast. </p>
+<p>Women have told us this is one of the best parts of our plans because they get easily discouraged when working out alone and have a hard time noticing their progress. No more of that! With the right plan and the right support you can’t help but get awesome results fast! </p>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="l-area">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<div class="larea-text">
+<h5 class="red">Your plan is customized to you with a woman’s body, goals, and needs specifically in mind.</h5>
+<p> If you’ve ever failed in the past I’m willing to bet it was at least partly due to the fact you were accidently put on a workout designed for men. To get maximum results fast you need exercises designed specifically for a woman’s body. </p>
+<p>Each exercise we give you is hand picked based on your body type and goals. Women store fat in different places than men and don’t want bulky muscle like men. The exercises in your custom plan will be designed to burn fat and give you a toned but sexy feminine look, not pack on monster mass like a guy.</p>
+<p>We build the diet and workouts around you. If you don’t love what you are eating and think the workouts aren’t fun, you will quit! We don’t want that. We build it with that in mind.</p>
+<h5 class="red">Workouts can be done from your living room or the gym. (No more being intimidated by the gym)</h5>
+<p>We build you a workout plan based on where you feel most comfortable and your skill level. Some girls hate working out in front of people and flat out hate gyms. Other girls love the gym. No problem. We’ll customize your workouts for what you like the most! You need to enjoy working out, not dread it and feel anxious.</p>
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/collage-2.jpg" alt="" class="larg-img">
+<h5 class="red">Short fun max effective workouts ONLY. (30 Minutes MAX)</h5>
+<p>We know if you have to workout for hours at the gym you’ll burn out and quit. The truth is a woman’s body needs no more than 30 minute workout sessions max. We keep them fun, intense, but short so you can squeeze them into your busy day and they are fun so you look forward to them!</p>
+<h5 class="red">We Make It Easy To Succeed and Remove All The Stress and Guesswork</h5>
+<p>Do you always quit because it’s too hard to stick to your diet, your results in the mirror and on the scale are painfully slow, and the whole process is overwhelming? </p>
+<p>Well not anymore. We do everything for you and we make it easy to win and get the body you want fast.</p>
+<p>We tell you exactly what to eat and what workouts to do. All you have to do is tell us what you like to eat and what type of workouts you like and let us do the rest! </p>
+</div>
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="coach-help">
+<div class="coach-help-title">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-xs-offset-0 col-sm-0 col-sm-offset-0  col-md-8 col-md-offset-4">
+<h2>As your coach, I can help you achieve better results faster in many ways…</h2>
+ </div>
+</div>
+</div> 
+</div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-4 hidden-xs hidden-sm">
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/img-2.png" alt="">
+</div>
+<div class="col-xs-12 col-sm-12 col-md-8">
+<ul class="list-1 list-2">
+<li>I know the latest, cutting-edge training techniques and methods (including the secrets and shortcuts)…</li>
+<li>I will keep you focused, motivated, and on track…</li>
+<li>I will offer personalized advice, feedback, and suggestions…</li>
+<li>I am available to answer your specific questions and concerns…</li>
+<li>I will hold you accountable so you achieve the rapid results you deserve…</li>
+<li>I will help you breakthrough plateaus so you achieve your goals faster…</li>
+</ul>
+<p class="p-larg">There simply is not a faster, easier way to get the body you want than a custom plan built for YOU along with your very own coach to guide you and help you stay motivated!</p>
+</div>
+<div class="col-xs-12 col-sm-4 visible-xs text-center">
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/img-2.png" alt="">
+</div>
+</div>
+</div> 
+</section>
+
+
+<section class="pricing pricing-1">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/1.jpg" alt="" class="pricing-img">
+<h3 class="red text-center">YES Vince! I’m Serious! I Want Personal Coaching and Customized Diet and Training Plans to Accelerate My Results. Let’s Get Started Today!...</h3>
+<div class="pricing-text">
+<ul class="dbl">
+<li><span>Special Price:</span><span class="text-right">$149.00</span></li>
+</ul>
+<a href="/order-form/custom-training-and-diet-plan-8-week-f/" class="product-add-to-cart" data-id="sku_BQR5AzD0pv4obg" data-name="Custom Training and Diet Plan - 8 Weeks" data-price="149" data-category="Programs" data-brand="V Shred">Click here to purchase</a>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+
+
+<section class="read-area">
+<div class="container">
+<h2 class="text-center">Here’s the BOTTOM LINE:</h2>
+<p>If you have ever struggled with follow through or ever quit because you were frustrated with your results or flat out confused aboutwhat to do, these customized plans are what you’ve been looking for.</p>
+<p>We will handle everything for you and coach you along the way. You can’t fail if you do what we say! I GUARANTEE it.</p>
+</div>
+</section>
+
+
+<section class="money-back">
+<div class="container">
+<ul class="list-1 list-2">
+<li>Look, I’m not going to twist your arm. This is NOT for everyone.</li>
+<li>This is only for people who are dedicated and serious about achieving rapid results.</li>
+<li>I live for this stuff. I LOVE helping people.</li>
+<li>I’m as serious as you are about rapidly transforming your body.</li>
+<li>Yet only you know how serious you are about getting into the best shape of your life.</li>
+<li>The decision you make right now will reveal just how serious you are.</li>
+</ul>
+</div>
+</section>
+
+
+<section class="pricing pricing-2">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+<img src="/salespages/custom-training-and-diet-plan-8-week-f/img/2.jpg" alt="" class="pricing-img">
+<h2 class="red">Go ahead and click on the link below so we can get started today…</h2>
+<p>YES Vince! I’m Serious! I Want Personal Coaching and Customized Diet and Training Plans to Accelerate My Results. Let’s Get Started Today!...</p>
+<div class="pricing-text">
+<ul class="dbl">
+<li><span>Special Price: </span><span class="text-right">$149.00</span></li>
+</ul>
+<a href="/order-form/custom-training-and-diet-plan-8-week-f/" class="product-add-to-cart" data-id="sku_BQR5AzD0pv4obg" data-name="Custom Training and Diet Plan - 8 Weeks" data-price="149" data-category="Programs" data-brand="V Shred">Click here to purchase</a>
+</div>
+</div> 
+</div> 
+</div> 
+</section>
+
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2f510510be","applicationID":"31925988","transactionName":"M1VWMBNTWxIHURVcDQofdxESRloMSUERGgERQ0ALDB9BEwdbD1wMAx1VCgUfUQgDRkxFDgVeGVxMRVAEDR8HGhEPRWsmMGAAIBx2UUUUUF9WA0FBVA0DQUxFAwNVR0oSU1kEFR8RVAUB","queueTime":0,"applicationTime":88,"atts":"HxJVRltJSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

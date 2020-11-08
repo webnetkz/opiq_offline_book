@@ -1,0 +1,14 @@
+#hire-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#hire-results .job-item {
+  margin: 1em;
+}
+
+#hire-results h3 {
+  margin-bottom: .5em;
+  font-weight: 600;
+}

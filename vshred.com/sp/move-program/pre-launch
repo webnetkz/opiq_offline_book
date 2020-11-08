@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244352457">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+<link rel='stylesheet' id='dashicons-css' href='https://stats.sculptnation.com/wp-includes/css/dashicons.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css' href='https://stats.sculptnation.com/wp-includes/css/admin-bar.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='open-iconic-bootstrap-css' href='https://stats.sculptnation.com/wp-content/themes/wp-bootstrap-4-pro/assets/css/open-iconic-bootstrap.css?ver=v4.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-4-css' href='https://stats.sculptnation.com/wp-content/themes/wp-bootstrap-4-pro/assets/css/bootstrap.css?ver=v4.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-4-style-css' href='https://stats.sculptnation.com/wp-content/themes/wp-bootstrap-4-pro-child/style.css?ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-adminbar-css' href='https://stats.sculptnation.com/wp-content/plugins/wordpress-seo/css/dist/adminbar-1140.min.css?ver=11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='chld_thm_cfg_parent-css' href='https://stats.sculptnation.com/wp-content/themes/wp-bootstrap-4-pro/style.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' href="/salespages/move/move.css" />
+<link rel='stylesheet' href="/salespages/move/move-vsl.css" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+<li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="main" class="move-styled-pages move-vsl">
+<section id="videoBanner">
+<div class="videoBannerContainer">
+<div class="content">
+<div class="videoBanner__flex-wrap">
+<div class="videoBanner__flex-item">
+<img src="/salespages/move/img/MoveLogo-white.svg" class="move-logo videoBanner__logo" />
+</div>
+<div class="videoBanner__flex-item">
+<button class="watch-video btn-lg videoBanner__btn">Watch The Video</button>
+</div>
+<div class="videoBanner__flex-item">
+<h3 class="text-shadow-dk videoBanner__text">20-Minutes to Set Your Metabolism Ablaze for Up to 48-Full Hours… At Home... With Zero Equipment.</h3>
+</div>
+</div>
+</div>
+<div class="banner-overlay"></div>
+<video class="banner" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+<source src="/salespages/move/img/montage.mp4" type="video/mp4">
+</video>
+</div>
+<div id="banner-vsl">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa78c48817b7">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-sales-video id="tW4hIZ31" skeleton-selector="#jw-skeleton-5fa78c48817b7" :minutes="0" :seconds="30" dropdown-selector=".after-banner" :aspect-width="16" :aspect-height="9" :drop-immediate="false" :force-fullscreen="false" :controls="false"></jw-sales-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+</div>
+</section>
+<div class="">
+<section id="socialProof">
+<div class="row content">
+<div class="col-12 container">
+<h5 class="text-center pb-0 my-4 featured-hdr"><span class="py-0 px-2">As Seen In</span></h5>
+<div class="row" style="justify-content: center;">
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/nbc.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/chicago-tribune.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/elite-daily.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/insider.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/shape-2.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/muscle-and-fitness.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/livestrong.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/los-angeles-times.png"></div>
+<div class="col-md col-4 col-sm-2 text-center"><img class="img-fluid as-seen-logo" src="/img/pr-logos/businessinsider-2.png"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<h3 class="text-center">MOVE makes going to the gym obsolete…</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<p>Strong words, right? </p>
+<p>Well, what else would you say about a 100% done-for-you program that can help you:</p>
+<ul class="anim-list styled-list checkmark fw600">
+<li>Burn fat without suffering through painful, mind-numbing cardio…</li>
+<li>Build lean, toned, strong muscle in your legs, arms, shoulders, back, and hips… at home with zero equipment</li>
+<li>Lose stubborn body fat in less than 20-minutes per day</li>
+<li>Rapidly reshape your body, 100% at home, in just 30-days</li>
+<li>Sculpt a tight, lean belly without starvation diets or choking down “health” foods that you hate</li>
+<li>Stop dieting… and start losing losing fat fast with meals you’ll actually look forward to eating</li>
+</ul>
+</div>
+</div>
+</section>
+<div class="content-section img-block-sm vsl-img-vince-side-lunge">
+<div class="anim-hdr-glow">
+<h1 class="hdr-glow">BURN FAT</h1>
+</div>
+<div class="banner-overlay"></div>
+ </div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12 pt-4">
+<p class="fw600">Oh, it gets even better.</p>
+<p>See, if you want to supercharge your MOVE results, making them as effortless as possible… I’ll show you how to hack the program to help your body:</p>
+<ul class="styled-list fw600 accent-border-left">
+<li>Burn fat specifically while you sleep</li>
+<li>Torch even more calories without extra cutting back on your meals</li>
+<li>Destroy fat on a cellular level for long-lasting results</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<p>We didn’t create MOVE to be like most at-home programs: nothing more than a passable substitute for working out at the gym..</p>
+<p><b>No… we made MOVE to be SUPERIOR to going to the gym…</b></p>
+<p>Superior to simple cardio…</p>
+<p>Superior to cookie-cutter diets that try to starve the weight off of you…</p>
+</div>
+</div>
+</section>
+<div class="content-section img-block-sm vsl-img-vince-plank-twist">
+<div class="anim-hdr-glow">
+<h1 class="hdr-glow">BUILD LEAN MUSCLE</h1>
+</div>
+<div class="banner-overlay"></div>
+</div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<h3 class="text-center">LESS THAN 20 MINUTES FROM YOUR BEST BODY EVER</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<ul class="anim-list styled-list checkmark fw600">
+<li>Up to 5X’s more effective than traditional cardio <span class="fw400">(according to a study by the University of Auburn, these brief workouts burn fat at a much faster rate, in a fraction of the time it takes to slog through endless traditional cardio)</span></li>
+<li>Built to be done in the comfort of your own home <span class="fw400">(you need absolutely no equipment)</span></li>
+<li>Instantly adjustable <span class="fw400">(adjust the workouts to your experience and energy level in a flash)</span></li>
+<li>100% Done-for-You <span class="fw400">(you’ll know exactly what you need to do every single step of the way - zero guesswork)</span></li>
+<li>Fast, fun, effective <span class="fw400">(your workouts constantly change. In fact, you’ll never do the same workout twice! This keeps your body from plateauing, and your mind from getting bored doing the same ol’exercises over and over…)</span></li>
+<li>Designed to burn fat while also building lean muscle <span class="fw400">(yes, it is finally possible to do both at the same time at home)</span></li>
+<li>Brief… with incredible, long-lasting effects <span class="fw400">(many of the MOVE workouts take less than 15-minutes yet keep your body burning fat for up to 48-hours after every workout)</span></li>
+<li>Paired with a full library of follow-along workout videos <span class="fw400">(exclusive, members-only how-to and follow along videos will have you feeling like I’m right by your side, working out with you and coaching you, right in your living room)</span></li>
+<li>Instantly accessible <span class="fw400">(no waiting for DVD’s or books… you can get started with your workouts instantly)</span></li>
+<li>Easily upgraded <span class="fw400">(optimize all-night fat burning while you sleep + slash fat on cellular level to destroy body fat over the long term)</span></li>
+</ul>
+</div>
+</div>
+</section>
+<div class="content-section img-block-sm vsl-img-vince-high-knee">
+<div class="anim-hdr-glow">
+<h1 class="hdr-glow">RAPIDLY RESHAPE YOUR BODY</h1>
+</div>
+<div class="banner-overlay"></div>
+</div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<p><b>Here’s the coolest part though…</b> the workouts are only half of the reason MOVE gives you such rapid results…</p>
+<p>See, your body needs special workouts to get your fat burning machinery kick-started.</p>
+<p>However, without the right diet for your body, you’ll simply spin your wheels.</p>
+<p>Worse yet, most diets aimed at people like you who want to lose weight quickly, are little more than starvation diets.</p>
+<p>They don’t work. They make you miserable. And they can harm your body.</p>
+<p>But guess what…</p>
+<p>When you have a fun, flexible, easy to follow diet plan filled with healthy foods you actually like eating, you can melt fat darn-near around the clock.</p>
+</div>
+</div>
+</section>
+<div class="img-block vsl-img-food"></div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<h3 class="text-center">DELICIOUS, REALISTIC AND SUSTAINABLE DIETING</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<ul class="anim-list styled-list accent-border-left">
+<li>Designed to specifically give your body the fuel it needs to burn as much fat as possible and build lean, toned muscle</li>
+<li>Full of delicious foods that are easy to find at the store, simple to prepare, and most importantly… that you actually like eating.</li>
+<li>Packed with over 50-delicious, chef-designed recipes that are ultra easy to prepare at home with simple ingredients</li>
+<li>Flexible - you’ll never feel deprived. With a flexible plan, you can indulge occasionally and still lose weight rapidly</li>
+<li>Designed for both rapid, and long-term results (this meal plan is easy to adapt to long-term use so you can lose the weight, then keep it off without ever needing to struggling with crash diets or suffering through eating things you hate just to look good)</li>
+<li>100% Done for you - you’ll never need to wonder what you’ll eat next… every meal is laid out perfectly for you, with tons of flexibility in food choices, too</li>
+<li>Includes easy to use calorie and macro calculator</li>
+</ul>
+</div>
+</div>
+</section>
+<div class="img-block vsl-img-asset-2"></div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<h3 class="text-center">MOVE - 100% Guaranteed to Reshape Your Body</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<p class="fw600">We’re so confident that MOVE will help you quickly burn off 5, 7, or 11+lbs in just 30-days that we’re offering it to you with an iron-clad, 100% 60-Day Money Back Guarantee. </p>
+ <p>Look, we know that you’re going to fall in love with your new body… that in just 30-days you’ll be stronger, more toned, and a whole lot leaner.</p>
+<p>However, if for whatever reason you’re not blown away by your rapid results, simply email us and we’ll gladly refund your investment in full.</p>
+<p>You’re probably skeptical.</p>
+<p>You should be.</p>
+<p>After all, how many at-home programs have you seen pop up out of nowhere lately?</p>
+<p>The reality is that those fly-by-night programs weren’t created by a team of nutritional and exercise experts with 50+ years of combined experience… and over 3,000,000 satisfied customers.</p>
+<p>That’s why you can try MOVE absolutely risk-free for a full 60-days…</p>
+<p>However, we’re not stopping there.</p>
+<p>Because we want to make this decision a total no-brainer you’re also going to get:</p>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="row content">
+<h1 class="text-center red col-12 d-lg-none d-md-block">
+<span class="accent-border-sm">
+PLUS THESE FREE BONUSES
+</span>
+</h1>
+<h1 class="text-center red col-12 d-none d-lg-block d-md-none d-sm-none d-xs-none">
+<span style="width: 12px; height: 60px; background: black; display: inline-block; margin-bottom: -8px; margin-right: 20px;"></span>
+PLUS THESE FREE BONUSES
+</h1>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<div class="offset-md-6 col-md-6 col-sm-12 flex-d align-items-center justify-content-center text-center m-auto">
+<img src="/salespages/move/img/six-pack-shred.jpg" alt="6 Pack Shred" class="img-resp-sizer m-auto" />
+</div>
+<h4 class="text-center col-12 pt-2">6-Pack Shred, the ab sculpting program designed to strengthen your core while helping you burn stubborn belly fat. </h4>
+<div class="col-12 m-auto">
+<p>6-Pack Shred is especially effective at scorching that last bit of lower-belly fat that “pooch” that never seems to wanna leave, no matter how much weight you lose. Well, even fat that stubborn can’t survive the workouts in 6-Pack shred.</p>
+<p class="fw600">This program usually sells for $47, but it’s yours absolutely free…</p>
+</div>
+<div class="col-12 py-2"></div>
+<div class="offset-md-6 col-md-6 col-sm-12 flex-d align-items-center justify-content-center text-center m-auto">
+<img src="/salespages/move/img/recipe-guide.jpg" alt="Recipe Guide" class="img-resp-sizer m-auto" />
+</div>
+<h4 class="text-center col-12 pt-2">Oh, and to make your meal plan even more fun and easy to follow, you’ll also receive the ultra-popular V Shred Recipe Guide.</h4>
+<div class="col-12 m-auto">
+<p>This guide was created by a professional chef to focus on flavor, be nutrient dense, and be super easy to make at home. Dozens of recipes that can be made quickly, with simple ingredients. No blowing half your paycheck at an overpriced health food store for exotic ingredients to make food that you don’t even like.</p>
+<p class="fw600">The V Shred Recipe Guide goes for $37, but this too is yours absolutely free if you join MOVE today.</p>
+<p>The recipes in the guide can be seamlessly incorporated into your meal plan and mixed and matched with the 50-chef designed recipes included with MOVE.</p>
+</div>
+<div class="col-12 py-2"></div>
+<div class="offset-md-6 col-md-6 col-sm-12 flex-d align-items-center justify-content-center text-center m-auto">
+<img src="/salespages/move/img/vs-fb-groups.jpg" alt="V Shred FB Groups" class="img-resp-sizer m-auto" />
+</div>
+<h4 class="text-center col-12 pt-2">Plus, when you get MOVE today, you will also gain access to an exclusive, private, members-only Facebook Group (Men and Women each have their own private group!)</h4>
+<div class="col-12 m-auto">
+<p>These groups are packed with V Shred trainers, nutritional experts, and your fellow MOVE’ers, who are there to help you every step of the way.</p>
+<p>Studies by psychologists show that you can reach a goal up to 300% faster when working with a coach. Well, how fast can you have your dream body when you have a whole team behind you, pushing you, helping you, guiding you until you have the body you’ve always wanted. </p>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="row content">
+<h3 class="text-center col-12">Get MOVE Right Now, Risk Free and You’ll Be Enjoying Your Brand New Body in Just 30-Days…</h3>
+<div class="col-12">
+<p>Fun workouts that take less than 20mins… that can be done at home with zero equipment… and burn fat for up to 48-hours after each session… combined with a flexible, easy-to-follow diet featuring healthy foods you love eating?</p>
+<p>Plus your own private Facebook group, 6-Pack Shred to help beat belly fat, and the recipe guide to make losing fat while eating great foods super simple...</p>
+<p>You can't go wrong!</p>
+<p>Grab your 100% money-back guaranteed, risk-free copy of MOVE now and you’ll be enjoying your best body ever just 30-days from now</p>
+</div>
+</div>
+</section>
+<div id="videoBanner2" class="">
+<div class="videoBannerContainer">
+<div class="content"></div>
+<div class="banner-overlay"></div>
+<video class="banner" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+<source src="/salespages/move/img/montage.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<section class="content-section">
+<div class="row content">
+<div class="col-12">
+<h3 class="text-center">BUT WAIT, WE HAVE ANOTHER SPECIAL OFFER…</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<p>See, in addition to revving up your metabolism during your workouts, and for hours afterward, you can also help shed extra body fat while you’re sleeping…</p>
+<p>You can also optimize your system to burn excess calories all day long without extra dieting…</p>
+<p>Oh, and this method also helps boost your mental and physical energy levels…</p>
+<p>And, yes… you can smash fat on a cellular level, too…</p>
+<p>That’s why we’re including the opportunity to upgrade your MOVE program and add the 3-synergistic supplements that have the potential to support burning even more fat.</p>
+</div>
+</div>
+</section>
+<section class="content-section">
+<div class="row content">
+<h3 class="text-center">It’s called the <span class="red">Fat Loss Stack</span>, and it makes the perfect partner for MOVE.</h3>
+<div class="anim-underline-wrap"><div class="anim-underline"></div></div>
+<div class="col-md-8">
+<p>Why?</p>
+<p>Because the <span class="fw600">Fat Loss Stack</span> not only accelerates your fat burning potential, it also makes things a lot easier for you.</p>
+<p>You literally have a trio of thermogenic all-stars in your corner.</p>
+<p>Oh, and the best part?</p>
+<p>These thermogenics don’t simply rely on stimulants like most fat-burners on the market.</p>
+<p>Nope.</p>
+<p>This fiery trio actually attacks body fat from three essential angles. </p>
+<p>No jitters. No nervous feelings.</p>
+<p>In fact, one third of the stack will actually help you relax, sleep more deeply, and support burning fat all night long...</p>
+</div>
+<div class="col-md-4 flex-d align-items-center justify-content-center text-center m-auto">
+<img src="/salespages/move/img/fat-loss-stack.png" class="img-resp-sizer" />
+</div>
+</div>
+</section>
+<div class="content-section">
+<div class="row content">
+<div class="col-12">
+<h4 class="text-center pt-4">By the way, the FAT LOSS STACK usually retails for $201</h4>
+<h3 class="text-center" style="max-width:1000px; margin:auto;">But when you bundle it with move, you save BIG, because you get MOVE and The Fat Loss Stack for a total of just <span class="red">$99</span></h3>
+<p class="py-4">When you harness the synergistic powers of Burn’s ability to support all day metabolism boosting, Burn PM’s effortless while you sleep fat loss, plus Turmeric’s ability to attack fat on a cellular level, our Fat Loss Stack provides the perfect pairing with MOVE and help accelerate your fitness journey.</p>
+</div>
+</div>
+</div>
+
+<section class="option-area move-option-area">
+<div class="container">
+
+<div id="option-area" class="option-middle">
+<h3 class="text-center red avenir mb-0">Choose Your Package</h3>
+<div class="row">
+<div class="col-lg-6 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 pt-2">
+<div class="single-option top-option cart-option move-prod-option" data-auto-refill-price="" data-one-time-price="99" data-auto-refill-save="" data-one-time-save="">
+<div class="prod-hdr recommended text-shadow-dk">
+<h4><small>RECOMMENDED - BEST DEAL</small></h4>
+</div>
+<h3 class="mb-1">MOVE + Fat Loss Stack</h3>
+<div class="single-option-image"><img src="/salespages/move/img/move-fls-bundle.jpg" alt=""></div>
+<h5 class="text-center extra fw600">One-time price</h5>
+<div class="option-info">
+<div class="option-price">
+<div class="current-price red">
+<del><span class="price-currency fs2" style="color:black;">$201.00</span></del>
+<span class="price-currency fs2 pl-1">$</span><span class="price-integer fs2">99</span>.<span class="price-decimal fs2">00</span>
+</div>
+</div>
+</div>
+ <a href="https://vshred.com/order-form/move-program-fls" class="btn btn-block r-btn btn-lg site-btn stripeButton mx-auto fw600 py-2 oswald fs1-5 btn-green" data-id="bun_move_fls" data-name="MOVE 30 &amp; Fat Loss Stack Bundle" data-price="99" data-category="Programs" data-brand="V Shred">
+BUY NOW
+</a>
+</div>
+</div>
+<div class="col-lg-6 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-xs-2 pt-2">
+<div class="single-option cart-option move-prod-option" data-auto-refill-price="" data-one-time-price="47" data-auto-refill-save="" data-one-time-save="">
+<div class="prod-hdr"></div>
+<h3 class="mb-1">MOVE</h3>
+<div class="single-option-image"><img src="/salespages/move/img/MOVE-Mixed.jpg" alt=""></div>
+<h5 class="text-center extra fw600">One-time price</h5>
+<div class="option-info">
+<div class="option-price">
+<div class="current-price">
+<span class="price fw600 red"><span class="price-currency fs2">$</span><span class="price-integer fs2">47</span>.<span class="price-decimal fs2">00</span></span>
+</div>
+</div>
+</div>
+<a href="https://vshred.com/order-form/move-program" class="btn btn-block r-btn btn-lg site-btn stripeButton mx-auto fw600 py-2 oswald fs1-5" data-id="bun_move" data-name="MOVE 30" data-price="47" data-category="Programs" data-brand="V Shred">
+BUY NOW
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12">
+<div class="text-center py-4">
+<img src="/salespages/move/img/60-Day-Guarantee.png" class="m-auto sixty-day-gua" />
+<h4>60 DAY MONEY BACK GUARANTEE</h4>
+<span class="card-top move-style">Secure Order Form - 100% Protected &amp; safe</span>
+<img src="/salespages/move/img/card.png" alt="" class="mx-auto card move-style"><br>
+</div>
+</div>
+</div> 
+</section>
+
+</div>
+</div>
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+ <li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script>
+		$('.watch-video').on('click', function(e) {
+			let timer = 200;
+			$('#videoBanner .videoBannerContainer').fadeOut(timer);
+			setTimeout(() => {
+				$('#videoBanner').addClass('active');
+				$('#banner-vsl').addClass('active');
+				$('.jwplayer').click()
+			}, timer);
+        })
+
+        // window.addEventListener('load', setTargetArea, false);
+        window.addEventListener('scroll', setTargetArea, false);
+        window.addEventListener('resize', setTargetArea, false);
+
+        function setTargetArea() {
+            var viewportHeight = window.innerHeight;
+            var viewportCenter = viewportHeight/2;
+            var targetHeight = 100;
+            var targetAreaTop = viewportCenter - (targetHeight/2);
+            var targetAreaBtm = targetAreaTop + targetHeight;
+            var yOffset = window.pageYOffset;
+            var targetEl = document.querySelectorAll('.content-section');
+
+            for(let i=0; i < targetEl.length; i++) {
+                let activeEl = targetEl[i];
+                if (isInTargetArea(activeEl,targetAreaTop, targetAreaBtm, yOffset)) {
+                    activeEl.classList.add('animate');
+                    let animList = activeEl.querySelectorAll('.anim-list li');
+                    for(let i=0; i < animList.length; i++) {
+                        setTimeout(function() {
+                            let listItem = animList[i];
+                            listItem.classList.add('show');
+                        }, 120 * parseInt(i));
+                    }
+                    let animHdrGlow = activeEl.querySelectorAll('.anim-hdr-glow .hdr-glow');
+                    for(let i=0; i < animHdrGlow.length; i++) {
+                        setTimeout(function() {
+                            let hdrItem = animHdrGlow[i];
+                            hdrItem.classList.add('show');
+                        }, 500 * parseInt(i));
+                    }
+                } else {
+                    if (activeEl.classList.contains('animate')){
+                        activeEl.classList.remove('animate');
+                    }
+                    // let animList = activeEl.querySelectorAll('.anim-list li');
+                    // for(let i=0; i < animList.length; i++) {
+                    //     let listItem = animList[i];
+                    //     listItem.classList.remove('show');
+                    // }
+                    let animHdrGlow = activeEl.querySelectorAll('.anim-hdr-glow .hdr-glow');
+                    for(let i=0; i < animHdrGlow.length; i++) {
+                        let hdrItem = animHdrGlow[i];
+                        hdrItem.classList.remove('show');
+                    }
+                }
+            }
+
+        }
+
+        function isInTargetArea(activeEl, targetAreaTop, targetAreaBtm, yOffset) {
+            var elTop = activeEl.getBoundingClientRect().top;
+            var elBtm = elTop + activeEl.offsetHeight;
+            return elBtm >= targetAreaTop && elTop <= targetAreaBtm;
+        };
+	</script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+</body>
+</html>

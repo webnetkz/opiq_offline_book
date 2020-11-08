@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>V Shred</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244353037">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link rel="stylesheet" href="/css/bootstrap4PaddingMargins.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="/salespages/six-pack-shred/v1/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<div class="vshred-nav" style="z-index: 100; margin:0; padding: 10px; width: 100%; height: 50px; background-color: #f8f8f8; color: #6f6f6f; border-bottom: 1px solid #e7e7e7; position: relative; top: 0; box-sizing: border-box;">
+<div style="margin:0; padding: 0; width: 49%; display: inline-block;">
+<img src="https://vshred.com/img/logo.svg" height="30" style="height: 30px;">
+</div>
+<div style="margin:0; padding: 0; width: 49%; text-align: right; display: inline-block;">
+<div id="topMenu">
+<a href="#" id='topMenu-link' style="color: #6f6f6f; font-size: 20px;"><i class="fa fa-th" aria-hidden="true"></i></a>
+<div id="topMenu-pop" style="position: absolute; right: 0; top: 50px; text-align: left; padding: 1em; background-color: #f8f8f8; color: #6f6f6f; border: 1px solid #e7e7e7; display: none; z-index: 9;">
+<ul style="list-style-type: none; padding-left: 0;">
+<li><a href="https://vshred.com" target="_blank" style="color: #6f6f6f;">Home</a></li>
+<li><a href="https://vshred.com/blog" target="_blank" style="color: #6f6f6f;">Blog</a></li>
+<li><a href="https://vshred.com/programs" target="_blank" style="color: #6f6f6f;">Store</a></li>
+<li><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank" style="color: #6f6f6f;">Help Center</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<main class="six-pack-shred-2018-06">
+
+<section class="banner">
+<div class="container">
+<div class="banner-wrapper">
+<div class="banner-title">
+<h5 class="white"><span class="red">Attention:</span> STOP doing the wrong exercises &amp; eating foods that sabotage your quest to finally achieve a shredded, chiseled 6-pack </h5>
+<h1 class="white"><span class="normal">Finally, You Will Have a Tight, Powerful, Ripped 6-Pack &amp; Shredded Obliques</span> Faster That You Ever Thought Possible - <span class="red">100% GUARANTEED</span></h1>
+</div>
+<div class="row">
+<div class="col-12 col-sm-8 col-md-8 col-lg-6 offset-sm-2 offset-md-2 offset-lg-3">
+<div class="banner-Video">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa78cd0de0a2">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-sales-video id="nOhos2Z3" skeleton-selector="#jw-skeleton-5fa78cd0de0a2" :minutes="0" :seconds="30" dropdown-selector=".page-contents-lazy" :aspect-width="16" :aspect-height="9" :drop-immediate="false" :force-fullscreen="false" :controls="false"></jw-sales-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+<div class="mt-3"><b>Vince Sant -</b> Professional Fitness Model, Certified Personal Trainer, Best Selling Author and the Creator of V Shred</div>
+</div>
+
+</div>
+</div>
+
+<div class="banner-text">
+<p>You’ve been lied to by the fitness industry… Having a 6-pack is NOT about millions of Crunches and endless, boring Cardio.</p>
+<p>Having a tight, etched-in-stone 6-pack is NOT about starving yourself thin.</p>
+<p>Are you sick of struggling to get rid of that last layer of fat suffocating your abs?</p>
+<p>Ready to melt that belly fat and finally be able to sport a 6-pack you’re proud to show off?</p>
+</div>
+<div class="row">
+<div class="col-12 col-md-8 offset-md-2">
+<h5 class="white text-center"><u>WATCH THE SHORT VIDEO ABOVE AND DISCOVER THE SECRETS TO BUILDING A CHISELED SET OF ABS, FAST.</u></h5>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="secrion-1">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-8">
+<p>Over 90% of the emails I get from both men and women are about how to burn off that last layer of fat on their belly. They want the ultimate lean look: <u>a tight, flat, shredded 6-pack.</u> </p>
+<p>Now, you probably know that there are about a million <b>“Ab Training”</b> books, videos, and courses out there. You’ve probably bought a bunch of them… and they all failed you. </p>
+<p>You may have even hired an expensive trainer to help you get shredded… yet you ended up with nothing more than a thinner wallet. </p>
+
+<h4 class="red">What gives?</h4>
+<p>Why do nearly 99% of these <b>“6-pack training”</b> programs completely fail you?</p>
+<p>Simple - these programs completely ignore the single most important aspect of chiseling a rock-hard set of abs…</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section-2">
+<div class="container">
+<h2 class="text-center white">Want to know <u>the worst</u> part?</h2>
+<div class="row">
+<div class="col-12 col-sm-12 col-md-12">
+<div class="transparent-bg">
+<p>Not only do those programs miss the mark on the essential <span class="marker">two-step process you must follow to lean out and build abs,</span> but they actually end up hurting your body and bringing your body transformation progress to a screeching halt.</p>
+<h5 class="red">How?</h5>
+<p>What do most of these <i>“Get lean quick”</i> schemes have in common?</p>
+<p><u>They force you to do insanely high reps - including thousands of back-breaking Crunches and Sit-Ups…</u></p>
+<p>And, they tell you to suffer through endless hours of boring, mind-numbing cardio while suffering through near-starvation diets that leave you exhausted. </p>
+<p>You end up burning through your lean muscle (excess cardio and ultra low calorie diets eat your lean muscle), while your back and hips get sore, tired, and injured. </p>
+ <p>If you continue to train this way, <u>not only</u> will you NOT ever achieve a 6-pack, but you’re whole body will suffer. <u>It’s a totally lose-lose.</u> </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-3">
+<div class="section-3-top">
+<div class="container">
+<div class="row">
+<div class="col-12 col-sm-8">
+<div class="boxed blue-box">
+<h2 class="">I have great news for you…</h2>
+<p>There is a simple, easy way to get the abs you’ve always wanted.</p>
+<p><u>Don’t worry</u>, it has nothing to do with jogging till you drop or doing crunches till your head spins.</p>
+<p>In fact, I’ll reveal to you a very simple two-step, full proof process to quickly, and damn-near-effortlessly sculpting jaw-dropping abs. </p>
+<p>Sound too good to be true?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="white-area">
+<div class="container">
+<div class="boxed red-box">
+<h4>It’s not… the truth is, if you follow this simple, two-step process, in just 12-weeks you can:</h4>
+<ul class="styled-list red-list">
+<li>Shred the last layer of fat obscuring your abs</li>
+<li>Cut up your intercostals</li>
+<li>Melt your love-handles</li>
+<li>Build a strong healthy core</li>
+<li>Kill back pain</li>
+<li>Build a stronger, leaner body </li>
+<li>Proudly sport a perfectly etched, shredded set of jaw-dropping abs</li>
+</ul>
+</div>
+<div class="row">
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/ab-5.jpg" alt="" class="single-img ab-amg">
+</div>
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/ab-2.jpg" alt="" class="single-img ab-amg">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-4">
+<div class="container">
+<h2 class="text-center">However, there’s a catch…</h2>
+<div class="row">
+<div class="col-12 col-sm-12 col-md-9">
+<p>You have to follow the program 100%. </p>
+<p>This program is a step-by-step blueprint. In fact, it’s literally designed like a staircase, helping you sculpt your abs whether your a <u>beginner</u>, <u>intermediate</u>, or <u>advanced</u>. </p>
+<p>All you have to do is follow along.</p>
+<div class="boxed blue-box">
+<p>Seems simple, but research shows that <u>78% of people</u> who buy diet and training programs never actually do them.</p>
+<p>Then, to make things worse, a lot of the people who actually DO follow the program, end up altering and modifying it so much that what they’re doing ends up looking <b>NOTHING</b> like the program they are supposed to be following.</p>
+<p>I can <b>GUARANTEE</b> you success if you follow this program… as long as you promise to follow it exactly.</p>
+</div>
+<p><b>Don’t worry, the program is flexible and completely adaptable to YOUR body.</b> If you have pre-existing injuries, aches or pains, there are alternate exercises you can do. </p>
+<p>All you have to do is follow this program, and in just 12-weeks you WILL finally have an amazing set of abs. </p>
+<h4>Introducing the <i>100% Guaranteed to</i> Work for You, <u>6-Pack Shred Program</u></h4>
+</div>
+</div>
+</div>
+</section>
+<section class="section-5">
+<div class="container">
+<img src="/salespages/six-pack-shred/v1/img/img-3.png" alt="" align="right" class="right-img">
+<h2 class="blue">In the 6-Pack Shred Program, <u>You’ll Discover:</u></h2>
+<ul class="styled-list blue-list">
+<li>Why Crunches do almost nothing to build a 6-pack <span class="light">(and leave you with a stiff neck and lower back problems)</span></li>
+<li>The exact exercises you must do to strengthen your core <span class="light">(this not only builds strong abs, but it can absolutely KILL back pain)</span></li>
+<li>Why you MUST hit ALL the muscles in your core to build a perfect 6-pack <span class="light">(99% of programs focus on only one of the several muscles you must train to achieve a 6-pack)</span></li>
+<li>The Secret At-Home V-Cut Workout <span class="light">(perfect for traveling or when you can’t get to the gym - this workout alone will do more for your abs than all other ab training courses combined)</span></li>
+</ul>
+</div>
+</section>
+<section class="section-6">
+<div class="container">
+<h2 class="text-center">Why <u>Over-Doing</u> Traditional Cardio Burns Muscle, <span class="red">Not Belly Fat</span></h2>
+
+<div class="row">
+<div class="col-12 col-md-8 offset-md-4">
+<ul class="styled-list">
+<li>The revolutionary anti-cardio training workouts that burn fat for up to 48-hours after EVERY session <span class="light">(these 15-minute workouts set your metabolism on fire, helping you burn belly fat around-the-clock)</span></li>
+<li>Rapid Fat-Melting workouts you can do at home <span class="light">(you don’t have to go to the gym to scorch that last layer of fat - get ripped right at home)</span></li>
+<li>How to safely include traditional cardio if you have a lot of fat to lose <span class="light">(if you follow this cardio plan exactly, you’ll burn fat and keep your hard-earned lean muscle)</span></li>
+<li>How to adapt fat-burning workouts so you can do them anywhere <span class="light">(from a park bench to your living room, these workouts can be done quickly, in limited space, and even while traveling with zero equipment)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="section-7">
+<div class="container">
+<h2 class="white text-center">Diet Hacks <u>That Will RIP the Fat Off Your Abs</u></h2>
+<ul class="styled-list">
+<li>Why your diet is responsible for at least 80% of your results <span class="light">(follow the wrong diet and you’ll never see your abs)</span></li>
+<li>Why you MUST eat right for your body type <span class="light">(this is the #1 mistake most men and women make when trying to get ultra-lean)</span></li>
+<li>The Carb Cycling secrets of elite fitness models, athletes, and celebrities <span class="light">(carb cycling not only allows you to eat your favorite carbs while dieting, but it literally helps turn your body into a belly-fat burning machine)</span></li>
+<div class="row">
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/ab-1.png" alt="" class="ab-img">
+</div>
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/ab-3.jpg" alt="" class="ab-img">
+</div>
+</div>
+<li>Discover which fats you MUST avoid if you want a 6-pack <span class="light">(some fats help your body, but others keep you bloated and make fat-loss impossible)</span></li>
+<li>Easy-to-follow food shopping list <span class="light">(want a 6-pack super fast? Make meal prep automatic with done-for-you shopping lists)</span></li>
+<li>Exactly which foods you must eat to have a shredded mid-section <span class="light">(plus, precisely how many carbs, fats, proteins, and calories you need at each meal)</span></li>
+<li>How to easily make your diet plan flexible <span class="light">(you CAN sculpt a 6-pack while living a normal life - your diet is flexible because real life rarely makes 100% strict dieting possible!)</span></li>
+</ul>
+</div>
+</section>
+<div class="common-header blue-header">
+<div class="container">
+<h2 class=" white text-center">You Can Now Gain <u>Exclusive Access to the 6-Pack Training Program</u> That GUARANTEES You’ll Have a Lean, Shredded Core in <u>Just 12-Weeks</u></h2>
+</div>
+</div>
+<section class="section-9 white-area">
+<div class="container">
+
+<p>Normally, to get a <b>shredded 6-pack</b> this fast you’d have to hire a $500/hour trainer, starve yourself, and invest a small fortune in high-end, designer (borderline illegal) supplements.</p>
+<p><b>The good news is</b> you <u>don’t</u> have to do any of that. You <u>don’t</u> need a high priced trainer. You <u>don’t</u> need expensive supplements. </p>
+<p>All you need are the secrets in the <b>6-Pack Shred Program.</b></p>
+<div class="text-center">
+<img src="/salespages/six-pack-shred/v1/img/back-look-old.png" alt="" class="product-image">
+</div>
+<p>Now, given how expensive it is to get fitness model type abs <b>quickly</b>, you might think that <b>6-Pack Shred</b> will cost an arm and a leg, right?</p>
+<p>The thing is, I don’t want price to be the obstacle that holds you back from finally having the lean, tight abs you’ve always wanted.</p>
+<p>Frankly, my advisors suggested we price the program at $99</p>
+<p>For the complete diet plan, training secrets, <span class="marker">48-hour fat burning workouts (that only take 15-mins!)</span>, plus the treasure trove of ab shredding secrets, that’s a <u>very fair price.</u> </p>
+<p>However, you’re not going to pay $99</p>
+<p>Not even close…</p>
+<div class="boxed section-9-bg-area">
+<h4 class="red">Why?</h4>
+<p><b>Because I want to get these secrets into the hands of as many men and women as possible, so I’m going to offer you an amazing deal:</b></p>
+ <h4 class="text-center white">If you take action right now, you can claim your copy of the <br><span class="blue">6-Pack Shred Program</span> for only <span class="red">$19.99</span> </h4>
+<h4 class="text-center white">Plus, your 6-Pack Shred Program comes with a <br><span class="red">100% Money Back Guarantee</span></h4>
+</div>
+<h4>The catch?</h4>
+<p>This deal is <u>only</u> available right now. I can’t afford to keep the price this low for long. In fact, in a few days, the price will <u>double</u>. </p>
+<img src="/salespages/six-pack-shred/v1/img/M2.jpg" alt="" class="single-img">
+<img src="/salespages/six-pack-shred/v1/img/F2.jpg" alt="" class="single-img">
+<div class="boxed blue-box">
+<p><b>Please, don’t miss this opportunity to quickly (and easily) have the lean, sexy, chiseled 6-pack you’ve always dreamed of:</b></p>
+<a href="/order-form/six-pack-shred/" class="site-btn product-add-to-cart" data-id="sku_AR6naeMRBeRkZb" data-name="Six-Pack Shred" data-price="19.99" data-category="Programs" data-brand="V Shred">purchase six-pack shred now <span class="light">normally $47.00, today only $19.99</span></a>
+<div class="text-center">
+<span class="card-top">Secure Order Form - 100% Protected &amp; safe</span>
+<img src="/salespages/six-pack-shred/v1/img/card.png" alt="" class="card"><br>
+</div>
+</div>
+</div>
+</section>
+<section class="money-back">
+<div class="container">
+<div class="text-center">
+<img src="/salespages/six-pack-shred/v1/img/back-2.png" alt="" class="push-btm">
+<h2 class="red">100% MONEY BACK GUARANTEE</h2>
+</div>
+<p>Your results are guaranteed or your money back! I personally guarantee the results of all my products and programs, and my custom services are no exception. If at the end of your custom diet plan you are not happy with your results we will refund you NO QUESTIONS ASKED. All you have to do is send us an email with your request.</p>
+</div>
+</section>
+<section class="section-10 white-area">
+<div class="container">
+<p>Stop struggling. Stop starving yourself. Stop breaking your back doing thousands of crunches or wasting hundreds of hours on the treadmill. </p>
+<h4 class="text-center normal">How much easier will it be to sculpt a head-turning 6-Pack if you have a complete, <span class="blue">easy to follow blueprint that puts a flexible diet, carb cycling, metabolism boosting short burst cardio, and ab training workouts</span> to work <u><b>specifically</b></u> for your body type. </h4>
+<div class="row">
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/img-5.png" alt="" class="single-img ab-amg">
+</div>
+<div class="col-12 col-sm-6">
+<img src="/salespages/six-pack-shred/v1/img/img-2.jpg" alt="" class="single-img ab-amg">
+</div>
+</div>
+<p>When your diet, training, and cardio work synergistically, your body will melt that last layer of fat and let your abs finally break through</p>
+<p><span class="marker">Your results are 100% Guaranteed.</span> You have nothing to lose except the stubborn fat that is covering up your 6-pack</p>
+<p>Don’t you deserve to finally have a flat, toned, shredded set of abs you’ll be proud to show off?</p>
+</div>
+</section>
+<section class="section-11">
+<div class="container">
+<h3 class="white text-center"><span class="red"><u>Don’t wait</u></span> - take advantage of this <u>amazing opportunity</u> before your best chance to have a jaw-dropping <span class="blue">6-pack in just 12-weeks</span>, disappears forever</h3>
+<p>Please, don’t miss this opportunity to quickly (and easily) have the lean, sexy, chiseled 6-pack you’ve always dreamed of:</p>
+<a href="/order-form/six-pack-shred/" class="site-btn product-add-to-cart" data-id="sku_AR6naeMRBeRkZb" data-name="Six-Pack Shred" data-price="19.99" data-category="Programs" data-brand="V Shred">purchase six-pack shred now <span class="light">normally $47.00, today only $19.99</span></a>
+<div class="text-center">
+<span class="card-top">Secure Order Form - 100% Protected &amp; safe</span>
+<img src="/salespages/six-pack-shred/v1/img/card.png" alt="" class="card"><br>
+</div>
+</div>
+</section>
+</main>
+<div style="height: 64px; width: 100%;"></div>
+<div class="container-fluid sp-footer">
+<div class="container-fluid py-1 px-0" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+<script>
+        (function () {
+            const $product = $('.product-add-to-cart');
+
+            dataLayer.push({
+                'event': 'EEviewOffer',
+                'ecommerce': {
+                    'currencyCode': 'USD',
+                    'detail': {
+                        'actionField': {'list': 'Programs'},
+                        'products': [{
+                            'id': $product.data('id'),
+                            'name': $product.data('name'),
+                            'price': $product.data('price'),
+                            'brand': $product.data('brand'),
+                            'category': $product.data('category'),
+                        }]
+                    }
+                }
+            });
+        })();
+    </script>
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+
+<script type="text/javascript">
+    (function(){"use strict";var e=null,b="4.0.0",
+        n="23292",
+        additional="",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+</body>
+</html>

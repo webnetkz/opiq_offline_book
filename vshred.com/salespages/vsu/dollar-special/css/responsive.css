@@ -1,0 +1,391 @@
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+
+/** 980* 1280 **/
+@media only screen and (max-width: 1200px) {
+body.for-1  {
+	font-size: 24px;
+}
+.for-1 h1 {
+	font-size: 40px;
+}
+.for-1 h2 {
+	font-size: 40px;
+}
+.for-1 h3 {
+	font-size: 26px;
+}
+.for-1 .banner-content p {
+	font-size: 18px;
+}
+.for-1 .section-1 h2 {
+	font-size: 34px;
+}
+.for-1 .section-10-top-texts img {
+	width: 300px;
+}
+.for-1 .justfor h1 span {
+	font-size: 80px;
+}
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 991px) {
+body.for-1  {
+	font-size: 20px;
+}
+.for-1 h1 {
+	font-size: 28px;
+}
+
+.for-1 h2 {
+	font-size: 32px;
+}
+.for-1 .section-1 .double-text .push-top.mobile-img {
+	max-width: 350px;
+}
+.for-1 .section-6 .double-text img {
+	max-width: 350px;
+}
+.for-1 .section-8 .double-text .mobile-img {
+	max-width: 350px;
+}
+.for-1 .section-8-footer-text .double-text img {
+	max-width: 350px;
+}
+.for-1 .section-11-2 .double-text img {
+	max-width: 350px;
+}
+.for-1 .section-10-top .double-text img {
+	max-width: 350px;
+}
+.for-1 .section-14 .double-text img {
+	max-width: 350px;
+}
+.for-1 .section-10-top-texts img {
+	margin-top: 75px;
+	margin-bottom: 35px;
+	max-width: 230px !important;
+}
+.for-1 .site-btn {
+	font-size: 26px;
+}
+.for-1 .justfor h1 span {
+	font-size: 80px;
+	display: block;
+	width: 100%;
+}
+
+}
+@media only screen and (max-width: 960px) {
+
+}
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+html{
+	overflow-x: hidden;
+	width: 100%;
+}
+body.for-1  {
+	font-size: 16px;
+}
+.for-1 h1 {
+	font-size: 23px;
+}
+.for-1 h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.for-1 h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.for-1 h4 {
+	font-size: 18px;
+}
+.for-1 p {
+	margin-bottom: 15px;
+}
+.for-1 h5 {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.for-1 .banner {
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.for-1 h1 {
+	margin-bottom: 25px;
+}
+.for-1 .banner-content h3 {
+	margin-bottom: 5px;
+}
+.for-1 .banner-content p {
+	font-size: 14px;
+}
+.for-1 .push-top {
+	margin-top: -55px;
+	float: none;
+}
+.for-1 .mobile-img {
+	min-width: calc(100% + 60px) !important;
+	margin-left: -30px;
+	float: none;
+}
+.for-1 .section-1 h2 {
+	font-size: 22px;
+	padding-top: 0;
+	margin-bottom: 15px;
+}
+.for-1 .section-1 {
+	padding-bottom: 15px;
+}
+.for-1 .lonh-header {
+	padding-bottom: 40px;
+}
+.for-1 .section-2 .col-sm-6 .push-top {
+	margin-top: -60px;
+}
+.for-1 .section-2 .double-text {
+	margin-top: 0;
+}
+.for-1 .mobile-img.desktop-img {
+	max-width: 100% !important;
+	min-width: calc(100% + 60px) !important;
+	margin-left: -30px;
+}
+.for-1 .section-2-bg-text {
+	padding: 35px 25px 60px 25px;
+}
+.for-1 .section-3 {
+	padding: 35px 0;
+}
+.for-1 .section-4 {
+	padding: 35px 0 0 0;
+}
+.for-1 .section-6 .double-text {
+	margin-top: 0;
+}
+.for-1 .section-6-footer img {
+	margin-top: 0;
+}
+.for-1 .section-6-footer {
+	margin-top: 0;
+	background: none;
+}
+.for-1 .section-6-footer-text {
+	padding: 0px 0 20px 0;
+}
+.for-1 .section-7 .text-center.red {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.for-1 .area-header p {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.for-1 .section-8-footer {
+	background: none;
+	margin-top: 0;
+}
+.for-1 .section-8-footer img {
+	margin-top: 0;
+}
+.for-1 .section-8 .double-text {
+	margin-top: 0;
+}
+.for-1 .section-8-footer-text .double-text img {
+	max-width: 100%;
+	float: none;
+}
+.for-1 .section-9-top {
+	padding: 45px 0 20px 0;
+}
+.for-1 .section-10-top .double-text img {
+	max-width: 100%;
+	float: none;
+	margin: 0 !important;
+	margin-bottom: 15px !important;
+}
+.for-1 .section-10-top-texts {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.for-1 .section-10-1, .section-10-3 {
+	padding: 30px 0;
+}
+.section-6 .double-text img {
+	max-width: 100%;
+	float: none;
+}
+.for-1 .section-6 .double-text .double-texts {
+	padding-top: 0;
+}
+.for-1 .section-6 .double-text .double-texts {
+	margin-top: 0;
+}
+.for-1 .mobile-img {
+	max-width: 100%;
+	float: none;
+	min-width: calc(100% + 60px) !important;
+	margin-left: -30px;
+}
+.for-1 .section-10-2 {
+	padding: 30px 0;
+}
+.for-1 .section-10-3 p {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.for-1 .section-10-4 {
+	padding: 30px 0;
+}
+.for-1 .section-10-4 p {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.for-1 .section-10-5 {
+	padding: 30px 0;
+}
+.for-1 .area-header h3 {
+	width: 100%;
+	font-size: 18px;
+}
+.for-1 .double-center {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
+}
+
+
+
+.for-1 .section-11-1 h4 {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.for-1 .site-btn {
+	padding: 12px 40px;
+	font-size: 28px;
+}
+.for-1 .section-11-1 {
+	padding: 20px 0 50px;
+}
+.for-1 .section-11-2 {
+	padding: 30px 0;
+}
+.for-1 .section-12-1 {
+	padding: 35px 0 30px;
+}
+.for-1 .section-12-1 p {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.for-1 .section-12-2 .push-top {
+	margin-top: 15px;
+}
+.for-1 .section-12-2 h3 {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.for-1 .section-12-2 {
+	padding-bottom: 15px;
+}
+.for-1 .section-13 {
+	padding: 40px 0 20px;
+}
+.for-1 .section-13 p {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.for-1 .section-13 a {
+	margin-bottom: 35px;
+	font-size: 20px;
+}
+.for-1 .section-13 h3 {
+	width: 100%;
+	margin-bottom: 35px;
+}
+.for-1 .section-14 .double-text img {
+	max-width: 100%;
+	float: none;
+}
+.for-1 .section-14 .area-header.pink-header {
+	margin-bottom: 25px;
+}
+.for-1 .section-14 h3 {
+	padding-top: 0;
+}
+.for-1 .section-14 {
+	padding-bottom: 15px;
+}
+.for-1 .section-15 .double-text img {
+	margin-top: -95px;
+}
+.for-1 .section-16 {
+	padding: 40px 0 35px;
+}
+.for-1 .justfor h1 span {
+	font-size: 50px;
+}
+.for-1 .justfor h1 {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.for-1 .justfor .site-btn {
+	font-size: 24px;
+}
+.for-1 .justfor span {
+	width: 100%;
+	font-size: 14px;
+}
+.for-1 .section-11-2 .double-text img {
+	max-width: calc(100% + 60px);
+	float: none;
+	margin-left: -30px;
+}
+.for-1 .section-11-1 h3 {
+	margin-top: 0;
+}
+.for-1 .double-div.double-div-text {
+	-webkit-box-ordinal-group: 0;
+	    -ms-flex-order: -1;
+	        order: -1;
+}
+.for-1 .section-11-1 p {
+	width: 100%;
+}
+.for-1 .section-9 .container.text-center .push-top {
+	margin-top: -35px;
+	float: none;
+}
+.for-1 .section-10-2 p {
+	margin-bottom: 10px;
+}
+.for-1 .section-16-texts p {
+	width: 100%;
+}
+.double-div-text p {
+	margin-bottom: 15px !important;
+}
+.for-1 .double-center {
+	padding: 20px 0;
+}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 330px) {
+
+}

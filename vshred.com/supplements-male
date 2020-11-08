@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',0,
+{'GTM-PK63XDQ':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PK63XDQ');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-795492069"></script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        environment: 'production',
+        userId: '',
+        userEmail: ''
+    });
+
+    if (typeof gtag !== 'function') {
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'AW-795492069');
+</script>
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"2f510510be",applicationID:"31925988"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<title>Supplement Guide for Men</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="V Shred">
+<meta name="csrf-token" content="zUky8FJWsqwONVwBcUxQ4UWpzrYN5v4G5bWDV6DO">
+<meta name="first-page" content="244348741">
+<meta name="last-page" content="244348767">
+<meta name=“p:domain_verify” content=“8ab7dcc7eee5eec985b2846c30331007"/>
+<meta property="og:image" content="https://vshred.com/img/vs-logo.png">
+<link href="/stack/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/stack/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/side-menu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/mobile-menus.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/member.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap4PaddingMargins.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-TxKWSXbsweFt0o2WqfkfJRRNVaPdzXJ/YLqgStggBVRREXkwU7OKz+xXtqOU4u8+" crossorigin="anonymous">
+<link href="//cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/npm/bootstrap4c-chosen@1.0.13/dist/css/component-chosen.min.css" rel="stylesheet">
+<style>
+    h3 {
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .breakdown-title{
+        background-color: #eee;
+        padding: .25em;
+    }
+
+    .favorite {
+        background-color: #f00;
+        margin-top: 16px;
+        margin-bottom: 2em;
+        border: 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+    .favorite:hover {
+        background-color: #f00;
+    }
+
+    .sup-name {
+        font-size: 48px;
+        color: #fcf7e3;
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-transform: uppercase;
+    }
+
+    .sup-name span {
+        color: #4F6FAC;
+    }
+
+    .product {
+        margin-top: 32px;
+    }
+
+    .dosage {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: #000;
+        border: 3px solid #4F6FAC;
+        border-radius: 20px;
+        color: #fcf7e3;
+        padding: 1em;
+    }
+
+    .dosage h3 {
+        color: #4F6FAC;
+        display: inline-block;
+    }
+
+    .dosage p {
+        display: inline-block;
+    }
+
+    .header-image {
+        background: url(https://vshred.com/wp-content/uploads/supplment-background-01.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .sp-footer{
+        color: #898989 !important;
+        background-color: #eee !important;
+        border-top: 1px solid #898989 !important;
+        border-bottom: 1px solid #898989 !important;
+        font-size: 12px !important;
+        color: #898989 !important;
+    }
+
+    .sp-footer a{
+        color: #898989 !important;
+    }
+
+    .sp-footer ul{
+        list-style-type: none !important;
+    }
+
+    .sp-footer li{
+        font-size: 12px !important;
+    }
+
+    .sp-footer p{
+        font-size: 12px !important;
+    }
+
+</style>
+
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=cff57bf8-e223-4b8c-8e19-033b7acff7f8"> </script>
+
+<script type="text/javascript">
+    !function (e) {
+        if (!window.pintrk) {
+            window.pintrk = function () {
+                window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+            };
+            var n = window.pintrk;
+            n.queue = [], n.version = "3.0";
+            var t = document.createElement("script");
+            t.async = !0, t.src = e;
+            var r = document.getElementsByTagName("script")[0];
+            r.parentNode.insertBefore(t, r)
+        }
+    }("https://s.pinimg.com/ct/core.js");
+</script>
+<script type="text/javascript">
+    pintrk('load', '2612596078505', {
+        em: '',
+    });
+    pintrk('page');
+</script>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/v3/?tid=2612596078505&noscript=1"/></noscript>
+</head>
+<body class="">
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK63XDQ"
+            height="0" width="0" style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+
+<a id="start"></a>
+<script src="/js/side-menu.js"></script>
+<nav class="fixed-nav hidden-sm hidden-md hidden-lg">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 text-center">
+<a onclick="openNav()" href="javascript:void(0)">
+<i class="material-icons">menu</i>
+</a>
+</div>
+<div class="col-xs-6 text-center">
+<img alt="V Shred" src="/img/logo.svg" height="26" style="margin-bottom: 5px">
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/login"><i class="material-icons">home</i></a>
+</div>
+</div>
+</div>
+</nav>
+<div id="mySidenav" class="sidenav">
+<div class="p-4">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<center><img alt="V Shred" src="/img/logo-vs-white.svg" style="width: 30px; margin-bottom: 3em;"></center>
+<a href="https://vshred.com/login">Login</a>
+<a href="https://vshred.com">Home</a>
+<a href="https://vshred.com/programs">Store</a>
+<a href="https://vshred.com/supplements-female">Female Supplement Guide</a>
+<a href="https://vshred.com/supplements-male">Male Supplement Guide</a>
+<a href="https://vshred.com/about">About</a>
+<a href="https://vshred.com/blog">Blog</a>
+<a href="https://vshred.com/jobs">Jobs</a>
+<hr class="dashed">
+<a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank"><i class="fa fa-question-circle" aria-hidden="true"></i> Support Center</a>
+</div>
+</div>
+<div class="nav-container hidden-xs">
+<div class="bar bar--sm visible-xs">
+<div class="container">
+<div class="row">
+<div class="col-xs-3 col-sm-2">
+<a href="/">
+<img class="logo logo-dark" alt="logo" src="/img/logo.svg">
+<img class="logo logo-light" alt="logo" src="/img/logo-light.svg">
+</a>
+</div>
+<div class="col-xs-9 col-sm-10 text-right">
+<a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+<i class="icon icon--sm stack-interface stack-menu"></i>
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent" data-scroll-class='100vh:pos-fixed'>
+<div class="container">
+<div class="row">
+<div class="col-md-1 col-sm-2 hidden-xs">
+<div class="bar__module">
+<a href="/">
+<img class="logo logo-dark" alt="logo" src="/img/logo.svg">
+<img class="logo logo-light" alt="logo" src="/img/logo-light.svg">
+</a>
+</div>
+
+</div>
+<div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+<div class="bar__module">
+<ul class="menu-horizontal text-left">
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="https://vshred.com/programs">Store</a>
+</li>
+<li class="dropdown">
+<span class="dropdown__trigger">Supplements</span>
+<div class="dropdown__container">
+<div class="container">
+<div class="row">
+<div class="dropdown__content col-md-2 col-sm-4">
+<ul class="menu-vertical">
+ <li class="">
+<a href="https://vshred.com/supplements-female">
+Female Guide
+</a>
+</li>
+<li class="">
+<a href="https://vshred.com/supplements-male">
+Male Guide
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="https://vshred.com/about">About</a>
+</li>
+<li>
+<a href="https://vshred.com/blog">Blog</a>
+</li>
+<li>
+<a href="https://vshred.com/jobs">Jobs</a>
+</li>
+</ul>
+</div>
+
+<div class="bar__module">
+<a class="btn btn--sm type--uppercase" href="https://vshred.com/login">
+<span class="btn__text">
+Login
+</span>
+</a>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</nav>
+
+</div>
+<div class="main-container">
+<div class="container-fluid header-image" style="padding-top:32px; padding-bottom:32px;">
+<img src="https://vshred.com/wp-content/uploads/ultimate-sg2.png" class="img-responsive" style="margin: 0 auto;">
+</div>
+<h2 class="sup-name" style="margin-top:0">SUPPLEMENT GUIDE FOR MEN</h2>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<p>This guide is intended to help you better understand the benefits of the supplements you are taking. Not only so you can save your time, energy and money by avoiding supplements that aren’t right for your goals, but so you can start benefitting from the supplements and get in the fast lane to your dream body!</p>
+<p>Below, you will find a breakdown of every supplement that we recommend for our male clients. Be sure to read each description fully and watch each video for a clear understanding of which supplements are right for you and your goals!</p>
+<p>Remember, every supplement is covered by our 60 day, you-must-be-thrilled, 100% money-back guarantee. So you have two full months to try out any of these supplements before deciding if they’re right for you!</p>
+<p>If you want my team and I to create a customized nutrition and training plan for you so that these supplements will actually work like they’re supposed to.. Email us at <a href="mailto:vince@vshred.com">vince@vshred.com</a> to inquire about our custom plan options and pricing.</p>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Weight
+</span>
+Loss
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp27">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">BURN</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<style>
+        .jw-skeleton {
+            width: 100%;
+            padding-top: 56.25%;
+            background-color: black;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .jw-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 4rem;
+            margin-left: -2rem;
+            margin-top: -2rem;
+            color: white;
+        }
+    </style>
+<div class="jw-skeleton" id="jw-skeleton-5fa788e747ad5">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="6Jy9BNaT" skeleton-selector="#jw-skeleton-5fa788e747ad5" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+<script src="https://kit.fontawesome.com/1264cc1eaf.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jwplayer.com/libraries/5L2UHiXt.js"></script>
+<script src="/jw-video/js/main.js?id=c258d91fc1346cb76bfc"></script>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules per day. (Start with 1 capsule in the morning to assess your tolerance.) Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Burning fat can be a real pain in the butt. Why does it feel like even when you workout hard and eat clean, the fat on your body is extremely slow to go away, if it does AT ALL! But finally, there’s a way around this frustrating feeling.</p><p>Burn is a 24 hour fat burner that works by simply increasing how many calories you burn throughout the day. And the cool thing is… it doesn’t require ANY additional activity! Burn works by temporarily speeding up your metabolism and tricking your body into using your fat stores for energy rather than the carbs in your bloodstream. So finally, when you sweat at the gym, it’ll be coming straight from your lower belly or your legs or whatever areas your fat has gathered in. Also, my favorite part, it’s common to experience slightly enhanced mental clarity and slightly suppressed appetite when taking Burn due to the small amount of naturally occurring caffeine source inside. Because I don’t know about you, but being more focused throughout the day and for my workouts and not thinking about food, is a win-win in my book.</p><p>Burn is the answer to giving you the upper hand in your battle against fat loss. So grab your bottle today and enjoy the Burn!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/burn-fat-burner/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/burn_fat_burner_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/burn-fat-burner/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>BURN</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp30">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">TEST BOOST</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e749aab">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="JKq5pQWL" skeleton-selector="#jw-skeleton-5fa788e749aab" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 3 capsules per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Testosterone is no joke… It’s the most important hormone in a guy’s body, and if you’re over the age of 20, your test levels are already dropping by over 1% each year! And low testosterone levels lead to struggling with putting on muscle, struggling with burning off fat (especially in the abdomen area), lack of sex drive, lack of energy, lack of focus, hair loss, the list goes on and on. But luckily, there are a number of vitamins and minerals that have been scientifically proven to work with the body to naturally boost testosterone levels in men.. And Test Boost has the best ones.</p><p>Test Boost is an all-natural blend of high quality ingredients that work with the body to enhance your natural secretion of testosterone. This means that with just one serving a day, you can build more muscle without lifting more, you can burn more fat without doing more cardio and you can become a beast in the bedroom without having to play mind tricks on yourself. Also, my favorite part about Test Boost is the fact that every ingredient is listed right on the side of the bottle. This is very rare in the supplement industry and proves they don’t care if you do your own research on the ingredients they use because it works. Plain and simple.</p><p>If you’re looking to boost your “man hormone” and start to see faster results in the mirror, in the gym, in the bedroom and on the scale, grab yourself a bottle of Test Boost and enjoy!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/test-boost/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/test_boost_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/test-boost/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>TEST BOOST</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Muscle
+</span>
+Building
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp41">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">HGH BOOST</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e74ae9c">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="kDXDPyV7" skeleton-selector="#jw-skeleton-5fa788e74ae9c" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>HGH Boost is an all natural, super effect, human growth hormone boosting supplement. If you’ve never heard of growth hormone, or are unsure of the benefits. You should first understand that it is one of the most beneficial hormones in the human body. It plays a huge role in how well your body burns fat and builds muscle. It also plays a huge role in your mental clarity, sleep quality, aging characteristics and more.</p><p>Now the kicker here is that our bodies do naturally produce growth hormone. But the downfall is that as we age, we produce less and less. HGH levels have been shown to start decreasing by the age of 18 and drastically decreasing every year after the age of 30. And if you are not eating and exercising properly, these levels decline even faster.</p><p>When your growth hormone levels are plummeting, it is very common to experience things like body fatigue throughout the day, difficulty in burning body fat, difficulty in building muscle and strength, anxiety, baldness, decrease in sexual drive, memory loss, and so much more.</p><p>So in order to say goodbye to these symptoms and start receiving the benefits of growth hormone and feel like you’re in your teens again, grab yourself a supply of HGH Boost today by clicking the link below!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/hgh-boost/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/hgh_boost_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/hgh-boost/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>HGH BOOST</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Weight
+</span>
+Loss
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp29">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">BURN PM</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e74c173">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="fUKwVb9a" skeleton-selector="#jw-skeleton-5fa788e74c173" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules 30 minutes before bed. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Every single time you go to bed, is an opportunity to burn hundreds of additional calories. But truth is, if you’re not getting enough quality sleep every night, you’re missing out on a lot of extra fat burning and probably waking up feeling like crap. But that stops here!</p><p>BURN PM is a sleep enhancing supplement, meant to do nothing but increase how many calories you burn at night and help you wake up feeling well rested and ready to crush the day. Through it’s all-natural blend of ingredients, BURN PM not only puts you to sleep immediately, but it puts you into your REM cycle (AKA your fat burning state) faster and longer so that you can burn calories more efficiently and for an extended period of time throughout the night. Also, this allows for more serotonin to be released, which is the chemical in your body that makes you feel happy. So that when you wake up, you’re immediately less stress, more rested, and leaner.</p><p>If you want to burn more calories throughout the night just by sleeping, grab your bottle of BURN PM today and enjoy!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/burn-pm/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/burn_pm_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/burn-pm/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>BURN PM</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Muscle
+</span>
+Building
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp47">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">CREATINE</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e74d777">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="HgAQWhDZ" skeleton-selector="#jw-skeleton-5fa788e74d777" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop taken once a day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Building muscle and putting on lean mass seems next to impossible for many people. But if you are trying to pack on rock hard muscle and get stronger, but not using the most widely studied supplement on the market, you are shooting yourself in the foot from the get-go and it’s time to change that.</p><p>Creatine has now had over 30,000 peer reviewed studies done, all proving its effectiveness for building muscle and strength faster than those training without it. But the one thing all these studies mentioned was that you must take it consistently. Now, the first main issue with most other creatine powders, is that they don’t contain enough, or the right kind of creatine. Creatine monohydrate is the lone standout across all these studies, proving it works. Second, most creatine supplements nowadays taste extremely chalky and are hard to get down. But Creatine by Sculpt Nation, solves both of these issues. Starting out with a 5g dosage of pure creatine monohydrate, you can be sure you are getting exactly what your body needs to pack on muscle fast. But it also tastes better than any creatine you’ve ever tried in your life so you don’t have to force yourself to remember taking it everyday and actually want to!</p><p>If you’re ready to pack on lean muscle and get stronger faster than ever with the best tasting and most effective creatine there is, get yourself some Creatine by Sculpt Nation today!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/creatine/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/creatine_fruit_punch_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/creatine/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>CREATINE</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+Pre-Workouts
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp31">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">PRE WORKOUT</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e74eafa">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="OapUaojv" skeleton-selector="#jw-skeleton-5fa788e74eafa" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop 15-20 prior to exercise. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Truth is, there are tons of pre-workouts on the market. All making big, bold promises, and none delivering on those promises. But finally, there is one that stands out from the rest and gives you the energy boosting, focus enhancing elements you’ve been wishing to experience first hand.. Plus it tastes really good.</p><p>If you’ve ever skipped a workout because you were just too tired from a long day at work… or you’ve lacked motivation to hit the gym early in the morning, this is your lucky day. Pre-Workout starts off by giving your body and brain a refreshing surge of sustained energy that doesn’t lead to a crash immediately after. Then it rapidly increases muscle synthesis in your body with the 2:1:1 ratio of BCAA’s, along with two other strength increasing and energy producing amino acids, which are the building blocks of proteins. Aside from that, Pre-Workout contains L-tyrosine, a nutrient precursor for most of the brain’s dopamine which fights fatigue in the body, increases your attention span and helps your body recover faster.</p><p>There are just so many ways that Pre-Workout takes your workouts to all new levels. To experience this for yourself, get some Pre-Workout today and watch as your workouts become the easiest decision of the day!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/pre-workout/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/pre_multi_flavor.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/pre-workout/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>PRE WORKOUT</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp45">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">POST WORKOUT</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e74ff58">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="IawQwFtf" skeleton-selector="#jw-skeleton-5fa788e74ff58" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop within the hour of finishing your workout. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>If you’re looking to get better results by doing less in the gym, make sure you start taking advantage of your post workout routine with Post Workout by Sculpt Nation!</p><p>Truth is, workouts create stress inside your body that it will then begin repairing the second you finish your last rep. So by fueling your body with ingredients to help your muscles heal faster, your fat to continue burning, reduce the amount of soreness in your body, and even load your body up with antioxidants to help with dozens of bodily processes, you will make your workouts significantly more effective without having to do more.</p><p>So if you’re ready to start getting faster results by doing less at the gym, get some Post-Workout by Sculpt Nation today!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/post-workout-fruit-punch/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/post_fruit_punch_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/post-workout-fruit-punch/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>POST WORKOUT</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp43">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">PROTEIN</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e751330">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="17YNaInk" skeleton-selector="#jw-skeleton-5fa788e751330" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop per day instead of a meal. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>We’ve all heard of protein powders to supplement into your daily regimen. This is because protein should make up, on average, 20-30% of your daily caloric intake. But getting such high amounts of protein consistently has proven to be difficult for those with busy lifestyles. This is why finding a high quality, good tasting protein powder can be the difference between getting amazing results from your workouts, and not getting any results at all.. Or even losing muscle.</p><p>This is why Protein by Sculpt Nation is the “go-to” for so many people. Not only is each scoop a lean dose of 25 grams of superior quality, highly absorbable and extremely digestible protein.. But Sculpt Nation really went the “extra mile” to make the taste of this protein better than any protein powder you’ve tried before. So you get the biological benefits that most protein powders lack, and you get the taste benefits so that you don’t have to play mind-tricks on yourself just to finish one scoop.</p><p>If you’re ready to make hitting your daily protein intake easier, which a high quality protein that will leave you wanting more, get yourself some Protein by Sculpt Nation today!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/protein/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/protein_multi_flavor.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/protein/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>PROTEIN</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp36">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">TURMERIC</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e75266c">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="VsBAimey" skeleton-selector="#jw-skeleton-5fa788e75266c" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Truth is, turmeric is about as close to a miracle vitamin as it gets. If you’re struggling with burning fat, building muscle, joint pain, body fatigue, burning fat, mental clarity or bloating, turmeric is here to save the day. Yes, it helps with all of those.</p><p>But how does it do all this? Great question.</p><p>Naturally, our bodies are overloaded in, what you call, free radical damage. This is caused by overeating sugars or carbs and overly processed foods, which is very common with today’s mass farming. This is caused by too little exercise or even too much exercise. This is one of the reasons consistent workouts are crucial for proper health, but you must be wary not to overtrain. Free radical damage is even caused by drinking alcohol, tobacco smoke, stress, lack of quality sleep, and so much more. Now, the beneficial aspect of Turmeric, but more specifically, curcumin, is that it is loaded in antioxidants which fight this free radical damage and therefore neutralize the constant war going on between you and your body so that these stresses of life do not make it impossible to get in shape.. Instead, you can stop thinking your “genetics” are keeping you out of shape and drop weight and build muscle easier and faster.</p><p>If you’re struggling with any of these problems and looking for a solution, grab yourself a bottle of Turmeric today and live life more freely!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/turmeric/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/turmeric_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/turmeric/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>TURMERIC</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp51">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">GREENS</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e753b65">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="YShMWaiT" skeleton-selector="#jw-skeleton-5fa788e753b65" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>The USDA recommends eating 5-9 servings of vegetables per day for optimal health. But with Greens by Sculpt Nation, just one scoop a day will give you all the superfood nutrients your body needs in a day without spending a fortune on organic fruits and veggies!</p><p>While having an easy, quick, portable and nutrient dense blend of superfoods at your disposal is an amazing health hack, we made Greens so that it helps your body in even more ways! Jam-packed with vitamins, minerals, antioxidant and anti-inflammatory agents like Collagen, Turmeric Root and Rhodiola Root, Greens helps to support joint health, speed-up recover between workouts, reduces muscle soreness and takes the pressure off you from forcing down barrels of spinach leaves, while making you feel better mentally and physically!</p><p>Now you can have healthy Greens that will give you enhanced energy, detoxify your body, fight inflammation and boost fat loss literally anywhere! Be sure to get yourself some Greens today and checkout out our amazing flavors to make it even more enjoyable!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/greens/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/greens_multi_flavor.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/greens/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+ <div>GREENS</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp49">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">BCAAS</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e755582">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="UhuzPb8T" skeleton-selector="#jw-skeleton-5fa788e755582" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 scoop a day, before, during or after your workout. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>If you’re looking to speed up how fast and easily you build muscle and recover from workouts, including a BCAAS supplement in your regimen is a must. But until now, finding one that delivers the quality and taste that you desired, has been nearly impossible.</p><p>Introducing BCAAS by Sculpt Nation. Hands down, the best tasting and most effective BCAAS supplement available today. Each time you take a scoop of BCAAS, expect a candy-like taste in a number of different flavors so that you actually look forward to drinking this supplement. But after it’s in your body, no matter what time of the day, expect the 2:1:1 ratio of leucine, isoleucine and valine to get to work to help your body fight off fatigue, increase recovery speed, give you a clean feeling of muscular energy and make getting in shape so much easier.</p><p>If you’re ready for the last BCAAS supplement you’ll ever need, get some BCAAS by Sculpt Nation today and start actually benefiting from your efforts.</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/bcaas/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/bcaas_fruit_punch_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/bcaas/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>BCAAS</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp34">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">NEUROCTANE</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e75686b">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="qSnt0jJW" skeleton-selector="#jw-skeleton-5fa788e75686b" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>Staying focused throughout the day is nearly impossible nowadays with all the distractions at our fingertips. Why does it feel like you always hit a mid-day wall where your brain fogs up and you can’t think clearly? Well if that’s happened to you and you’re looking for a solution to feed your brain what it needs to start working at its highest level, look no further.</p><p>NeurOctane is a powerful, all-natural cognitive enhancing supplement that simply helps you focus easier, think more clearly and remember stuff easier. Through it’s blend of nootropic ingredients, the circulation in your brain improves, the development of cells skyrockets and memory loss and poor concentration become a thing of the past. With the natural yet potent ingredients in NeurOctane, your brain has no choice but to start performing better.</p><p>To feed your brain what it needs to actually focus all day and start performing at its highest level, grab yourself a bottle of NeurOctane today and see what you’re really capable of.</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/neuroctane/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/neuroctane_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/neuroctane/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>NEUROCTANE</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+Bundles
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp53">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">FAT LOSS STACK</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e757ec2">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="QafdcrZM" skeleton-selector="#jw-skeleton-5fa788e757ec2" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 serving of Burn and Turmeric first thing in the morning, and 1 serving of Burn PM 20-30 minutes before bed. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>If you’re looking to burn off those unwanted pounds of fat fast, Sculpt Nation’s Fat Loss Stack is the perfect fit for you! By combining Burn, Burn PM and Turmeric, you are using research backed, powerful and synergistic supplements that will help you burn more fat day and night without having to suffer through endless cardio or starvation diets ever again!</p><p>How It Works:</p><p>Step 1: You’ll start your morning off with Burn. Burn is our day-time fat burner, that kicks your body into fat-burning mode. Through the use of powerful, patented ingredients, such as Capsimax and Paradoxine, Burn activates TRPV1 receptors, which crank up your metabolism to burn more calories throughout the day, makes you feel less hungry so you don’t accidentally overeat and it mobilizes fat stores to use for natural energy so you’re not constantly tired!</p><p>Step 2: You’ll take Turmeric with your lunch. Turmeric is our all-natural “miracle vitamin” that utilizes 95% pure Curcumninoid Extract that will help you not only burn stubborn fat faster, but help ease the pain of your stiff joints, get rid of your bloating, improve your energy levels and digestion and speed up your recovery time between workouts so you aren’t as sore and get in shape faster!</p><p>Step 3: You’ll take Burn PM right before bed. Burn PM is our night-time fat burner that does much more than just use researched backed ingredients such as Saffron Flower, White Kidney Beans and Raspberry Ketones to help you burn fat faster. We also included a clinical dosage of powerful sleep aids such as Melatonin, L-Tryptophan and Lemon Balm Leaf so you will be able to fall into a deep, restful sleep quicker and longer, as you enter your Rapid-Eye Movement (REM) cycle immediately, which helps boost your fat burning hormones and also increases your serotonin production, which helps you wake up feeling refreshed and happy to start the day! And to top it off, Burn PM has Dandelion Root in it which is an amazing digestive aid that reduces bloating so you wake up looking leaner than ever!</p><p>If you’re looking to crank up your fat burning, day and night, with the most powerful blend of ingredients ever, these three supplements have been formulated to work perfectly together! So be sure to grab your own Fat Loss Stack today while supplies last!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/fat-loss-stack/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/fat_loss_stack_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/fat-loss-stack/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>FAT LOSS STACK</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+Bundles
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp55">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">MUSCLE BUILDING STACK</h2>
+<hr>
+<div class="supplement-video-container">
+<div class="mt-4 mb-3">
+<div class="jw-skeleton" id="jw-skeleton-5fa788e759568">
+<div class="jw-spinner fas fa-circle-notch fa-spin"></div>
+</div>
+<div id="jw-video">
+<jw-video id="s5j9RLq7" skeleton-selector="#jw-skeleton-5fa788e759568" :aspect-width="16" :aspect-height="9" :force-fullscreen="false"></jw-video>
+</div>
+</div>
+</div>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 serving of Test Boost first thing in the morning, 1 serving of HGH Boost in the afternoon and 1 scoop of Creatine 20-30 minutes before or after your workout. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>If you’re looking to pack on lean, rock-hard muscle faster than you ever have, Sculpt Nation’s Muscle Building Stack is the perfect fit for you! By combining Test Boost, HGH Boost and Creatine, you are using the most powerful and research backed supplements that will help you build more muscle than you thought possible and put the “hardgainer” days behind you once and for all!</p><p>How It Works:</p><p>Step 1: You’ll start your morning off with Test Boost. Test Boost is our all natural testosterone boosting supplement that primes your body for building lean muscle fast! Through it’s blend of powerful, proven ingredients, such as Tribulus Terrestris, Ashwaganda, Cordyceps Mushroom and Eurycoma Longifolia, Test Boost not only floods your body with more muscular endurance and enhanced protein synthesis so you can pack on muscle faster than ever, as well as more energy and better focus; but it also suppresses the #1 testosterone killing hormone, Cortisol. The reason this is so important is because no matter how much testosterone you have in your body, if your cortisol levels are too high, you’ll never get the effects of testosterone. This is why Test Boost is so much better than any other testosterone supplement on the market. It attacks from both angles!</p><p>Step 2: You’ll take HGH Boost with your lunch. HGH Boost is our all-natural blend of ingredients proven to increase your levels of Growth Hormone by utilizing clinical dosages of very specific amino acids, as well as a nitric oxide potentiator and a high speed neurotransmitter. These amazing ingredients combined together have shown time and time again to boost your HGH levels and help you not only build muscle and burn stubborn fat faster, but help raise your libido, fight hair loss, repair healthy tissue in the brain and muscle tissue after exercise!</p><p>Step 3: You’ll take just one scoop of Creatine daily at your time of choice. Creatine is, by far, the most researched and proven supplement in the industry for building muscle and strength fast! By taking our highly absorbable creatine monohydrate, you will flood your body with an extra supply of Adenosine Triphosphate (ATP), which will serve as an additional energy source when hitting the weights. With this extra muscular energy, after just the first week or two, you can expect to see your PR’s go up and being able to lift heavier and longer without fatiguing!</p><p>If you’re looking to crank up your two most important muscle building and fat burning hormones, testosterone and growth hormone, as well as adding size and strength fast with nothing but research-back ingredients, be sure to grab your own Muscle Building Stack today while supplies last!</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/product/muscle-building-stack/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/muscle_building_stack_front.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/product/muscle-building-stack/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=supplement-guide-male" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>MUSCLE BUILDING STACK</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp58">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">ENZYMES</h2>
+<hr>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 2 capsules per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>ENZYMES helps your body pull more nutrients from your food, including those essential nutrients that couldn’t be absorbed without a little help. Plus, ENZYMES can help supercharge your other supplements.</p>
+<p>WHEN YOU ADD DIGESTIVE ENZYMES BACK INTO YOUR BODY, IT CAN HELP YOU:</p>
+<p>1) Improve the digestion and BREAKDOWN OF CARBOHYDRATES for energy.</p>
+<p>2) Support healthy digestion - especially important as we age.</p>
+<p>3) RECOVER MORE QUICKLY from your workouts due to increased protein and nutrient absorption.</p>
+<p>4) Reduce gastric distress after meals</p>
+<p>5) Beat down bloating that often accompanies eating a lot of vegetables, fruits, and protein.</p>
+<p>6) INCREASE THE EFFECTS OF YOUR OTHER SUPPLEMENTS - digestive enzymes may exert a powerful complementary effect on Turmeric, Protein, BCAA’s, and just about all other supplements due to increased nutrient uptake.</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/products/enzymes/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=male-enzymes" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/enzymes.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/products/enzymes/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=male-enzymes" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>ENZYMES</div>
+</a>
+</div>
+</div>
+</div>
+<h2 class="sup-name">
+<span>
+Performance
+</span>
+Enhancers
+</h2>
+<div class="container">
+<div class="row pb-5" id="supp60">
+<div class="col-md-8 col-sm-6">
+<h2><span class="text-muted">PROBIOTICS</h2>
+<hr>
+<div class="well dosage text-center">
+<h3>DOSAGE:</h3>
+<p>As a dietary supplement for adults, the suggested dose is 1 capsule per day. Be sure to check with your doctor before taking these or any supplements prior to use.</p>
+</div>
+<p>PROBIOTICS are essential to helping boost your Brain-Gut Axis and enjoy better digestion, enhanced immune function, less occasional bloating, increased nutrient absorption, and faster fat loss.</p>
+<p>Unlike most probiotic products that end up starving your good bacteria, we added INULIN, an elite PRE-biotic. Prebiotics are substances that provide food for your prebiotics. The better their food sources, the stronger they become and faster then can repopulate your microbiome.</p>
+<p>INULIN helps feed your beneficial bacteria so they can power up your microbiome, fast.</p>
+<p>Sculpt Nation PROBIOTICS are perfect for anyone trying to optimize their gut health and enjoy a fit, healthy body.</p>
+</div>
+<div class="col-md-4 col-sm-6 text-center pt-5">
+<a href="https://sculptnation.com/products/probiotics/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=male-probiotics" target="_blank">
+<img src="https://vshred.s3.amazonaws.com/mobile_offers/probiotics.png" class="img-responsive product">
+</a>
+<a href="https://sculptnation.com/products/probiotics/?utm_source=vshred.com&amp;utm_medium=referral&amp;utm_campaign=supplement-guide-male&amp;utm_content=male-probiotics" target="_blank" class="btn btn-lg btn-danger favorite">
+CLICK HERE FOR
+<div>PROBIOTICS</div>
+</a>
+</div>
+</div>
+</div>
+<div class="container-fluid sp-footer p-0">
+<div class="container-fluid p-1" style="border-bottom: 1px solid #898989;">
+<div class="container">
+<img src="https://vshred.com/wp-content/uploads/898989.svg" height="20">
+</div>
+</div>
+<div class="container">
+<div class="row pt-2">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/" target="_blank">Home</a></li>
+<li class="m-1"><a href="https://vshred.com/programs/" target="_blank">Programs</a></li>
+<li class="m-1 mb-0"><a href="https://vshred.com/blog/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="col-xs-6 m-0">
+<ul class="m-0">
+<li class="m-1"><a href="https://vshred.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+<li class="m-1"><a href="https://vshred.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+<li class="m-1"><a href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Help Center</a></li>
+</ul>
+</div>
+</div>
+<p class="mt-2">
+© 2020 V Shred, LLC. All rights reserved. V Shred, LLC is the owner of the V Shred and V Shred trademarks, and all related designs, trademarks, copyrights, and other intellectual property. All other trademarks are owned by their respective owners.
+</p>
+</div>
+<div class="col-sm-8">
+<p class="mt-0 mb-2">
+†Results vary depending on starting point, goals and effort. Exercise and proper diet are necessary to achieve and maintain weight loss and muscle definition. The testimonials featured may have used more than one V Shred product or extended the program to achieve their maximum results.
+</p>
+<p class="mt-0 mb-2">
+Consult your physician and follow all safety instructions before beginning any exercise program or using any supplement, nutrition plan or meal replacement product, especially if you are pregnant, breastfeeding, or if you have any unique or special medical conditions.
+</p>
+<p class="mt-0 mb-2">
+The contents on our website are for informational purposes only, and are not intended to diagnose any medical condition, replace the advice of a healthcare professional, or provide any medical device, diagnosis, or treatment.
+</p>
+</div>
+</div>
+</div>
+</div>
+<footer class="bottom-nav hidden">
+<div class="container" style="padding-top: 4px;">
+<div class="row">
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com" class="nav--button">
+<i class="fa fa-home" aria-hidden="true"></i>
+<div>Home</div>
+</a>
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/programs" class="nav--button">
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+<div>Store</div>
+</a>
+</div>
+<div class="col-xs-3 text-center">
+<div class="modal-instance">
+<a class="modal-trigger nav--button" href="#">
+<img src="/img/protein-bottle.svg" height="24" class="m-0 p-0">
+<div>Supplements</div>
+</a>
+<div class="modal-container">
+<div class="modal-content">
+<div class="row">
+<div class="col-xs-12 text-center">
+<h2 class="pt-5" style="color: #fff">Who is looking for supplements?</h2>
+</div>
+<div class="col-xs-6">
+<a href="https://vshred.com/supplements-female"><img src="/img/WOMAN.png"></a>
+</div>
+<div class="col-xs-6">
+<a href="https://vshred.com/supplements-male"><img src="/img/MAN.png"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-3 text-center">
+<a href="https://vshred.com/member" class="nav--button">
+<i class="fa fa-user-circle" aria-hidden="true"></i>
+<div class="nav--small">My Stuff</div>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<footer class="text-center-xs space--xs ">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 text-right text-center-xs">
+<ul class="social-list list-inline list--hover">
+<li>
+<a href="https://www.youtube.com/vshred" target="_blank">
+<i class="socicon socicon-youtube icon icon--xs"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/thevinsanityshred/" target="_blank">
+<i class="socicon socicon-facebook icon icon--xs"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/vshred/" target="_blank">
+<i class="socicon socicon-instagram icon icon--xs"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-8">
+<span class="type--fine-print">&copy; <span class="update-year"></span> V Shred LLC</span>
+<a class="type--fine-print" href="https://vshred.com/privacy-policy">Privacy Policy</a>
+<a class="type--fine-print" href="https://vshred.com/terms-and-conditions">Terms and Conditions</a>
+<a class="type--fine-print" href="https://vinsanityshred.zendesk.com/hc/en-us" target="_blank">Contact Us</a>
+</div>
+</div>
+
+</div>
+
+</footer>
+</div>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script>window.toastr || document.write('<script src="/js/toastr-2.1.3.min.js">\x3C/script>')</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+<script src="/stack/js/flickity.min.js"></script>
+<script src="/stack/js/parallax.js"></script>
+<script src="/stack/js/typed.min.js"></script>
+<script src="/stack/js/datepicker.js"></script>
+<script src="/stack/js/isotope.min.js"></script>
+<script src="/stack/js/ytplayer.min.js"></script>
+<script src="/stack/js/jquery.steps.min.js"></script>
+<script src="/stack/js/smooth-scroll.min.js"></script>
+<script src="/stack/js/scripts.js"></script>
+<script type="application/javascript">
+    toastr.options = {
+        closeButton: true,
+        debug: false,
+        newestOnTop: true,
+        progressBar: true,
+        positionClass: 'toast-top-center',
+        preventDuplicates: true,
+        tapToDismiss: false,
+        onclick: null,
+        showDuration: 300,
+        hideDuration: 1000,
+        timeOut: 5000,
+        extendedTimeOut: 5000,
+        showEasing: 'swing',
+        hideEasing: 'linear',
+        showMethod: 'slideDown',
+        hideMethod: 'fadeOut'
+    };
+</script>
+
+<script type="text/javascript">
+    var _dcq = _dcq || [];
+    var _dcs = _dcs || {};
+    _dcs.account = '2545448';
+    
+    (function () {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript';
+        dc.async = true;
+        dc.src = '//tag.getdrip.com/2545448.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+    })();
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.9/metisMenu.min.js"></script>
+
+<script async src='https://content.maropost.com/uploads/1241/websites/1/6b07a7d78ce4ea873eef94b384dd7c3fa019ea89-v11.js' type='text/javascript'></script>
+
+<script type="application/javascript">
+    // Add internal ref links.
+    setTimeout(function() {
+        var getParameterByName = function(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        $('a').each(function(e) {
+            if ($(this).parents('.phpdebugbar, .phpdebugbar-openhandler').length > 0) {
+                return;
+            }
+
+            var href = $(this).prop('href');
+
+            if (href !== 'undefined' && href.indexOf('#') === -1 && window.location.pathname.indexOf('sp/survey') === -1 && href.indexOf('javascript:') === -1) {
+                var ref = '';
+
+                if (window.location.pathname === '/') {
+                    ref = 'ref=home';
+                } else {
+                    ref = 'ref=' + encodeURIComponent(window.location.pathname.substring(1));
+                }
+
+                var currentRefValue = getParameterByName('ref', href);
+                if (!currentRefValue) {
+                    $(this).prop('href', href + (href.indexOf('?') > -1 ? '&' : '?') + ref);
+                }
+            }
+        });
+    }, 100);
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['ProfitWellObject'] = r;
+        i[r] = i[r] || function () {
+
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+
+    })(window, document, 'script', 'https://dna8twue3dlxq.cloudfront.net/js/profitwell.js', 'profitwell');
+
+    profitwell('auth_token', '93139d469ef29410859da67b1b1d448a');
+
+    </script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2f510510be","applicationID":"31925988","transactionName":"M1VWMBNTWxIHURVcDQofdxESRloMSUEURRIIVVkBD0ZGTAtTDVBCF0VEFA1XWAQIRhIbDwVcUQ==","queueTime":0,"applicationTime":233,"atts":"HxJVRltJSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
