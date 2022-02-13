@@ -1,1 +1,0 @@
-(function(){$('dd').filter(":nth-child(n+4)").hide();$('dt').on('click',function(){$(this).next().slideToggle().siblings('dd').slideUp();$(this).toggleClass("active");$(this).siblings('dt').removeClass("active");});})();
